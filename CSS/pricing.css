@@ -1,0 +1,153 @@
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+.body_wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+
+
+
+}
+.price h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  color: lightgrey;
+  margin: 40px 20px 0 20px;
+  text-align: left;
+
+}
+
+
+.price_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+  /*border: 3px solid green;*/
+  padding: 30px;
+
+}
+
+.price_main h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #1188EC;
+
+}
+
+.price_main ul li {
+  /*list-style: none;*/
+  line-height: 175%;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}
+
+.price-header {
+  display: flex;
+  margin: 0px;
+  position: relative;
+  z-index: 5;
+
+
+}
+.price-header img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+
+}
+
+.offer_left {
+  width: 300px;
+  height: 300px;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 20px;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px 2px lightgrey;
+}
+
+
+.offer_left:hover {
+  box-shadow: 1px 2px 5px 2px #888888;
+}
+
+.offer_right {
+  width: 300px;
+  height: 300px;
+  justify-content: flex-end;
+  padding: 20px;
+  margin: 20px;
+  /*border: 1px solid red;*/
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px 2px lightgrey;
+}
+
+.offer_right:hover {
+  box-shadow: 1px 2px 5px 2px #888888;
+}
+
+.offer_free {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    width: 100%;
+    padding:10px;
+    height: 100px;
+    background-color: lightgrey;
+
+}
+
+footer p {
+
+}
+
+.allRights {
+  margin-top: 0px;
+  justify-content: center;
+  color: grey;
+
+}
+
+
+.allRights ul li  {
+  line-height: 1.6;
+  list-style: none;
+  text-align: center;
+  font-size: 0.80em;
+  font-family: Verdana;
+
+
+}
+.allRights a {
+  color: grey;
+  text-decoration: none;
+}
+
+@media (max-width: 550px){
+  .offer_right .offer_left  {
+    width: 50vw;
+    height: auto;
+  }
+  .price_main h2 {
+    font-size: 2em;
+  }
+
+}
