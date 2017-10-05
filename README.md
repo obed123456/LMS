@@ -1,5 +1,8 @@
 # LMS
-Instruktioner hur man använder Git:
+
+
+
+*Instruktioner hur man använder Git:*
 
 Gå in i din mapp:<br>
 hämta hem git map: || git clone https://github.com/obed123456/LMS<br>
@@ -27,11 +30,10 @@ Kom ihåg alltid göra push request slutet på dagen när du har gjort dina änd
 Början på dagen du skapar pull request för att se om några ändringar har skett eller om det är konflikter. <br><br>
 
 
-Några andra viktiga kommando: 
+Några andra viktiga kommando:
 git remote -v  // se vilken repository du är kopplat mot. <br>
 git log // se vilka ändringar du har gjort <br>
 git diff // se dina lokala ändringar. <br>
 git remote add origin http:// <br>//Om du vill komma åt din egen repository <br>
 git remote set-url origin http:// <br> //Om du vill komma åt någon annans repository <br>
-git branch //<br> se vilken branch du är i och hur många finns det. 
-
+git branch //<br> se vilken branch du är i och hur många finns det.
