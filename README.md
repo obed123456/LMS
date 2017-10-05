@@ -1,7 +1,7 @@
 # LMS
 Instruktioner hur man använder Git:
 
-Gå in i din mapp:
+Gå in i din mapp:<br>
 hämta hem git map: || git clone https://github.com/obed123456/LMS
 Skriv || git init.
 Skapa din branch || git checkout -b 
