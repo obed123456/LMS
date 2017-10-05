@@ -25,3 +25,13 @@ Prova detta om du inte är kopplat mot staging branch || git branch --set-upstre
 Kom ihåg alltid göra push request slutet på dagen när du har gjort dina ändringar. <br><br>
 
 Början på dagen du skapar pull request för att se om några ändringar har skett eller om det är konflikter. <br><br>
+
+
+Några andra viktiga kommando: 
+git remote -v  // se vilken repository du är kopplat mot. <br>
+git log // se vilka ändringar du har gjort <br>
+git diff // se dina lokala ändringar. <br>
+git remote add origin http:// <br>//Om du vill komma åt din egen repository <br>
+git remote set-url origin http:// <br> //Om du vill komma åt någon annans repository <br>
+git branch //<br> se vilken branch du är i och hur många finns det. 
+
