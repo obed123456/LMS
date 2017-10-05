@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="file:///Users/magnuswallin/Desktop/Projekt-1-mange/new.css">
-    <title>New login</title>
-</head>
+    <link rel="stylesheet" href="file:///Users/magnuswallin/Desktop/Projekt-1-mange/style.css">
+    <title>Login Form</title>
+  </head>
 
-<body>
+  <h1>Login</h1>
+  <p><strong>Succcess!</strong> You are logged in.</p>
 
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+  <p>Pågående kurser</p>
 
-    <div id="id01" class="modal">
+  <ul>
+    <li>Kurs 5</li>
+    <li>Kurs 6</li>
+    <li>Kurs 7</li>
+    <li>Kurs 8</li>
+  </ul>
 
-        <form class="modal-content animate" action="">
-            <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            </div>
+  <p>Kommande kurser</p>
 
-            <div class="container">
-                <label><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="id" required>
+  <ul>
+    <li>Kurs 9</li>
+    <li>Kurs 10</li>
+    <li>Kurs 11</li>
+    <li>Kurs 12</li>
+  </ul>
 
-                <label><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="pass" required>
+  <p>Avslutade kurser</p>
 
-                <button type="submit" onclick="accesslevel(form)">Login</button>
-            </div>
+  <ul>
+    <li>Kurs 1</li>
+    <li>Kurs 2</li>
+    <li>Kurs 3</li>
+    <li>Kurs 4</li>
+  </ul>
 
-        </form>
-    </div>
+  <input type="button" value="login" onClick="pasuser(this.form)">
 
-<script src="switch.js"></script>
-
-
-</body>
-
+  </body>
 </html>
