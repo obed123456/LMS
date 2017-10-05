@@ -8,7 +8,7 @@ Skapa din branch || git checkout -b<br>
 Skriv || git status.<br>
 Skriv || git add .filenamn/mappnamn<br>
 Skriv || git commit -m "kommentera"<br>
-Skicka upp ändringar till Github. || git push --set-upstream origin <dev-obed><br>
+Skicka upp ändringar till Github. || git push --set-upstream origin "din_egen_branch" <br>
 Prova detta om du inte är kopplat mot staging || git branch --set-upstream-to=origin/staging<br><br><br>
 
 
