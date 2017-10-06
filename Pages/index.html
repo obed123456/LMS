@@ -1,90 +1,115 @@
-<form action="" method="">
-<label type="radio_button">Name</label>
-<input type="text"><br><br>
-<label>Male</label>
-<input name="option" type="radio">
-<label>Female</label>
-<input name="option" type="radio">
-<label>Hen</label>
-<input  name="option" type="radio"><br><br>
-<label>Choose date</label>
-<input type="date" name="datetime"><br><br>
-<label>Choose date</label>
-<input type="time" name="datetime"><br><br>
-<label style="resize: none" name="name" cols="10" rows="10">Comments</label><br>
-<textarea rows=”4” cols=”50”></textarea> <br><br>
-<label>Choose country and your favorite car.</label>
-<select>
-		<option>Volvo</option>
-		<option>BMW</option>
-</select>
-<select>
-		<option>Sweden</option>
-		<option>Germany</option>
-</select><br><br>
-<label >Type your password</label>
-<input type="password" name="pass"><br><br>
-<label >Choose your favorite Color: </label>
-<label>Red</label>
-<input type="checkbox" name="pass">
-<label>Yellow</label>
-<input type="checkbox" name="pass">
-<label>Blue</label>
-<input type="checkbox" name="pass"><br><br>
-<input type="button" name="button" value="Submit"><br><br>
-<button>Submit</button>
-</form>
-	<!-- <input type="submit" value="submit" />
-	<input type=”text” name=”input1” value=”default value” />
-	<label for=”radio_button_id”>Text för knappen</label>
-	<textarea rows=”4” cols=”50”>Textinmatning över fyra rader. Textrutan kommer vara 50 tecken bred.</textarea>
-	<button>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<meta charset="utf-8">
 
-	<select>
-	<optgroup label="Bilar">
-	<option>Volvo</option>
-	<option>Saab</option>
-</optgroup>
-<optgroup label="Djur">
-	<option>Hund</option>
-	<option selected>Katt</option>
-</optgroup>
-</select>
-</form>
- -->
+	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<div class="nav-container">
+
+	<!-- navbar to the left -->
+ <div class="navbar">
+	<nav>
+		<ul>
+
+			<li><a href="index.html">Home</a></li>
+			<li><a href="pricing.html">Pricing</a></li>
+			<li><a href="features.html">Features</a></li>
+		</ul>
+	</nav>
 
 
 
+		<!-- logo in the middle -->
+
+	 <div class="logo">
+
+		<img src="../Img/logo.png" alt="Logo" / >
+
+	 </div>
+
+		<!-- login button in the middle -->
+
+	 <div class="login">
+		 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 
-<!--
-<input type=”text” name=”input1” value=”default value” />
-Input-elementet kan motsvara:
-text, password	textinmatning (vanlig, e-post, lösenord)
-datetime			datum och tid
-file				välja fil (att ladda upp)
-checkbox		kryssruta
-radio			radioknapp
-button, submit	knapp
+ 		<div id="id01" class="modal">
 
-<input type=”text” name=”input1” value=”default value” />
+ 				<form class="modal-content animate" action="login.html">
+ 						<div class="imgcontainer">
+ 								<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+ 						</div>
 
-<label>		- används för att ge radio och checkbox en text
-<label for=”radio_button_id”>Text för knappen</label>
-<textarea>	- inmatning av text över flera rader
-	<textarea rows=”4” cols=”50”>Textinmatning över fyra rader. Textrutan kommer vara 50 tecken bred.</textarea>
-<button>		- samma som <input type=”button”>, men kan innehålla HTML
-<select>		- en lista där användaren kan välja ett alternativ
+ 						<div class="container">
+ 								<label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+ 								<input type="text" placeholder="Enter Username" name="id" required>
+
+ 								<label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+ 								<input type="password" placeholder="Enter Password" name="pass" required>
+
+ 								<button type="submit" onclick="accesslevel(form)">Login</button>
+
+	 </div>
+
+ </div>
+
+<!-- Below div close the nav-container. Dont remove that. -->
+</div>
 
 
-<select>
-<optgroup label="Bilar">
-	<option>Volvo</option>
-	<option>Saab</option>
-</optgroup>
-<optgroup label="Djur">
-	<option>Hund</option>
-	<option selected>Katt</option>
-</optgroup>
-</select>
- -->
+	 <!-- This is the mid content with buttons -->
+<div class="main-head">
+
+ <div class="mid-content">
+
+		  <div class="content">
+		    <h1>Communicate Better  Learn Faster!</h1>
+		    <a class="btn" href="#">Get Started</a>
+		  </div>
+  </div>
+</div>
+
+
+<!-- contents under the header -->
+
+<div class="centered_text">
+	<div class="inside_text"
+		<h2>Det är du som <br>shoppar. Så du <br>bestämmer hur du <br>betalar.</h2>
+	</div>
+</div>
+
+<!-- icon under the middle text -->
+<div class="icons_3">
+	<!-- <div class="box"> -->
+	   <div class="box1"><img src="icon/degree.png" alt="Student"><p><br><span class="heading">Student Inloggning.</span><br><br>
+Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p></div>
+	   <div class="box2"><img src="icon/cloud.png" alt="Cloud"><p><br><span class="heading">Automatisk Backup.</span><br><br>
+Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p></div>
+	   <div class="box3">
+	   <img src="icon/subject.png" alt="subject"><p><br>
+	   <span class="heading">Lägg upp kurser.</span><br><br>
+Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p></div>
+	<!-- </div>	 -->
+</div>
+
+
+<!--  footer -->
+
+<div class="footer">
+
+
+<p>© 2017 All Rigths reserved
+</p>
+
+</div>
+<script src="login.js"></script>
+</body>
+</html>
