@@ -3,7 +3,11 @@
 <head>
 	<title>Navbar</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -14,16 +18,21 @@
  <div class="navbar">
 	<nav>
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Pricing</a></li>
-			<li><a href="#">Features</a></li>
+
+			<li><a href="index.html">Home</a></li>
+			<li><a href="pricing.html">Pricing</a></li>
+			<li><a href="features.html">Features</a></li>
 		</ul>
 	</nav>
+
+
 
 		<!-- logo in the middle -->
 
 	 <div class="logo">
-		<img src="klarna.png" alt="Logo" width="30%" height="auto" />
+
+		<img src="../Img/logo.png" alt="Logo" / >
+
 	 </div>
 
 		<!-- login button in the middle -->
@@ -31,25 +40,23 @@
 	 <div class="login">
 		 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-     <div id="id01" class="modal">
 
-         <form class="modal-content animate" action="">
-             <div class="imgcontainer">
-                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-             </div>
+ 		<div id="id01" class="modal">
 
-             <div class="container">
-                 <label><b>Username</b></label>
-                 <input type="text" placeholder="Enter Username" name="id" required>
+ 				<form class="modal-content animate" action="login.html">
+ 						<div class="imgcontainer">
+ 								<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+ 						</div>
 
-                 <label><b>Password</b></label>
-                 <input type="password" placeholder="Enter Password" name="pass" required>
+ 						<div class="container">
+ 								<label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+ 								<input type="text" placeholder="Enter Username" name="id" required>
 
-                 <button type="submit" onclick="accesslevel(form)">Login</button>
-             </div>
+ 								<label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+ 								<input type="password" placeholder="Enter Password" name="pass" required>
 
-         </form>
-     </div>
+ 								<button type="submit" onclick="accesslevel(form)">Login</button>
+
 	 </div>
 
  </div>
@@ -99,7 +106,10 @@ Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill b
 <div class="footer">
 
 
-</div>
+<p>All Rigths reserved
+</p>
 
+</div>
+<script src="login.js"></script>
 </body>
 </html>
