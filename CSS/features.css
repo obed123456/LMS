@@ -3,39 +3,45 @@ body {
     margin: 0;
 }
 
-/* GEneral layout of page*/
 header {
   border: 1px solid black;
 }
 
 main {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 footer {
   border: 1px solid black;
+  margin: 0;
 }
 
 /* Main section */
-
-
 .article {
     /* Devider between articles */
-    margin-bottom: 50px;
-    /* Flex items inside .article */
+    margin-bottom: 0;
     display: flex;
     /* Wrap on small screens (flex items go under each other) */
     flex-wrap: wrap;
 }
 
+.article:nth-child(odd) {
+    flex-direction: row-reverse;
+    background-color: #f2f2f2;
+}
+
+.article:nth-child(even) {
+    border-top: 2px solid #d8d8d8;
+    border-bottom: 2px solid #d8d8d8;
+}
+
 .image-container {
-    border: 2px solid purple;
+    /*border: 2px solid purple;*/
     /* Let the image container fill the whole width of the screen*/
     width: 100vw;
     display: flex;
     justify-content: center;
     padding-top: 10px;
-
 }
 
 img {
@@ -44,7 +50,8 @@ img {
 }
 
 .info-container {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
+    padding-bottom: 10px;
 }
 
 .info-container h3 {
@@ -63,12 +70,19 @@ img {
     .article {
         /* Make articles content (the containers) show side-by-side by preventing wrapping*/
         flex-wrap: nowrap;
-        margin-bottom: 15px;
+        margin-bottom: 0;
     }
     /* Make every other article display its children in reversed order*/
     .article:nth-child(odd) {
         flex-direction: row-reverse;
+        background-color: #f2f2f2;
     }
+
+    .article:nth-child(even) {
+        border-top: 2px solid #d8d8d8;
+        border-bottom: 2px solid #d8d8d8;
+    }
+
     /* Make the containers take up half the view width each */
     .image-container, .info-container {
         width: 50vw;
