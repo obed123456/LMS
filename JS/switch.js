@@ -21,3 +21,16 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+function login() {
+var user = document.getElementById("userName").value;
+var pass = document.getElementById("password").value;
+if(user == "student" && pass == "pass") {
+    alert("Logged In");
+    locate="login.html"
+    return false;
+} else {
+    alert("wrong user/pass");
+    return false;
+    }
+}

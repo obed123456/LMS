@@ -5,8 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pricing</title>
   <link rel="stylesheet" href="../CSS/pricing.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
 </head>
 <body>
+<div class="nav-container">
+
+  <!-- navbar to the left -->
+  <div class="navbar">
+    <nav>
+      <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="features.html">Features</a></li>
+      </ul>
+    </nav>
+
+
+
+    <!-- logo in the middle -->
+
+  <div class="logo">
+
+    <img src="../Img/logo.png" alt="Logo" / >
+
+  </div>
+
+    <!-- login button in the middle -->
+
+  <div class="login">
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+          <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="login.html">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+
+            <div class="container">
+              <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+              <input type="text" placeholder="Enter Username" name="id" required>
+
+              <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+              <input type="password" placeholder="Enter Password" name="pass" required>
+            </div>
+            <button type="submit" onclick="accesslevel(form)">GO!</button>
+                    </form>
+      </div>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- Pricing below navbar -->
+
   <div class="body_wrapper">
     <div class="price-header">
       <img src="../Img/image3.jpg" alt="pricing image">
@@ -29,6 +86,11 @@ For your educational <br> institution</h1>
 
         </ul>
 
+<<<<<<< HEAD
+=======
+      </ul>
+
+>>>>>>> staging
     </div>
     <div class="offer_right">
       <div class="price_head">

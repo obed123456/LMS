@@ -3,38 +3,46 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: black;
+
 }
 
 /*Whole page container */
 .nav-container {
 	width: 100%;
 	margin: 0;
-	height: 100px;
-	/*background: url('background.jpg');*/
+	height: 113px;
 	top: 0px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	display: flex;
 	z-index: -10;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	
+	background-color: #00314a;
+
+
 }
 .main-head {
 	width: 100%;
-	margin-top: -120px;
-	height: 500px;
-	background: url('background.jpg');
+	margin-top: 0px;
+	height: 990px;
+	background: url('../Img/classroom.jpg');
+	background-size: cover;
 	top: 0;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	display: flex;
 	z-index: -10;
-	
+	flex-wrap: wrap;
+	opacity: 80%;
+
 }
-.mid-content {
-	border: 1px solid blue;
+.mid-content {/*
+	border: 1px solid blue;*/
 	flex: 1;
-	text-align: center; 
+	text-align: center;
 	align-self: center;
+	color: #1D7CF2;
 
 }
 
@@ -43,26 +51,36 @@ html, body {
 	display: flex;
 	/*align-items: center;*/ /*making text inside the page*/
 	text-align: center; /*making text center inside the div.*/
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 	flex: 4;
 	height: 100px;
-	
+	flex-wrap: wrap
 
 }
 nav {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     margin: 5px auto;
     flex: 1;
-    
-    
+    text-align: left; //
+
+
 }
+
+#navbar-btn {
+	display: none;
+}
+
 .logo {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin: 5px auto;
 	flex: 1;
+	margin-top: 0px;
+	position: relative;
+	height: 100px;
 }
+
 .login{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin: 5px auto;
 	flex: 1;
 	padding-top: 20px;
@@ -71,7 +89,7 @@ nav {
 
 nav {
 	float: left;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	justify-content: flex-end;
 	flex:  1;
 
@@ -93,13 +111,15 @@ nav li{
 	margin: 1px solid red;
 }
 nav a {
-	color: green;
+	color: #E5F9FF;/*add color to navbar*/
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: bold;
+	margin-left: 0;
 
 }
+
 nav a:hover {
 	color: #000;
 }
@@ -108,7 +128,7 @@ nav a:before {
 	display: block;
 	height: 5px;
 	width: 100%;
-	background-color: red;
+	background-color: #E5F9FF;/*Hover color ease-in-out*/
 	position: absolute;
 	top: 0;
 	width: 0%;
@@ -125,28 +145,35 @@ nav a:hover::before {
 	display: flex;
 	justify-content: center;
 	border: 1px solid red;
-	margin-top: 5px; 
+	margin-top: 5px;
 	text-align: center;
+	width: 100%;
+<<<<<<< mangster80
 
+
+=======
+    
+>>>>>>> staging
 }
 .inside_text {
 	border:1px solid red;
 	font-size: 70px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	color: #d9b1b1;
-	font-family: sans-serif;
+	color: #1D7CF2;
+	align-self: center;
+
 }
 
 /*Three icons*/
 .icons_3 {
 	display: flex;
 	justify-content: space-around;
-	border: 1px solid red;	
+	border: 1px solid red;
 	height: 400px;
 	width: 100%;
 	flex-wrap: wrap;
-	margin-bottom: 5px; 
+	margin-bottom: 5px;
 }
 
 .icons_3 p {
@@ -156,23 +183,24 @@ nav a:hover::before {
 	font-size: 40px;
 }
 .box1{
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     flex: 1;
     text-align: center;
     margin-top: 5px;
     padding: 5px 5px;
+    margin-left: 0px;
 
 
 }
 .box2{
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     flex: 1;
     text-align: center;
     margin-top: 5px;
     padding: 5px 5px;
 }
 .box3{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     flex: 1;
     text-align: center;
     margin-top: 5px;
@@ -185,46 +213,196 @@ nav a:hover::before {
 .footer {
 	height: 50px;
 	width: 100%;
-	background-color: #d9b1b1; 
-	border: 1px red solid;
+	background-color: #d9b1b1;
+	/*border: 1px red solid;*/
 	display: flex;
-	margin-bottom: 0;
-	position: absolute;
-	margin-bottom: 0px;
+	flex-wrap: wrap;
 	
+}
+.sticky-footer {
+	flex: 1;
 
 }
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 	.inside_text {
-	font-size: 40px;	
+	font-size: 40px;
 }
 	.icons_3{
 /*		justify-content: flex-start;
 */		text-align: start;
 		display: block;
+		flex-wrap: wrap;
 	}
 	.icons_3 p {
 	font-size: 0.9em;
-	
+	margin-bottom: 10px;
+
 }
 .heading {
 	font-size: 25px;
 
 }
-img {
-	width: 50%;
-}
-}
-@media (max-width: 600px) {
-	.icons_3{
-		flex-wrap: wrap;
-	}
 
-.bodywrapper{
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+.logo {
+	/*border: 1px solid blue;*/
+	order: -1;
 }
+img {
+	width: auto;
+	height: 80px;
+}
+
+.login{
+	border: 1px solid blue;
+	margin-top: -10px;
+}
+.main-head {
+	height: 350px;
+	background: url('../Img/classroom.jpg');
+	background-size: cover;
+}
+.nav-container {
+	height: 80px;
+
+}
+nav  {
+	flex: 2;
+	flex-wrap: nowrap;
+}
+nav a {
+	padding-top: 0px;
+}
+nav li{
+	margin-left: 5px;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.container .button {
+  background-color: green;
+<<<<<<< mangster80
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 5px;
+}
+=======
+}
+>>>>>>> staging
