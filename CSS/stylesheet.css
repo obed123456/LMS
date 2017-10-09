@@ -20,9 +20,8 @@ html, body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	background-color: #00314a;
-
-
 }
+
 .main-head {
 	width: 100%;
 	margin-top: 0px;
@@ -148,7 +147,7 @@ nav a:hover::before {
 	margin-top: 5px;
 	text-align: center;
 	width: 100%;
-    
+
 }
 .inside_text {
 	border:1px solid red;
@@ -212,7 +211,7 @@ nav a:hover::before {
 	/*border: 1px red solid;*/
 	display: flex;
 	flex-wrap: wrap;
-	
+
 }
 .sticky-footer {
 	flex: 1;
