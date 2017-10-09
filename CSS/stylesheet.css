@@ -146,6 +146,7 @@ nav a:hover::before {
 	/*border: 1px solid red;*/
 	margin-top: 5px;
 	text-align: center;
+	width: 100%;
 
 
 }
