@@ -148,7 +148,12 @@ nav a:hover::before {
 	margin-top: 5px;
 	text-align: center;
 	width: 100%;
+<<<<<<< mangster80
+
+
+=======
     
+>>>>>>> staging
 }
 .inside_text {
 	border:1px solid red;
@@ -387,6 +392,17 @@ span.psw {
     }
 }
 
-.container button {
+.container .button {
   background-color: green;
+<<<<<<< mangster80
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 5px;
 }
+=======
+}
+>>>>>>> staging

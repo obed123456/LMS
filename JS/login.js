@@ -6,16 +6,27 @@ window.onclick = function(event) {
     }
 }
 
-function validate() {
-      var text1 = document.getElementById("userInput");
-      var text2 = document.getElementById("userPass");
-      if (text1.value == "student" && text2.value == "pass") {
-        load("login.html");
-      } else {
-        load("index.html");
-      }
-    }
-
-    function load(url) {
-      location.href = url;
-    }
+var student =  {
+	id: "student",
+	pass: "pass"
+}
+var teacher = {
+	id: "teacher",
+	pass: "pass"
+}
+var admin = {
+	id: "admin",
+	pass: "pass"
+}
+function pasuser(form) {
+if (form.id.value==student.id && form.pass.value==student.pass) {
+// if (form.pass.value==student.pass) {
+location="login.html";
+} else if (form.id.value==teacher.id && form.pass.value==teacher.pass){
+location="login.html";
+} else if (form.id.value==admin.id && form.pass.value==admin.pass){
+location="login.html"
+} else {
+alert("Invalid UserName or Password")
+}
+}
