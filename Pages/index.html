@@ -3,45 +3,54 @@
 <head>
 	<title>LMS 1.0</title>
 	<meta charset="utf-8">
-
 	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
+
 <body>
 
 
 <div class="nav-container">
 
 	<!-- navbar to the left -->
- <div class="navbar">
-	<nav>
-		<ul>
+	<div class="navbar">
+		<nav>
+			<ul>
 
-			<li><a href="index.html">Home</a></li>
-			<li><a href="pricing.html">Pricing</a></li>
-			<li><a href="features.html">Features</a></li>
-		</ul>
-	</nav>
-
+				<li><a href="index.html">Home</a></li>
+				<li><a href="pricing.html">Pricing</a></li>
+				<li><a href="features.html">Features</a></li>
+			</ul>
+		</nav>
+    
 
 
 		<!-- logo in the middle -->
 
-	 <div class="logo">
+	<div class="logo">
 
 		<img src="../Img/logo.png" alt="Logo" / >
 
-	 </div>
+	</div>
 
 		<!-- login button in the middle -->
 
-	 <div class="login">
-		 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	<div class="login">
+		
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
+	        <div id="id01" class="modal">
 
- 		<div id="id01" class="modal">
+	 			    <form class="modal-content animate" action="login.html"> 
+	 					<div class="imgcontainer">
+	 						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 					</div>
+
+	 					<div class="container">
+	 						<label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+	 						<input type="text" placeholder="Enter Username" name="id" required>
+
 
  				<form name="Login" class="modal-content animate" action="pasuser(this.form)">
  						<div class="imgcontainer">
@@ -62,11 +71,27 @@
 						               <input type="button" class="button" value="Login" onClick="pasuser(this.form)">
 													</div>
  						<!-- <div class="container">
+
+
+	 						<label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+	 						<input type="password" placeholder="Enter Password" name="pass" required>
+	 					</div>
+	 					<button type="submit" onclick="accesslevel(form)">GO!</button>
+                    </form>
+	 		</div>				
+
+	</div>
+
+</div>
+
+ 						<div class="container">
+
  								<label><i style="font-size:15px" class="fa">&#xf007;</i></label>
  								<input type="text" placeholder="Enter Username" name="id" required> -->
 
  								<!-- <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
  								<input type="password" placeholder="Enter Password" name="password" required>
+
 
  								<input type="button" value="Login" onclick="pasuser(this.form)">GO!</input> -->
 	 					<!-- </div> -->
@@ -74,21 +99,25 @@
 					</form>
  			</div>
 
-<!-- Below div close the nav-container. Dont remove that. -->
-</div>
+
+
 
 
 	 <!-- This is the mid content with buttons -->
 <div class="main-head">
 
- <div class="mid-content">
+ 	<div class="mid-content">
 
-		  <div class="content">
+		 <div class="content">
 		    <h1>Communicate Better  Learn Faster!</h1>
 		    <a class="btn" href="#">Get Started</a>
-		  </div>
-  </div>
+		 </div>
+
+ 	</div>
 </div>
+
+
+
 
 
 <!-- contents under the header -->
@@ -99,8 +128,33 @@
 	</div>
 </div>
 
+
+
+
+
 <!-- icon under the middle text -->
 <div class="icons_3">
+
+
+	   <div class="box1">
+		   <img src="../Img/icon/degree.png" alt="Student"><p><br>
+		   <span class="heading">Student Inloggning.</span><br><br>
+	       Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
+       </div>
+
+	   <div class="box2">
+		   <img src="../Img/icon/cloud.png" alt="Cloud"><p><br>
+		   <span class="heading">Automatisk Backup.</span><br><br>
+	       Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
+	   </div>
+
+	   <div class="box3">
+		   <img src="../Img/icon/subject.png" alt="subject"><p><br>
+		   <span class="heading">Lägg upp kurser.</span><br><br>
+	       Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
+       </div>
+	
+
 	<!-- <div class="box"> -->
 	   <div class="box1"><img src="../Img/icon/degree.png" alt="Student"><p><br><span class="heading">Student Inloggning.</span><br><br>
 Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p></div>
@@ -111,16 +165,51 @@ Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill b
 	   <span class="heading">Lägg upp kurser.</span><br><br>
 Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p></div>
 	<!-- </div>	 -->
+
 </div>
+
+
+
+
+
+<!-- Contact us form -->
+<!-- <div class="contact-form">
+    <div class="form">
+	    <form>
+			<label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+		    <label for="company">Company/Institution Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Company/Institution..">
+		   
+
+		    <label for="subject">Message</label>
+		    <textarea id="subject" name="subject" placeholder="Your Message.."></textarea>
+
+		    <input type="submit" value="Submit">
+		</form>
+    </div>
+</div> -->
+
+
+
+
+
 
 
 <!--  footer -->
 
 <div class="footer">
+	<div class="sticky-footer">
+		<p>© 2017 All Rigths reserved
+		</p>
+	</div>
+</div>
 
 
-<p>© 2017 All Rigths reserved
-</p>
 
 </div>
 <script src="../JS/login.js"></script>
