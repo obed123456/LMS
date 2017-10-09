@@ -13,10 +13,16 @@ flex-direction: column;
 min-height: 100vh;
 
 
+}
 
+
+
+.price {
+  margin: 30px 0 40px 0;
 }
 .price h1 {
-  font-size: 3em;
+
+  font-size: 60px;
   font-family: sans-serif;
   color: lightgrey;
   margin: 40px 20px 0 20px;
@@ -29,10 +35,11 @@ min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: auto;
-  width: 80%;
+  /*margin: auto;
+  width: 90%;*/
   /*border: 3px solid green;*/
   padding: 30px;
+  background-color: #FEF5E9;
 
 }
 
@@ -42,22 +49,24 @@ min-height: 100vh;
   font-size: 30px;
   color: #1188EC;
 
+
 }
 
 .price_main ul li {
   /*list-style: none;*/
   line-height: 175%;
-  font-family: serif;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+  /*font-weight: bold;*/
   color: grey;
+  padding: 0;
 }
 
 .price-header {
   display: flex;
   margin: 0px;
-  position: relative;
-  z-index: 5;
+  /*position: relative;
+  z-index: 5;*/
 
 
 }
@@ -69,34 +78,34 @@ min-height: 100vh;
 }
 
 .offer_left {
-  width: 300px;
+  width: 400px;
   height: 300px;
   justify-content: flex-start;
   padding: 20px;
   margin: 20px;
   /*border: 1px solid red;*/
   border-radius: 10px;
-  box-shadow: 1px 2px 1px 2px lightgrey;
+  box-shadow: 2px 2px 1px 2px #FFEBCE;
 }
 
 
 .offer_left:hover {
-  box-shadow: 1px 2px 5px 2px #888888;
+  box-shadow: 3px 2px 5px 2px #EDD7B8;
 }
 
 .offer_right {
-  width: 300px;
+  width: 400px;
   height: 300px;
   justify-content: flex-end;
   padding: 20px;
   margin: 20px;
   /*border: 1px solid red;*/
   border-radius: 10px;
-  box-shadow: 1px 2px 1px 2px lightgrey;
+  box-shadow: 2px 2px 1px 2px #FFEBCE;
 }
 
 .offer_right:hover {
-  box-shadow: 1px 2px 5px 2px #888888;
+  box-shadow: 3px 2px 5px 2px #EDD7B8;
 }
 
 .offer_free {
@@ -108,8 +117,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     /*justify-content: space-between;*/
-    width: 100%;
-    padding:10px;
+    width: 100vw;
+    padding:10px 0 10px 0px;
+    margin-top: 100px;
     height: 100px;
     background-color: lightgrey;
 
@@ -141,13 +151,30 @@ footer p {
   text-decoration: none;
 }
 
-@media (max-width: 550px){
-  .offer_right .offer_left  {
-    width: 50vw;
-    height: auto;
+@media (max-width: 650px){
+
+  .price_main {
+    flex-direction:
   }
-  .price_main h2 {
-    font-size: 2em;
+
+  .price {
+    width: 50vw;
+    height:
+  }
+
+  .offer_right  {
+    width: 550px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .offer_left {
+    width: 550px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .price h1 {
+    font-size: 40px;
   }
 
 }
