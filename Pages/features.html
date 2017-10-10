@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../CSS/features.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LMS 1.0</title>
+</head>
+<body>
+
+<!-- Navbar -->
+   <div class="nav-container">
+
+    <!-- navbar to the left -->
+    <div class="navbar">
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="features.html">Features</a></li>
+            </ul>
+        </nav>
+    
+
+
+        <!-- logo in the middle -->
+
+    <div class="logo">
+
+        <img src="../Img/logo-white.png" alt="Logo" / >
+
+    </div>
+
+        <!-- login button in the middle -->
+
+    <div class="login">
+        
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+            <div id="id01" class="modal">
+
+                    <form class="modal-content animate" action="login.html"> 
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        </div>
+
+                        <div class="container">
+                            <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+                            <input type="text" placeholder="Enter Username" name="id" required>
+
+                            <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+                            <input type="password" placeholder="Enter Password" name="pass" required>
+                        
+                            <button type="submit" onclick="accesslevel(form)">GO!</button>
+                    
+            </div>              
+
+    </div>
+
+</div>
+
+
+<!-- Below navbar contents -->
+
+    <main class="main">
+        <div class="article">
+            <div class="image-container">
+                <img src="../Img/devices.jpeg" alt="image of devices">
+            </div>
+            <div class="info-container">
+                <h3>Work seamlessly on all your devices.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="image-container">
+                <img src="../Img/ideas.jpeg" alt="image of ideas">
+            </div>
+            <div class="info-container">
+                <h3>Let your ideas and input be heard.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="image-container">
+                <img src="../Img/pen-paper.jpeg" alt="image of pen and paper">
+            </div>
+            <div class="info-container">
+                <h3>Share your work easily.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <h1>footer</h1>
+    </footer>
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</body>
+</html>
