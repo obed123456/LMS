@@ -6,7 +6,9 @@ html body {
 
 
 }
-
+a {
+  text-decoration: none;
+}
 .body_wrapper {
 display: flex;
 flex-direction: column;
@@ -18,14 +20,14 @@ min-height: 100vh;
 
 
 .price {
-  margin: 30px 0 40px 0;
+  margin: 40px 20px 40px 50px;
 }
 .price h1 {
 
   font-size: 60px;
   font-family: sans-serif;
   color: lightgrey;
-  margin: 40px 20px 0 20px;
+
   text-align: left;
 
 }
@@ -146,6 +148,8 @@ min-height: 100vh;
   background-color: #79BEF9;
 }
 
+
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +212,7 @@ footer p {
   }
 
   .price h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
 }
