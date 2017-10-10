@@ -152,7 +152,7 @@ nav a:hover::before {
 
 
 =======
-    
+
 >>>>>>> staging
 }
 .inside_text {
@@ -217,7 +217,7 @@ nav a:hover::before {
 	/*border: 1px red solid;*/
 	display: flex;
 	flex-wrap: wrap;
-	
+
 }
 .sticky-footer {
 	flex: 1;
@@ -394,7 +394,6 @@ span.psw {
 
 .container .button {
   background-color: green;
-<<<<<<< mangster80
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
@@ -403,6 +402,3 @@ span.psw {
 	width: 100%;
 	border-radius: 5px;
 }
-=======
-}
->>>>>>> staging
