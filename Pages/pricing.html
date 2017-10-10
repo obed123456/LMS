@@ -35,20 +35,25 @@
 
     <!-- login button in the middle -->
 
+
 <div class="login">
 
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-          <div id="id01" class="modal">
+    <div class="login">
+
+
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
 
             <form class="modal-content animate" action="login.html">
               <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
               </div>
 
-              <div class="container">
-                <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
-                <input type="text" placeholder="Enter Username" name="id" required>
+      <div id="id01" class="modal">
+
+
 
                 <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
                 <input type="password" placeholder="Enter Password" name="pass" required>
@@ -56,9 +61,30 @@
                   <button type="submit" onclick="accesslevel(form)">GO!</button>
               </div>
               </form>
-          </div>
 
-</div>
+
+        <form name="Login" class="modal-content animate" action="pasuser(this.form)">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+          </div>
+          <form class="modal-content animate" action="login.html">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+
+              <form name="login">
+                <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+                <input name="id" type="text" placeholder="Username" required>
+                <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+                <input name="pass" type="password" placeholder="Password" required>
+
+                <input type="button" class="button" value="Login" onClick="pasuser(this.form)">
+            </div>
+      </div>
+      </form>
+    </div>
 
 
 
@@ -123,4 +149,8 @@ For your educational institution</h1>
 
   </footer>
   </div>
+
+<script src="../JS/login.js"></script>
+
+
 </body>
