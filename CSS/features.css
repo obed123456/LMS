@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    width: 100%;
 }
 
 header {
@@ -38,7 +39,7 @@ footer {
 .image-container {
     /*border: 2px solid purple;*/
     /* Let the image container fill the whole width of the screen*/
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -85,7 +86,7 @@ footer {
 
     /* Make the containers take up half the view width each */
     .image-container, .info-container {
-        width: 50vw;
+        width: 100%;
         padding: 40px;
     }
 
