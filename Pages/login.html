@@ -7,13 +7,23 @@
     <title>STUDENT PAGE</title>
   </head>
   <body>
+<div class="allCards">
 
     <div class="card">
       <img src="../Img/icon/degree.png" alt="Student" style="width:50%">
       <h1>Alla Kurser</h1>
       <p class="title">KYH</p>
       <p>Se Alla Kurser</p>
-     <p><button>>></button></p>
+      <div class="navbar">
+   <div class="dropdown">
+     <button class="dropbtn" onclick="myFunction()">Se Alla Kurser</button>
+     <div class="dropdown-content" id="myDropdown">
+       <a href="#">Kurs 1</a>
+       <a href="#">Kurs 2</a>
+       <a href="#">Kurs 3</a>
+     </div>
+   </div>
+ </div>
     </div>
 
     <div class="card">
@@ -21,17 +31,36 @@
       <h1>Mina Kurser</h1>
       <p class="title">KYH</p>
       <p>Se Mina Kurser</p>
-      <p><button>>></button></p>
+      <div class="navbar">
+   <div class="dropdown">
+     <button class="dropbtn" onclick="myFunction()">Se Mina Kurser</button>
+     <div class="dropdown-content" id="myDropdown">
+       <a href="#">Kurs 1</a>
+       <a href="#">Kurs 2</a>
+       <a href="#">Kurs 3</a>
+     </div>
+   </div>
+ </div>
     </div>
 
     <div class="card">
-      <img src="../Img/icon/degree.png" alt="Student" style="width:50%">
+      <img src="../Img/icon/subject.png" alt="Books" style="width:50%">
       <h1>Avslutade Kurser</h1>
       <p class="title">KYH</p>
       <p>Se Avslutade Kurser</p>
-     <p><button>>></button></p>
+      <div class="navbar">
+   <div class="dropdown">
+     <button class="dropbtn" onclick="myFunction()">Se Avslutade Kurser</button>
+     <div class="dropdown-content" id="myDropdown">
+       <a href="#">Kurs 1</a>
+       <a href="#">Kurs 2</a>
+       <a href="#">Kurs 3</a>
+     </div>
+   </div>
+ </div>
     </div>
 
-
+</div>
+<script src="../JS/login.js"></script>
   </body>
 </html>
