@@ -24,10 +24,26 @@ html, body {
 
 }
 
+
+.ftnav-container {
+	width: 100%;
+	margin: 0;
+	height: 113px;
+	top: 0px;
+	/*border: 2px solid red;*/
+	/*display: flex;*/
+	z-index: -10;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #00314a;
+}
+
+
 .mid-content {
 	display: flex;
 
 }
+
 .main-head {
 	width: 100%;
 	margin-top: 0px;
