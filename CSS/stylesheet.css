@@ -20,9 +20,8 @@ html, body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	background-color: #00314a;
-
-
 }
+
 .main-head {
 	width: 100%;
 	margin-top: 0px;
@@ -148,12 +147,7 @@ nav a:hover::before {
 	margin-top: 5px;
 	text-align: center;
 	width: 100%;
-<<<<<<< mangster80
 
-
-=======
-
->>>>>>> staging
 }
 .inside_text {
 	border:1px solid red;
@@ -394,7 +388,7 @@ span.psw {
 
 .container .button {
   background-color: green;
-	color: white;
+  color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
 	border: none;
@@ -402,3 +396,5 @@ span.psw {
 	width: 100%;
 	border-radius: 5px;
 }
+
+
