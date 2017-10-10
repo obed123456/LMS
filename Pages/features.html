@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../CSS/features.css">
     <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>LMS 1.0</title>
 </head>
 <body>
@@ -21,26 +22,26 @@
                 <li><a href="features.html">Features</a></li>
             </ul>
         </nav>
-
+    
 
 
         <!-- logo in the middle -->
 
     <div class="logo">
 
-        <img src="../Img/logo.png" alt="Logo" / >
+        <img src="../Img/logo-white.png" alt="Logo" / >
 
     </div>
 
         <!-- login button in the middle -->
 
     <div class="login">
-
+        
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
             <div id="id01" class="modal">
 
-                    <form class="modal-content animate" action="login.html">
+                    <form class="modal-content animate" action="login.html"> 
                         <div class="imgcontainer">
                             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                         </div>
@@ -51,10 +52,10 @@
 
                             <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
                             <input type="password" placeholder="Enter Password" name="pass" required>
-                        </div>
-                        <button type="submit" onclick="accesslevel(form)">GO!</button>
-                    </form>
-            </div>
+                        
+                            <button type="submit" onclick="accesslevel(form)">GO!</button>
+                    
+            </div>              
 
     </div>
 
@@ -101,5 +102,8 @@
         <h1>footer</h1>
     </footer>
 
+    <script type="text/javascript" src="script.js">
+
+    </script>
 </body>
 </html>
