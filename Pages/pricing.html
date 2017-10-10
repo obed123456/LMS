@@ -35,18 +35,38 @@
 
     <!-- login button in the middle -->
 
+
+<div class="login">
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
     <div class="login">
 
+
       <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+
+            <form class="modal-content animate" action="login.html">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
 
       <div id="id01" class="modal">
 
 
 
+                <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+                <input type="password" placeholder="Enter Password" name="pass" required>
+
+                  <button type="submit" onclick="accesslevel(form)">GO!</button>
+              </div>
+              </form>
+
 
         <form name="Login" class="modal-content animate" action="pasuser(this.form)">
           <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
           </div>
           <form class="modal-content animate" action="login.html">
             <div class="imgcontainer">
@@ -77,8 +97,8 @@
 
 
   <div class="price">
-    <h1>Pricing <br>
-FOR YOUR EDUCATIONAL INSTITUTION</h1>
+    <h1>Pricing: <br>
+For your educational institution</h1>
   </div>
   <div class="price_main">
     <div class="offer_left">
@@ -86,25 +106,32 @@ FOR YOUR EDUCATIONAL INSTITUTION</h1>
         <h2>Try out</h2>
       </div>
       <ul>
-        <li>5 users</li>
+        <li>Up to 5 users</li>
         <li>Add &amp edit schdule</li>
-        <li>Add 5 courses</li>
-
+        <li>Add up to 5 courses</li>
+        <li>Limited support</li>
+        <li>Works on all devices</li>
       </ul>
+      <div class="offer-contact-left">
+          <h3>Contact us</h3>
+      </div>
 
     </div>
     <div class="offer_right">
       <div class="price_head">
-        <h2>99 €</h2>
+        <h2>99 €/Month</h2>
       </div>
-      <ul>
-        <li>5 users</li>
-        <li>Add &amp Edit schdule</li>
-        <li>Add classes</li>
-        <li>5 users</li>
-        <li>Add &amp Edit schdule</li>
-        <li>Add classes</li>
-      </ul>
+        <ul>
+          <li>Unlimited users</li>
+          <li>Add &amp edit schdule</li>
+          <li>Unlimited classes</li>
+          <li>Get 50gb storage</li>
+          <li>Works on all devices</li>
+          <li>Full support</li>
+        </ul>
+          <div class="offer-contact-right">
+            <h3>Contact us</h3>
+          </div>
       </div>
     </div>
   </div>
