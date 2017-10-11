@@ -6,9 +6,7 @@ html body {
 
 
 }
-a {
-  text-decoration: none;
-}
+
 .body_wrapper {
 display: flex;
 flex-direction: column;
@@ -40,19 +38,12 @@ min-height: 100vh;
   /*margin: auto;
   width: 90%;*/
   /*border: 3px solid green;*/
-  padding: 30px;
+  padding: 20px;
   background-color: #FEF5E9;
 
 }
 
-.price_main h2 {
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 30px;
-  color: #1188EC;
 
-
-}
 
 .price_main ul li {
   /*list-style: none;*/
@@ -63,10 +54,24 @@ min-height: 100vh;
   color: grey;
   padding: 0;
 }
+.price_main a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.price_head{
+    /*border-bottom: 2px solid #EAEAEA; */
+}
+.price_head h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
 
 .price-header {
   display: flex;
   margin: 0px;
+
   /*position: relative;
   z-index: 5;*/
 
@@ -124,13 +129,13 @@ min-height: 100vh;
   flex-direction: column;
   height: 50px;
   margin-top: 50px;
-  background-color: #92CDFF;
+  background-color: #00314a;
   border-radius: 5px;
 
 }
 
 .offer-contact h3 {
-  color: #676767;
+  color: #FFFFFF;
   font-size: 22px;
 }
 .offer-contact-right {
@@ -139,20 +144,20 @@ min-height: 100vh;
   flex-direction: column;
   height: 50px;
   margin-top: 52px;
-  background-color: #92CDFF;
+  background-color: #00314a;
   border-radius: 5px;
 
 }
 
 .offer-contact-left:hover, .offer-contact-right:hover {
-  background-color: #79BEF9;
+  background-color: #2F6DC1;
 }
 
 
 
 footer {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /*justify-content: space-between;*/
     width: 100vw;
     padding:10px 0 10px 0px;
