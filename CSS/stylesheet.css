@@ -7,7 +7,15 @@ html, body {
 	font-weight: black;
 
 }
+.ind_btn1 {
+	padding: 2px 2px; 
+	border: 1px solid black;
+	background-color: red;
+}
 
+.ind_btn1:hover {
+     background-color: green;
+}
 /*Whole page container */
 .nav-container {
 	width: 100%;
