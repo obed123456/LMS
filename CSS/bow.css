@@ -50,7 +50,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #00314a;
 }
 
 .dropdown-content {
@@ -63,6 +63,8 @@
 }
 
 .dropdown-content a {
+    border-radius: 5px;
+    width: 268px;
     float: none;
     color: black;
     padding: 12px 16px;
