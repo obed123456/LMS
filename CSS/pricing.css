@@ -6,7 +6,10 @@ html body {
 
 
 }
-
+a {
+  text-decoration: none;
+  color: #FFFFFF
+}
 .body_wrapper {
 display: flex;
 flex-direction: column;
@@ -18,14 +21,14 @@ min-height: 100vh;
 
 
 .price {
-  margin: 30px 0 40px 0;
+  margin: 40px 20px 40px 50px;
 }
 .price h1 {
 
   font-size: 60px;
   font-family: sans-serif;
   color: lightgrey;
-  margin: 40px 20px 0 20px;
+
   text-align: left;
 
 }
@@ -47,7 +50,7 @@ min-height: 100vh;
   font-family: sans-serif;
   text-align: center;
   font-size: 30px;
-  color: #1188EC;
+  color: #00314a;
 
 
 }
@@ -78,14 +81,17 @@ min-height: 100vh;
 }
 
 .offer_left {
+  display: flex;
+  flex-direction: column;
   width: 400px;
-  height: 300px;
+  height: 400px;
   justify-content: flex-start;
   padding: 20px;
   margin: 20px;
   /*border: 1px solid red;*/
   border-radius: 10px;
   box-shadow: 2px 2px 1px 2px #FFEBCE;
+
 }
 
 
@@ -95,7 +101,7 @@ min-height: 100vh;
 
 .offer_right {
   width: 400px;
-  height: 300px;
+  height: 400px;
   justify-content: flex-end;
   padding: 20px;
   margin: 20px;
@@ -112,6 +118,38 @@ min-height: 100vh;
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.offer-contact-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #00314a;
+  border-radius: 5px;
+
+}
+
+.offer-contact h3 {
+  color: white;
+  font-size: 22px;
+}
+.offer-contact-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  margin-top: 52px;
+  background-color: #00314a;
+  border-radius: 5px;
+
+}
+
+.offer-contact-left:hover, .offer-contact-right:hover {
+  background-color: #79BEF9;
+}
+
+
 
 footer {
     display: flex;
@@ -151,10 +189,11 @@ footer p {
   text-decoration: none;
 }
 
-@media (max-width: 650px){
+@media (max-width: 1024px){
 
   .price_main {
-    flex-direction:
+    flex-direction: column;
+    justify-content: center;
   }
 
   .price {
@@ -163,18 +202,18 @@ footer p {
   }
 
   .offer_right  {
-    width: 550px;
+    width: 500px;
     height: auto;
     padding-bottom: 20px;
   }
   .offer_left {
-    width: 550px;
+    width: 500px;
     height: auto;
     padding-bottom: 20px;
   }
 
   .price h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
 }

@@ -1,40 +1,70 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset= "utf-8">
-    <title>LMS 1.0</title>
-    <link rel = "stylesheet" href = "../CSS/bow.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../CSS/bow.css">
+  </style>
+  <title>STUDENT PAGE</title>
 </head>
-<body>
-  <div id="box1">
-    <header>Elevens sida</header></div>
- <div id = "box2">
-   <div class ="leftcell">
-   <nav>
-   <ul>
-     <spalt>
-     <li><a><b>Nyheter</b></a></li>
-     <li><a><b>Kurser</b></a></li>
-     <li><a>JavaScript</a></li>
-     <li><a>HTML</a></li>
-     <li><a>CSS</a></li>
-     <li><a><b>Kommande kurser</b></a></li>
-     <li><a>Arbetsmetodik</a></li>
-     <li><a><b>Avslutade kurser</b></a></li></spalt>
-   </ul></nav></div>
- <div class ="rightcell" >
-   <ul>
-     <li><b>Kontakter</b></li>
-     <li><a>Klasslärare</a></li>
-     <li><a>Mentor</a></li>
-     <li><a>Skolsköterska</a></li>
-   </ul>
- </div>
- </div>
-<div id = "box3">
-    <footer><b>All rights reserved to teddybears</b></footer>
-    <cell><b> 08-00 00 00 <br />@teddybears.se </b></cell>
-</div>
 
 <body>
-        </html>
+  <div class="allCards">
+
+    <div class="card">
+      <img src="../Img/icon/subject.png" alt="Student" style="width:50%">
+      <h1>Alla Kurser</h1>
+      <p class="title">KYH</p>
+      <p>Se Alla Kurser</p>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Alla Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Kurs 1</a>
+            <a href="#">Kurs 2</a>
+            <a href="#">Kurs 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../Img/icon/subject.png" alt="Student" style="width:50%">
+      <h1>Mina Kurser</h1>
+      <p class="title">KYH</p>
+      <p>Se Mina Kurser</p>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Kurs 1</a>
+            <a href="#">Kurs 2</a>
+            <a href="#">Kurs 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../Img/icon/degree.png" alt="Books" style="width:50%">
+      <h1>Avslutade Kurser</h1>
+      <p class="title">KYH</p>
+      <p>Se Avslutade Kurser</p>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Avslutade Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Kurs 1</a>
+            <a href="#">Kurs 2</a>
+            <a href="#">Kurs 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../JS/login.js"></script>
+</body>
+
+</html>
