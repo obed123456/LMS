@@ -1,4 +1,8 @@
+h1 {
+  color: #00314a;
+}
 .allCards {
+  margin-top: 180px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -11,36 +15,9 @@
   text-align: center;
   font-family: arial;
   padding: 15px 15px 15px 15px;
+
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
---------------------------------
 .navbar {
   overflow: hidden;
   background-color: #333;
