@@ -36,54 +36,35 @@
         <!-- login button in the middle -->
 
 
-    <div class="login">
-
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
         <div class="login">
 
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+            <div id="id01" class="modal">
 
 
+
+
+                <form name="Login" class="modal-content animate" action="pasuser(this.form)">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </div>
                     <form class="modal-content animate" action="login.html">
                         <div class="imgcontainer">
                             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                         </div>
-         <div id="id01" class="modal">
+                        <div class="container">
 
+                            <form name="login">
+                                <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+                                <input name="id" type="text" placeholder="Username" required>
+                                <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+                                <input name="pass" type="password" placeholder="Password" required>
 
-
-
-                            <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
-                            <input type="password" placeholder="Enter Password" name="pass" required>
-
-                            <button type="submit" onclick="accesslevel(form)">GO!</button>
-
+                                <input type="button" class="button" value="Login" onClick="pasuser(this.form)">
+                        </div>
             </div>
-
-
-
-            <form name="Login" class="modal-content animate" action="pasuser(this.form)">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-              </div>
-              <form class="modal-content animate" action="login.html">
-                <div class="imgcontainer">
-                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                </div>
-                <div class="container">
-
-                  <form name="login">
-                    <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
-                    <input name="id" type="text" placeholder="Username" required>
-                    <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
-                    <input name="pass" type="password" placeholder="Password" required>
-
-                    <input type="button" class="button" value="Login" onClick="pasuser(this.form)">
-                </div>
-          </div>
-          </form>
+            </form>
         </div>
 
 
@@ -130,6 +111,6 @@
     </div>
 
     <script src="../JS/login.js"></script>
-    
+
 </body>
 </html>
