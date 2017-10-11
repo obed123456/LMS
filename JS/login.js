@@ -30,3 +30,20 @@ location="login.html"
 alert("Invalid UserName or Password")
 }
 }
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+      }
+    }
+
+function myFunction(a) {
+    a.parentNode.getElementsByClassName("dropdown-content")[0].classList.toggle("show");
+    }
