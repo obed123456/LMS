@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,49 +10,50 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
-<div class="nav-container">
+  <div class="nav-container">
 
-  <!-- navbar to the left -->
-  <div class="navbar">
-    <nav>
-      <ul>
+    <!-- navbar to the left -->
+    <div class="navbar">
+      <nav>
+        <ul>
 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="features.html">Features</a></li>
-      </ul>
-    </nav>
-
-
-
-    <!-- logo in the middle -->
-
-  <div class="logo">
-
-    <img src="../Img/logo-white.png" alt="Logo" / >
-
-  </div>
-
-    <!-- login button in the middle -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="features.html">Features</a></li>
+        </ul>
+      </nav>
 
 
-<div class="login">
 
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      <!-- logo in the middle -->
 
-      <div id="id01" class="modal">
+      <div class="logo">
 
-        <form name="Login" class="modal-content animate" action="pasuser(this.form)">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="../Img/logo-white.png" alt="Logo" />
 
-          </div>
-          <form class="modal-content animate" action="">
+      </div>
+
+      <!-- login button in the middle -->
+
+
+      <div class="login">
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+
+          <form name="Login" class="modal-content animate" action="pasuser(this.form)">
             <div class="imgcontainer">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
             </div>
-            <div class="container">
+            <form class="modal-content animate" action="">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+              <div class="container">
 
 
                 <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
@@ -60,76 +62,80 @@
                 <input name="pass" type="password" placeholder="Password" required>
                 <!-- <button type="submit" onClick="pasuser(this.form)">GO</button> -->
                 <input type="button" class="button" value="Login" onClick="pasuser(this.form)">
-            </div>
+              </div>
+        </div>
+        </form>
       </div>
-      </form>
-    </div>
 
 
 
-<!-- Pricing below navbar -->
+      <!-- Pricing below navbar -->
 
-  <div class="body_wrapper">
-    <div class="price-header">
-      <img src="../Img/image3.jpg" alt="pricing image">
-  </div>
+      <div class="body_wrapper">
+        <div class="price-header">
+          <img src="../Img/image3.jpg" alt="pricing image">
+        </div>
 
 
-  <div class="price">
-    <h1>Pricing: <br>
+        <div class="price">
+          <h1>Pricing: <br>
 For your educational institution</h1>
-  </div>
-  <div class="price_main">
-    <div class="offer_left">
-      <div class="price_head">
-        <h2>Try out</h2>
-      </div>
-      <ul>
-        <li>Up to 5 users</li>
-        <li>Add &amp edit schdule</li>
-        <li>Add up to 5 courses</li>
-        <li>Limited support</li>
-        <li>Works on all devices</li>
-      </ul>
-      <a href="mailto:info@teddybears.se" alt="Contact us"><div class="offer-contact-left">
-          <h3>Contact us</h3>
-      </div></a>
+        </div>
+        <div class="price_main">
+          <div class="offer_left">
+            <div class="price_head">
+              <h2>Try out</h2>
+            </div>
+            <ul>
+              <li>Up to 5 users</li>
+              <li>Add &amp edit schdule</li>
+              <li>Add up to 5 courses</li>
+              <li>Limited support</li>
+              <li>Works on all devices</li>
+            </ul>
+            <a href="mailto:info@teddybears.se" alt="Contact us">
+              <div class="offer-contact-left">
+                <h3>Contact us</h3>
+              </div>
+            </a>
 
+          </div>
+          <div class="offer_right">
+            <div class="price_head">
+              <h2>99 €/Month</h2>
+            </div>
+            <ul>
+              <li>Unlimited users</li>
+              <li>Add &amp edit schdule</li>
+              <li>Unlimited classes</li>
+              <li>Get 50gb storage</li>
+              <li>Works on all devices</li>
+              <li>Full support</li>
+            </ul>
+            <a href="mailto:order@teddybears.se" alt="Contact us">
+              <div class="offer-contact-right">
+                <h3>Contact us</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+
+        <div class="allRights">
+          <ul>
+            <li><a href="mailto:info@teddybears.se">info@teddybears.se</a></li>
+            <li>08-0000000</li>
+            <li>All rights reserved to teddybears</li>
+          </ul>
+        </div>
+
+
+      </footer>
     </div>
-    <div class="offer_right">
-      <div class="price_head">
-        <h2>99 €/Month</h2>
-      </div>
-        <ul>
-          <li>Unlimited users</li>
-          <li>Add &amp edit schdule</li>
-          <li>Unlimited classes</li>
-          <li>Get 50gb storage</li>
-          <li>Works on all devices</li>
-          <li>Full support</li>
-        </ul>
-          <a href="mailto:order@teddybears.se" alt="Contact us"><div class="offer-contact-right">
-            <h3>Contact us</h3>
-          </div></a>
-      </div>
-    </div>
-  </div>
 
-  <footer>
-
-              <div class="allRights">
-                <ul>
-                  <li><a href="mailto:info@teddybears.se">info@teddybears.se</a></li>
-                  <li>08-0000000</li>
-                  <li>All rights reserved to teddybears</li>
-                </ul>
-                </div>
-
-
-  </footer>
-  </div>
-
-<script src="../JS/login.js"></script>
+    <script src="../JS/login.js"></script>
 
 
 </body>
