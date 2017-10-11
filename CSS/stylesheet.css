@@ -297,7 +297,7 @@ nav a:hover::before {
 .footer {
 	height: 50px;
 	width: 100%;
-	background-color: #d9b1b1;
+	background-color: #00314a;
 	/*border: 1px red solid;*/
 	display: flex;
 	flex-wrap: wrap;
@@ -305,6 +305,7 @@ nav a:hover::before {
 }
 .sticky-footer {
 	flex: 1;
+	color: white;
 
 }
 
