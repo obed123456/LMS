@@ -8,6 +8,7 @@ html body {
 }
 a {
   text-decoration: none;
+  color: #FFFFFF
 }
 .body_wrapper {
 display: flex;
@@ -49,7 +50,7 @@ min-height: 100vh;
   font-family: sans-serif;
   text-align: center;
   font-size: 30px;
-  color: #1188EC;
+  color: #00314a;
 
 
 }
@@ -124,13 +125,13 @@ min-height: 100vh;
   flex-direction: column;
   height: 50px;
   margin-top: 50px;
-  background-color: #92CDFF;
+  background-color: #00314a;
   border-radius: 5px;
 
 }
 
 .offer-contact h3 {
-  color: #676767;
+  color: white;
   font-size: 22px;
 }
 .offer-contact-right {
@@ -139,7 +140,7 @@ min-height: 100vh;
   flex-direction: column;
   height: 50px;
   margin-top: 52px;
-  background-color: #92CDFF;
+  background-color: #00314a;
   border-radius: 5px;
 
 }

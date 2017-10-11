@@ -1,5 +1,8 @@
-
+h1 {
+  color: #00314a;
+}
 .allCards {
+  margin-top: 180px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
