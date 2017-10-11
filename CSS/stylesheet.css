@@ -39,8 +39,11 @@ html, body {
 }
 
 
+.mid-content {
+	display: flex;
 
-/*-------------------Header under the navbar---------------*/
+}
+
 .main-head {
 	width: 100%;
 	margin-top: 0px;
@@ -53,19 +56,6 @@ html, body {
 
 }
 
-
-/*---Contents inside the header---*/
-.mid-content {
-	/*border: 1px solid blue;*/
-	flex: 1;
-	text-align: center;
-	align-self: center;
-	color: black;
-	background: none;
-	padding-bottom: 10px;
-	display: flex;
-}
-
 .mid-content .ind_left {
 	/*border: 2px solid red;*/
 	justify-content: flex-start;
@@ -74,10 +64,12 @@ html, body {
 	background: #f5f5f5;
 	margin-left: 10px;
 	border-radius: 5px;
+
+
+
 	/*margin-right: 15px;
 */
 }
-
 .ind_left > h3{
 	font-size: 25px;
 	font-weight: bold;
@@ -88,7 +80,7 @@ html, body {
 }
 
 .ind_left > input {
-	padding: 10px; 
+	padding: 10px;
 	border-radius: 5px;
 	color: black;
 	font-weight: 14px;
@@ -100,23 +92,39 @@ html, body {
 	font-weight: bold;
 }
 .ind_btn {
-	border: 1px solid;
-	background: black;
+	/*border: 1px solid;*/
+	background: #00314a;
 	font-size: 17px;
-	cursor: pointer;
-	text-decoration: none;
 }
-/*---Contents inside the header---*/
+/*.content {
+	flex: 2;
+	border: 2px solid red;
+	text-align: center;
+	align-self: center;
 
-/*-------------------Header under the navbar---------------*/
+
+}
+.ind_right {
+	flex: 1;
+	border: 2px solid red;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 15px;*/
+}
+
+.mid-content {
+	/*border: 1px solid blue;*/
+	flex: 1;
+	text-align: center;
+	align-self: center;
+	color: black;
+	background: white;
+	padding-bottom: 10px;
+}
 
 
-
-/*Content under the header*/
-/*Behöver vi dessa?*/
-
-/*.btn {
-	/*border: 1px solid black;
+.btn {
+	/*border: 1px solid black;*/
 	border-radius: 5px;
 	text-decoration: none;
 	padding: 5px 5px;
@@ -124,11 +132,6 @@ html, body {
 .content a {
 	text-decoration: none;
 }
-*/
-
-
-
-/*-----------------------Navbar---------------------*/
 
 
 /*Only navbar container. Contains navlist, logo and login button. */
@@ -141,13 +144,14 @@ html, body {
 	height: 40px;
 	flex-wrap: wrap
 
-
 }
 nav {
     /*border: 1px solid blue;*/
     margin: 5px auto;
     flex: 1;
-    text-align: left; 
+    text-align: left; //
+
+
 }
 
 #navbar-btn {
@@ -177,6 +181,8 @@ nav {
 	/*border: 1px solid red;*/
 	justify-content: flex-end;
 	flex:  1;
+
+
 }
 nav ul {
 	margin: 0;
@@ -222,10 +228,7 @@ nav a:hover::before {
 	width: 100%;
 }
 
-/*------------------------------------Navbar------------------------------*/
 
-
-/*----------------------------------Text under the header---------------------*/
 
 .centered_text {
 	display: flex;
@@ -234,7 +237,7 @@ nav a:hover::before {
 	margin-top: 5px;
 	text-align: center;
 	width: 100%;
-    
+
 }
 .inside_text {
 	/*border:1px solid red;*/
@@ -243,11 +246,10 @@ nav a:hover::before {
 	margin-bottom: 20px;
 	color: #1D7CF2;
 	align-self: center;
+
 }
-/*----------------------------------Text under the header---------------------*/
 
-
-/*----------------------------------Text with 3 icons---------------------*/
+/*Three icons*/
 .icons_3 {
 	display: flex;
 	justify-content: space-around;
@@ -290,10 +292,7 @@ nav a:hover::before {
 }
 
 
-/*------------------------------------Text with 3 icons---------------------*/
-
-
-/*------------------------------------footer-------------------------------*/
+/*footer*/
 
 .footer {
 	height: 50px;
@@ -302,28 +301,25 @@ nav a:hover::before {
 	/*border: 1px red solid;*/
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 0px;
-	
+
 }
 .sticky-footer {
 	flex: 1;
 
 }
 
-/*------------------------------------footer-------------------------------*/
+
 
 @media (max-width: 600px) {
 	.inside_text {
 	font-size: 40px;
 }
 	.icons_3{
-		/* justify-content: flex-start;
-	text-align: start; */
-		display: flex;
+/*		justify-content: flex-start;
+*/		text-align: start;
+		display: block;
 		flex-wrap: wrap;
-		/* flex-direction: column; */
 	}
-
 	.icons_3 p {
 	font-size: 0.9em;
 	margin-bottom: 10px;
@@ -337,7 +333,7 @@ nav a:hover::before {
 .logo {
 	/*border: 1px solid blue;*/
 	order: -1;
-	
+
 }
 .logo img {
 	/*border: 1px solid blue;*/
@@ -351,7 +347,7 @@ img {
 }
 
 .login{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin-top: -10px;
 }
 .main-head {
@@ -375,12 +371,7 @@ nav li{
 	padding-top: 30px;
 	padding-right: 10px;
 }
-.footer {
-	display: flex;
-	align-content: flex-end;
-}
 
-}
 
 }
 input[type=text], input[type=password] {
@@ -494,4 +485,5 @@ span.psw {
 
 .container button {
   background-color: green;
+	
 }

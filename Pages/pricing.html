@@ -29,38 +29,38 @@
 
   <div class="logo">
 
-    <a href="index.html"><img src="../Img/logo-white.png" alt="Logo" / ></a>
+    <img src="../Img/logo-white.png" alt="Logo" / >
 
   </div>
 
     <!-- login button in the middle -->
 
 
-<div class="login">
+    <div class="login">
 
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
       <div id="id01" class="modal">
 
-        <form name="Login" class="modal-content animate" action="pasuser(this.form)">
+        <form name="Login" class="modal-content animate" action="">
           <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
           </div>
-          <form class="modal-content animate" action="login.html">
+          <!-- <form class="modal-content animate" action="login.html">
             <div class="imgcontainer">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            </div>
-            <div class="container">
+            </div> -->
+          <div class="container">
 
-              
-                <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
-                <input name="id" type="text" placeholder="Username" required>
-                <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
-                <input name="pass" type="password" placeholder="Password" required>
+            <form name="login">
+              <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+              <input name="id" type="text" placeholder="Username" required>
+              <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+              <input name="pass" type="password" placeholder="Password" required>
 
-                <input type="button" class="button" value="Login" onClick="pasuser(this.form)">
-            </div>
+              <!-- <input type="button" class="button" value="Login" onClick="pasuser(this.form)"> -->
+              <button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
+          </div>
       </div>
       </form>
     </div>
@@ -91,7 +91,7 @@ For your educational institution</h1>
         <li>Limited support</li>
         <li>Works on all devices</li>
       </ul>
-      <a href="#"><div class="offer-contact-left">
+      <a href="mailto:info@teddybears.se" alt="Contact us"><div class="offer-contact-left">
           <h3>Contact us</h3>
       </div></a>
 
@@ -108,25 +108,23 @@ For your educational institution</h1>
           <li>Works on all devices</li>
           <li>Full support</li>
         </ul>
-          <a href="#"><div class="offer-contact-right">
+          <a href="mailto:order@teddybears.se" alt="Contact us"><div class="offer-contact-right">
             <h3>Contact us</h3>
           </div></a>
       </div>
     </div>
   </div>
 
-  <footer>
+  <!-- <footer> -->
 
-              <div class="allRights">
-                <ul>
-                  <li><a href="mailto:info@teddybears.se">info@teddybears.se</a></li>
-                  <li>08-0000000</li>
-                  <li>All rights reserved to teddybears</li>
-                </ul>
-                </div>
+    <div class="footer">
+      <div class="sticky-footer">
+        <p>© 2017 All Rigths reserved
+        </p>
+      </div>
+    </div>
 
-
-  </footer>
+  <!-- </footer> -->
   </div>
 
 <script src="../JS/login.js"></script>
