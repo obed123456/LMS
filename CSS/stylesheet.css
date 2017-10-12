@@ -8,6 +8,10 @@ html, body {
 
 }
 
+#invalid_message {
+	color: red;
+}
+
 /*Whole page container */
 .nav-container {
 	width: 100%;
@@ -248,7 +252,7 @@ nav a:hover::before {
 }
 .inside_text {
 	/*border:1px solid red;*/
-	font-size: 70px;
+	font-size: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: #1D7CF2;
