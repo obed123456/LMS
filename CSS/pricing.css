@@ -52,24 +52,10 @@ min-height: 100vh;
   margin: 20px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4db11f5c1dd5ce8fbab55e30af2872426244e59d
 .price-content a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-
-
-/*.price-list-wrapper-left {
-  display: flex;
-  flex-direction: column;
-}*/
-
->>>>>>> 4db11f5c1dd5ce8fbab55e30af2872426244e59d
 .price-list-left {
   display: flex;
   flex-direction: column;
