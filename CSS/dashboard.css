@@ -3,7 +3,12 @@
  padding: 0;
  font-family: lato;
 }
+a {
+	text-decoration: none;
+}
 
+/*----------------------------------------------------------------------------------------*/
+/*Header with logo and logout*/
 .header{
 	width: 100%;
 	height: 80px;
@@ -13,68 +18,102 @@
 	justify-content: space-between;
 	color: black;
 	align-items: center;
-
 }
 
-.navbar {
-	width: 100%;
-	height: 50px;
-	/*border: 2px solid red;*/
-	display: flex;
-	z-index: -10;
-	justify-content: space-between;
-	background-color: red;
-	align-items: flex-end;
-	
-}
 .logotype img {
 	/*border: 1px solid blue;*/
-	margin: 5px auto;
 	flex: 1;
 	margin-top: 0px;
 	position: relative;
 	height: 70px;
 	width: auto;
+
 }
 .logout_btn {
-	padding-right: 10px;
-}
-
-nav-element {
-	display: flex;
-}
-
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    font-size: 15px;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 8px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 14px 18px;
+    text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    display: inline-block;
+    font-size: 14px;    
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
-nav a:hover {
-	color: white;
+/*Relative navbar*/
+
+.navbar {
+	height: 50px;
+	width: 100%;
+	/*border: 2px solid red;*/
+	background-color: #00314a;
 }
+
+
+nav {
+	float: left;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+nav a{
+	color: #E5F9FF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	/*border: 2px solid red;*/
+	padding-top: 15px;
+
+}
+nav a:hover {
+	color: #E5F9FF;
+
+}
+
 nav a:before {
 	content: '';
 	display: block;
 	height: 5px;
-	/*width: 100%;*/
-	background-color: red;/*Hover color ease-in-out*/
+	background-color: #E5F9FF;
 	position: absolute;
-	padding-top: 0px;
-
-	transition: all ease-in-out 200ms;
+	width: 0%;
+	top:-15px;
+	transition: all ease-in-out 250ms;
 }
 nav a:hover::before {
 	width: 100%;
+	top: -15px;
+}
+/*-------------------------------------------------------------------------*/
+
+/*Layout under the navbar*/
+
+.main-content-dashboard {
+	display: flex;
+	width: 100%
+	height: 800px;
+	border: 1px solid red;
+}
+
+.main-content-column-left {
+	flex: 3;
+	border: 1px solid red;
+	height: 800px;
+
+	
+}
+.main-content-column-right {
+	flex: 1;
+	border: 1px solid red;
+	width: 800px;
+	
 }
