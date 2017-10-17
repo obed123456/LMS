@@ -52,9 +52,11 @@ min-height: 100vh;
   margin: 20px;
 }
 
+
 .price-content a {
   text-decoration: none;
 }
+
 
 
 /*.price-list-wrapper-left {
@@ -124,6 +126,7 @@ min-height: 100vh;
     /*border: 1px solid red;*/
     padding: 0px;
 }
+
 .price-contact-right {
   display: block;
   align-self: flex-end;
@@ -152,24 +155,22 @@ min-height: 100vh;
 
 .footer {
   margin-top: 40px;
-	height: 50px;
-	width: 100%;
-	/*background-color: #00314a;*/
-	/*border: 1px red solid;*/
-	display: flex;
-	flex-wrap: wrap;
-
+  height: 50px;
+  width: 100%;
+  /*background-color: #00314a;*/
+  /*border: 1px red solid;*/
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .footer p {
   color: #FFFFFF;
 }
 
 .sticky-footer {
-	flex: 1;
+  flex: 1;
   background-color: #00314a;
-
 }
-
 
 /*footer {
     display: flex;
@@ -210,6 +211,7 @@ footer p {
   text-decoration: none;
 }*/
 
+
 @media (max-width: 900px) {
 
   .price-content {
@@ -247,16 +249,15 @@ footer p {
 @media (max-width: 750px){
 
   /*.price_main {
+
     flex-direction: column;
     justify-content: center;
   }
-
   .price {
     width: 50vw;
     height:
   }
-
-  .offer_right  {
+  .offer_right {
     width: 500px;
     height: auto;
     padding-bottom: 20px;
@@ -265,9 +266,11 @@ footer p {
     width: 500px;
     height: auto;
     padding-bottom: 20px;
+
   }*/
 
   /*.price h1 {
+
     font-size: 50px;
   }*/
 
@@ -291,3 +294,4 @@ footer p {
     /*border: 1px solid red;*/
   }
 }
+
