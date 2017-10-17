@@ -1,69 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>mänk.com</title>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="../CSS/bow.css">
-  </style>
-  <title>STUDENT PAGE</title>
-</head>
-
-<body>
-  <div class="allCards">
-
-    <div class="card">
-      <img src="../Img/icon/subject.png" alt="Student" style="width:50%">
-      <h1>Alla Kurser</h1>
-      <p class="title">KYH</p>
-      <p>Se Alla Kurser</p>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Alla Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="#">Kurs 1</a>
-            <a href="#">Kurs 2</a>
-            <a href="#">Kurs 3</a>
-          </div>
-        </div>
-      </div>
+  </head>
+  <body>
+    <div class="header">
+      <h1>mänk<span style="color:red">.</span>com</h1>
     </div>
 
-    <div class="card">
-      <img src="../Img/icon/subject.png" alt="Student" style="width:50%">
-      <h1>Mina Kurser</h1>
-      <p class="title">KYH</p>
-      <p>Se Mina Kurser</p>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="#">Kurs 1</a>
-            <a href="#">Kurs 2</a>
-            <a href="#">Kurs 3</a>
-          </div>
-        </div>
-      </div>
+<nav>
+    <ul>
+      <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn"><div class="fa fa-navicon"></div></a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+      <a href="#">Link 6</a>
     </div>
+  </li>
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="mailto:magnus.wallin@student.kyh.se">Contact</a>
+      <li style="float:right"><a class="active" href="https://www.google.se/?gfe_rd=cr&dcr=0&ei=FtLDWf6SLefk8AfU_5vYDw&gws_rd=ssl"target="_blank"><div class="fa fa-search"></div></a></li>
+  </li>
+  </ul>
+</nav>
 
-    <div class="card">
-      <img src="../Img/icon/degree.png" alt="Books" style="width:50%">
-      <h1>Avslutade Kurser</h1>
-      <p class="title">KYH</p>
-      <p>Se Avslutade Kurser</p>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Avslutade Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="#">Kurs 1</a>
-            <a href="#">Kurs 2</a>
-            <a href="#">Kurs 3</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div>
-  <script src="../JS/login.js"></script>
-</body>
+    <div class="footer">© 2017 Magnus Wallin</div>
+  </body>
 
 </html>
