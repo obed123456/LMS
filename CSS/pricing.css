@@ -52,10 +52,24 @@ min-height: 100vh;
   margin: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4db11f5c1dd5ce8fbab55e30af2872426244e59d
 .price-content a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+
+
+/*.price-list-wrapper-left {
+  display: flex;
+  flex-direction: column;
+}*/
+
+>>>>>>> 4db11f5c1dd5ce8fbab55e30af2872426244e59d
 .price-list-left {
   display: flex;
   flex-direction: column;
@@ -200,6 +214,34 @@ min-height: 100vh;
 }
 
 @media (max-width: 750px){
+
+
+  /*.price_main {
+
+    flex-direction: column;
+    justify-content: center;
+  }
+  .price {
+    width: 50vw;
+    height:
+  }
+  .offer_right {
+    width: 500px;
+    height: auto;
+    padding-bottom: 20px;
+  }*/
+  /*.offer_left {
+    width: 500px;
+    height: auto;
+    padding-bottom: 20px;
+
+  }*/
+
+  /*.price h1 {
+
+    font-size: 50px;
+  }*/
+
 
   .price-list-left {
     width: 500px;
