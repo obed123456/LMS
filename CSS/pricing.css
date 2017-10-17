@@ -6,6 +6,7 @@ html body {
 }
 
 .body_wrapper {
+<<<<<<< HEAD
 display: flex;
 flex-direction: column;
 min-height: 100vh;
@@ -37,28 +38,74 @@ min-height: 100vh;
 }
 
 .price-content {
+=======
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.price {
+  margin: 40px 20px 40px 50px;
+}
+
+.price h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: lightgrey;
+  text-align: left;
+}
+
+.price_main {
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
   background-color: #FEF5E9;
+<<<<<<< HEAD
   /*border: 1px solid red;*/
 }
 
 .price-content ul li {
   text-align: left;
   font-family: Verdana, sans-serif;
+=======
+}
+
+.price_main ul li {
+  /*list-style: none;*/
+  line-height: 175%;
+  font-family: sans-serif;
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
   font-size: 18px;
   line-height: 100%;
   margin: 20px;
 }
 
+<<<<<<< HEAD
 .price-content a {
   text-decoration: none;
 }
 
+=======
+.price_main a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.price_head {
+  /*border-bottom: 2px solid #EAEAEA; */
+}
+
+.price_head h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
 
 /*.price-list-wrapper-left {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
 }*/
 
@@ -73,6 +120,17 @@ min-height: 100vh;
   background-color: #feedd7;
   border-radius: 5px;
   /*border: 1px solid red;*/
+=======
+  margin: 0px;
+  /*position: relative;
+  z-index: 5;*/
+}
+
+.price-header img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
 }
 
 .price-list-right {
@@ -86,6 +144,7 @@ min-height: 100vh;
   border-radius: 5px;
   background-color: #feedd7;
   /*border: 1px solid red;*/
+<<<<<<< HEAD
 }
 
 .price-title {
@@ -101,6 +160,14 @@ min-height: 100vh;
 .price-title h2 {
   color: #FFFFFF;
   font-family: sans-serif;
+=======
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 2px #FFEBCE;
+}
+
+.offer_left:hover {
+  box-shadow: 3px 2px 5px 2px #EDD7B8;
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
 }
 
 .price-bullet-list {
@@ -124,6 +191,7 @@ min-height: 100vh;
     /*border: 1px solid red;*/
     padding: 0px;
 }
+<<<<<<< HEAD
 .price-contact-right {
   display: block;
   align-self: flex-end;
@@ -144,6 +212,32 @@ min-height: 100vh;
 
 .price-contact-left h4:hover {
   color: #3272C2;
+=======
+
+.offer-contact-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #00314a;
+  border-radius: 5px;
+}
+
+.offer-contact h3 {
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+.offer-contact-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  margin-top: 52px;
+  background-color: #00314a;
+  border-radius: 5px;
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
 }
 
 .price-contact-right h4:hover {
@@ -152,24 +246,22 @@ min-height: 100vh;
 
 .footer {
   margin-top: 40px;
-	height: 50px;
-	width: 100%;
-	/*background-color: #00314a;*/
-	/*border: 1px red solid;*/
-	display: flex;
-	flex-wrap: wrap;
-
+  height: 50px;
+  width: 100%;
+  /*background-color: #00314a;*/
+  /*border: 1px red solid;*/
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .footer p {
   color: #FFFFFF;
 }
 
 .sticky-footer {
-	flex: 1;
+  flex: 1;
   background-color: #00314a;
-
 }
-
 
 /*footer {
     display: flex;
@@ -210,6 +302,7 @@ footer p {
   text-decoration: none;
 }*/
 
+<<<<<<< HEAD
 @media (max-width: 900px) {
 
   .price-content {
@@ -247,16 +340,18 @@ footer p {
 @media (max-width: 750px){
 
   /*.price_main {
+=======
+@media (max-width: 1024px) {
+  .price_main {
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
     flex-direction: column;
     justify-content: center;
   }
-
   .price {
     width: 50vw;
     height:
   }
-
-  .offer_right  {
+  .offer_right {
     width: 500px;
     height: auto;
     padding-bottom: 20px;
@@ -265,9 +360,14 @@ footer p {
     width: 500px;
     height: auto;
     padding-bottom: 20px;
+<<<<<<< HEAD
   }*/
 
   /*.price h1 {
+=======
+  }
+  .price h1 {
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
     font-size: 50px;
   }*/
 
@@ -280,6 +380,7 @@ footer p {
     border-radius: 5px;
     /*border: 1px solid red;*/
   }
+<<<<<<< HEAD
 
   .price-list-right {
     width: 500px;
@@ -291,3 +392,6 @@ footer p {
     /*border: 1px solid red;*/
   }
 }
+=======
+}
+>>>>>>> d8b7762708baff3576e1c6c8d1861e7eb07dccba
