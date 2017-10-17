@@ -28,7 +28,7 @@ function pasuser(form) {
   } else if (form.id.value == admin.id && form.pass.value == admin.pass) {
     location = "login.html"
   } else {
-    alert("Invalid Username or Password")
+    document.getElementById("invalid_message").innerHTML = "Invalid username or password";
   }
 }
 
