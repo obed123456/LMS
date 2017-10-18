@@ -29,73 +29,92 @@
 <!-- navbar will contains pages in the page -->
 
 <div class="navbar">
-  
+
     <nav>
-        <ul>  
+        <ul>
           <li><a href="kurser.html">Kurser</a></li>
-          <li><a href="feedback.html">Feedback</a></li>     
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="https://drive.google.com/file/d/0B7fJUwPMr-vaV0tJS3luMVNuZ1E/view">Översikt</a></li>
         </ul>
     </nav>
-  
+
 </div>
-
-
-
 
   <div class="allCards">
 
     <div class="card">
-      <img src="../Img/icon/subject.png" alt="Student" style="width:50%">
-      <h1>Alla Kurser</h1>
-      <p class="title">KYH</p>
-      <p>Se Alla Kurser</p>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Alla Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="#">Kurs 1</a>
-            <a href="#">Kurs 2</a>
-            <a href="#">Kurs 3</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="../Img/icon/subject.png" alt="Student" style="width:50%">
-      <h1>Mina Kurser</h1>
-      <p class="title">KYH</p>
-      <p>Se Mina Kurser</p>
-      <div class="navbar">
+      <img src="../Img/icon/subject.png" alt="Student">
+      <h1>Pågående Kurser</h1>
+      <p class="title"><img src="../Img/KYH-logo.png" alt="Logo" / ></p>
+      <div class="navbar_course">
         <div class="dropdown">
           <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
           <div class="dropdown-content" id="myDropdown">
-            <a href="#">Kurs 1</a>
-            <a href="#">Kurs 2</a>
-            <a href="#">Kurs 3</a>
+            <a href="Kurser/kurs2.html">HTML5</a>
+            <a href="Kurser/kurs2.html">CSS3</a>
+            <a href="Kurser/kurs1.html">JavaScript</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="card">
-      <img src="../Img/icon/degree.png" alt="Books" style="width:50%">
-      <h1>Avslutade Kurser</h1>
-      <p class="title">KYH</p>
-      <p>Se Avslutade Kurser</p>
-      <div class="navbar">
+      <img src="../Img/icon/subject.png" alt="Student">
+      <h1>Kommande Kurser</h1>
+      <p class="title"><img src="../Img/KYH-logo.png" alt="Logo" / ></p>
+      <div class="navbar_course">
         <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Avslutade Kurser</button>
+          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
           <div class="dropdown-content" id="myDropdown">
-            <a href="#">Kurs 1</a>
-            <a href="#">Kurs 2</a>
-            <a href="#">Kurs 3</a>
+            <a href="Kurser/kurs8.html">Examensarbete</a>
+            <a href="Kurser/kurs7.html">LIA</a>
+            <a href="Kurser/kurs6.html">UX-Design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../Img/icon/degree.png" alt="Books">
+      <h1>Avslutade Kurser</h1>
+      <p class="title"><img src="../Img/KYH-logo.png" alt="Logo" / ></p>
+      <div class="navbar_course">
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="Kurser/kurs5.html">Arbetsmetodik</a>
+            <a href="Kurser/kurs4.html">Gränssnittdisign</a>
+            <a href="Kurser/kurs3.html">Dynamisk Webutveckling</a>
           </div>
         </div>
       </div>
     </div>
 
   </div>
+
+  <div class="to_do_list">
+
+  <header class="course_container_header">
+    <h2>To Do List</h2>
+  </header>
+
+  <div class="course-container">
+    <ul>
+      <li><time>2017-10-23 Inlämningsuppgift 1</li>
+      <li><time>2017-10-23 Inlämningsuppgift 2</li>
+      <li><time>2017-10-23 Inlämningsuppgift 3</li>
+      <li><time>2017-10-23</li>
+      <li><time>2017-10-23</li>
+      <li><time>2017-10-23</li>
+    </ul>
+  </div>
+
+  <footer class="course_container_bottom">
+    <h5>Footer</h5>
+  </footer>
+
+  </div>
+
   <script src="../JS/login.js"></script>
 </body>
 
