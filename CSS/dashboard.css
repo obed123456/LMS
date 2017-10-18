@@ -117,3 +117,69 @@ nav a:hover::before {
 	width: 800px;
 	
 }
+
+
+/*------------------weekly evaluation-----------------*/
+
+.main-form {
+	/*border: 1px solid black;*/
+/*	display: flex;
+*/	justify-content: center;
+
+}
+h2 {
+	font-size: 22px;
+	text-align: center;
+}
+p {
+	font-size: 18px;
+	text-align: center;
+}
+
+.form-label {
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.form-rating {
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 20px
+}
+
+.form-comment{
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
+}
+.form-comment >input{
+	/*border: 1px solid black;*/	
+
+}
+
+.comment_input {
+	width: 100%;
+}
+
+/*button in weekly evaluation*/
+
+.form_btn {
+	
+	/*border: 1px solid black;*/
+	text-align: center;
+	justify-content: center;
+}
+.form_btn_inside {
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 5px 5px ;
+	margin-top: 5px;
+	/*border: 1px solid black;*/
+}
+.btn_form_weekly {
+	align-self: center;
+}
+/*------------------weekly evaluation-----------------*/
