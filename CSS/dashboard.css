@@ -40,7 +40,7 @@ a {
 .logotype img {
 	/*border: 1px solid blue;*/
 	flex: 1;
-	margin-top: 0px;
+	margin: 0 0 5px 20px;
 	position: relative;
 	height: 70px;
 	width: auto;
@@ -56,7 +56,7 @@ a {
     display: inline-block;
     font-size: 14px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 5px;
 }
 
