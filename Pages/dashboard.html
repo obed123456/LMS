@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,35 +15,55 @@
 <div class="header">
 
     <div class="logotype">
-      <a href="index.html"><img src="../Img/KYH-logo.png" alt="Logo" / ></a>
+      <a href="dashboard.html"><img src="../Img/KYH-logo.png" alt="Logo" / ></a>
     </div>
 
-    <div class="logout_btn">
-        <h1>Loggaut</h1>
+
+    <div class="logout">
+        <a href="index.html" class="logout_btn">Logga ut</a>
     </div>
+
 
 </div>
 
 <!-- navbar will contains pages in the page -->
 
-<div  class="navbar">
+<div class="navbar">
 
-  <nav class="nav-element">
+    <nav>
+        <ul>
+          <li><a href="kurser.html">Kurser</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
 
-      <ul>  
-        <li><a href="kurser.html">Kurser</a></li>
-        <li><a href="feedback.html">Feedback</a></li>     
-      </ul>
+</div>
 
-  </nav>
+<!-- Main content under the navbar -->
+
+<div class="main-content-dashboard">
+
+  <div class="main-content-column-left">
+
+  </div>
+
+  <div class="main-content-column-right">
+    <div class="container">
+
+      <form name="login" id="login">
+        <label>Närvarokod:  </label>
+        <input name="id" type="text" placeholder="Mata in Närvarokod" required>
+        <button type="button" value="login" onclick="atten(this.form)">Skicka</button>
+      </form>
+        <p id="invalid_message"></p>
+    </div>
+  </div>
 
 </div>
 
 
-
-
 <!-- Script tags -->
+<script src="../JS/attendence.js"></script>
 
-    
 </body>
 </html>

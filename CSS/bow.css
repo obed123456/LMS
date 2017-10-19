@@ -1,30 +1,51 @@
-h1 {
-  color: #00314a;
+.to_do_list {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  width: 360px;
+  height: 340px;
+  margin-left: 60px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+li {
+  margin-top: 15px;
+  margin-left: 10px;
+  list-style: none;
+}
+
+img {
+  height: 50px;
+  width: auto;
 }
 
 .allCards {
-  margin-top: 180px;
+  margin-top: 90px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 300px;
+  width: auto;
+  height: 340px;
   margin: auto;
   text-align: center;
   font-family: arial;
-  padding: 15px 15px 15px 15px;
+  padding: 30px 30px 30px 30px;
 }
 
-.navbar {
+.navbar_course {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
 }
 
-.navbar a {
+.navbar_course a {
   float: left;
   font-size: 16px;
   color: white;
@@ -52,7 +73,7 @@ h1 {
   font-size: 18px;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar_course a:hover, .dropdown:hover .dropbtn {
   background-color: #00314a;
 }
 
