@@ -12,6 +12,8 @@
 
 .news-title {
   justify-content: center;
+  text-align: center;
+  padding: 20px;
   border: 1px solid black;
 }
 .news-box {
