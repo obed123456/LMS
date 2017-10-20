@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/dashboard.css">
+    <script src="https://use.fontawesome.com/e4f3ab9576.js"></script>
     <title>TimeLine</title>
 
 </head>
@@ -58,6 +59,33 @@
       </form>
         <p id="invalid_message"></p>
     </div>
+
+    <div id="smiley-rating">
+        <div class="smiley-rating-question">
+            <p>Hur har du upplevt dagen?</p>
+        </div>
+                <div class="smiley-all">
+
+                    <div class="smiley-glad">
+                        <span id="clickable-glad-smiley" onclick="smileyFunction()"><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></span>
+                    </div>
+
+                    <div class="smiley-meh">
+                        <span id="clickable-meh-smiley" onclick="smileyFunction()"><i class="fa fa-meh-o fa-2x" aria-hidden="true"></i></span>
+                    </div>
+
+                    <div class="smiley-sad">
+                        <span id="clickable-sad-smiley" onclick="smileyFunction()"><i class="fa fa-frown-o fa-2x" aria-hidden="true"></i></span>
+                    </div>
+
+                </div>
+
+    </div>
+
+    <div id="smiley-rating-message">
+        <p></p>
+    </div>
+
   </div>
 
 </div>
@@ -65,6 +93,7 @@
 
 <!-- Script tags -->
 <script src="../JS/attendence.js"></script>
+<script src="../JS/smiley-feedback.js"></script>
 
 </body>
 </html>
