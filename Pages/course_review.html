@@ -2,44 +2,60 @@
 <html lang="sv">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type= "text/css" href="utv.css">
-    <title>Utvärdering</title>
+    <link rel="stylesheet" type= "text/css" href="../CSS/course_review.css">
+    <title>Utvärdering av kurs</title>
 </head>
 <body>
-<form action=" ">
-    <h2>Utvärdering av kurs</h2>
-    <div class = "formgrupp">
-        Namn:
-        <input type="text" namn="namn" placeholder="frivilligt">
-        Kurs:
-        <input type="text" kurs="kurs"><br></div>
-        <div>
-        <label>Vad tyckte du om kursens upplägg?</label><br>
-        <textarea placeholder rows="5" cols="15" ></textarea><br>
-    </div><div>
-        <label>Motsvarade kursen dina förväntningar?</label><br>
-        <textarea placeholder rows="5" cols="15"></textarea><br>
-    </div><div>
-        <label>Vad har varit bra med kursen?</label><br>
-        <textarea placeholder rows="5" cols="15"></textarea><br>
-    </div><div>
-        <label>Vad har varit mindre bra med kursen?</label><br>
-        <textarea placeholder rows="5" cols="15"></textarea><br>
-    </div><div>
-        <label>Har du några förslag på förbättringar?</label><br>
-        <textarea placeholder rows="5" cols="15"></textarea><br>
-    </div><div>
-        <label>På en skala mellan 1-7, där 1=Dåligt 3=Medel 7=Bra. Vad ger du kursen som helhet?</label><br>
-        <div class="radio">
-        1<input type="radio"name="gender"value="1"checked>
-        <input type="radio"name="gender"value="2"checked>
-        <input type="radio"name="gender"value="3"checked>
-        <input type="radio"name="gender"value="2"checked>
-        <input type="radio"name="gender"value="2"checked>
-        <input type="radio"name="gender"value="2"checked>
-        <input type="radio"name="gender"value="2"checked>7</div>
+  <div class="course-rev-wrapper">
+<form action="">
+  <div class="course-rev-title">
+    <h1>Utvärdering av kurs</h1>
+  </div>
+    <div class="form-name">
+        <h4>Namn:</h4>
+        <input type="text" id="namn" placeholder ="Uppge namn" class="placeholder-fix">
+      </div>
 
-       <button type="submit">Skicka!</button></div>
+          <div class="form-label">
+            <label><h4>Vad tyckte du om kursens upplägg?</h4></label><br>
+              <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
+            </div>
+
+      <div class="form-label">
+          <label><h4>Motsvarade kursen dina förväntningar?</h4></label><br>
+            <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+        </div>
+
+            <div class="form-label">
+              <label><h4>Vad har varit bra med kursen?</h4></label><br>
+                <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
+              </div>
+
+    <div class="form-label">
+        <label><h4>Vad har varit mindre bra med kursen?</h4></label><br>
+          <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+    </div>
+
+      <div class="form-label">
+        <label><h4>Har du några förslag på förbättringar?</h4></label><br>
+          <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+        </div>
+
+    <div class="form-label">
+        <label><h4>Vad ger du kursen som helhet? På en skala mellan 1-7, där 1=Dåligt 7=Bra.</h4> </label><br>
+        <div class="radio">
+        1<input type="radio"name="gender"value="1" unchecked>
+        <input type="radio"name="gender"value="2" unchecked>
+        <input type="radio"name="gender"value="3" unchecked>
+        <input type="radio"name="gender"value="4" unchecked>
+        <input type="radio"name="gender"value="5" unchecked>
+        <input type="radio"name="gender"value="6" unchecked>
+        <input type="radio"name="gender"value="7" unchecked>7</div>
+        <div class="course-rev-btn">
+       <button type="submit">Skicka!</button>
+     </div>
+     </div>
         </form>
+      </div>
     </body>
 </html>
