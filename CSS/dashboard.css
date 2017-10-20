@@ -150,6 +150,51 @@ nav a:hover::before {
 
 }
 
+/*------------------smileys rating-----------------*/
+
+#smiley-rating {
+    /*display: inline-block;*/
+    margin-top: 15px;
+}
+
+.smiley-glad, .smiley-meh, .smiley-sad {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.smiley-glad:hover {
+    color: #00cc13;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.smiley-meh:hover {
+    color: #fcd200;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.smiley-sad:hover {
+    color: #ff1407;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.smiley-all {
+    display: flex;
+    justify-content: center;
+}
+
+.smiley-rating-question p {
+    margin: 0 0 5px;
+    /*font-family:*/
+}
+
+#smiley-rating-message p {
+    /*font-family: */
+}
+
 
 
 /*------------------weekly evaluation-----------------*/
