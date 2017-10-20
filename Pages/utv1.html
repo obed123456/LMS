@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/utv2.css">
+    <title>Kurs utvärdering</title>
+
+</head>
+<body>
+
+  <!-- Transparent header contains logotyp of school and logout button -->
+
+<div class="header">
+
+    <div class="logotype">
+      <a href="dashboard.html"><img src="" alt="Logo" / ></a>
+    </div>
+
+
+    <div class="logout">
+        <a href="index.html" class="logout_btn">Logga ut</a>
+    </div>
+
+</div>
+
+<!-- navbar will contains pages in the page -->
+
+<div class="navbar">
+
+    <nav>
+        <ul>
+          <li><a href="kurser.html">Kurser</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="overview.html">Översikt</a></li>     
+        </ul>
+    </nav>
+
+</div>
+
+<!-- Main content under the navbar -->
+
+<div class="main-content-dashboard">
+
+  <div class="main-content-column-left">
+    <!-- Weekly Evaluation -->
+    <div class="main-form"><br>
+
+      <div class="header_text_weekly_servey">
+        <h2>Utvärdering  av kurs</h2>      
+       <div class=name>
+        Namn:
+        <input type="text" namn="namn" placeholder="frivilligt">
+        Kurs:
+        <input type="text" kurs="kurs"><br>
+        <div></div>         
+      </div><br><hr><br>   
+
+  <form>
+
+      <div class="form-rating">            
+                           
+                    <label>Vad tyckte du om kursens upplägg?</label><br>
+                    <textarea placeholder rows="3" cols="150" ></textarea><br>
+                   
+                    <label>Motsvarade kursen dina förväntningar?</label><br>
+                    <textarea placeholder rows="3" cols="150"></textarea><br>
+                  
+                    <label>Vad har varit bra med kursen?</label><br>
+                    <textarea placeholder rows="3" cols="150"></textarea><br>
+                 
+                    <label>Vad har varit mindre bra med kursen?</label><br>
+                    <textarea placeholder rows="3" cols="150"></textarea><br>
+                   
+                    <label>Har du några förslag på förbättringar?</label><br>
+                    <textarea placeholder rows="3" cols="150"></textarea><br>
+                    
+                    <label>På en skala mellan 1-7, där 1=Dåligt 3=Medel 7=Bra. Vad ger du kursen som helhet?</label><br>
+                    <div class="radio">
+                    1<input type="radio"name="gender"value="1"checked>
+                    <input type="radio"name="gender"value="2"checked>
+                    <input type="radio"name="gender"value="3"checked>
+                    <input type="radio"name="gender"value="2"checked>
+                    <input type="radio"name="gender"value="2"checked>
+                    <input type="radio"name="gender"value="2"checked>
+                    <input type="radio"name="gender"value="2"checked>7</div>      
+     <!-- Submit knapp -->
+
+        <div class="form_btn">
+          <div  class="btn_form_weekly">
+             <button  class="form_btn_inside" type="Submit" value="login" onclick="atten(this.form)">Skicka</button>
+        </div>
+        </div>
+
+</div>
+<div class="submit_message"><p></p></div>
+
+
+  
+
+</div>
+
+
+
+<!-- Script tags -->
+   <script src="../JS/feedback.js"></script> 
+
+
+</body>
+</html>
