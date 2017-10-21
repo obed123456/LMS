@@ -138,14 +138,14 @@ nav a:hover::before {
 
 .main-content-column-left {
 	flex: 3;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	height: 800px;
 
 
 }
 .main-content-column-right {
 	flex: 1;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 800px;
 
 }
@@ -201,16 +201,21 @@ nav a:hover::before {
 
 .main-form {
 	/*border: 1px solid black;*/
-/*	display: flex;
-*/	justify-content: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 800px;
 
 }
-h2 {
-	font-size: 22px;
+.header_text_weekly_servey{
+	background-color:#deeded; 
+}
+.header_text_weekly_servey h2 {
+	font-size: 34px;
 	text-align: center;
 }
-p {
-	font-size: 18px;
+.header_text_weekly_servey p {
+	font-size: 34px;
 	text-align: center;
 }
 
@@ -225,13 +230,18 @@ p {
 .form-rating {
 	/*border: 1px solid black;*/
 	margin-bottom: 10px;
+	/*border-bottom: 1px solid black;*/
 	text-align: center;
-	font-size: 20px
+	font-size: 20px;
+
 }
 
-.form-comment{
+.form-comment textarea{
 	/*border: 1px solid black;*/
-	margin-bottom: 10px;
+	border:1px soild black;
+	width: 100%;
+	resize: none;
+	height: 75px;
 }
 .form-comment >input{
 	/*border: 1px solid black;*/
@@ -260,5 +270,10 @@ p {
 .btn_form_weekly {
 	align-self: center;
 }
+
+.rating-1:nth-child(odd){
+	background-color: #e3efef;
+}
+
 /*------------------weekly evaluation-----------------*/
 
