@@ -43,6 +43,7 @@
 
 <div class="main-content-dashboard">
 
+
   <div class="main-content-column-left">
     <!-- Weekly Evaluation -->
     <div class="main-form">
@@ -53,11 +54,18 @@
 
       </div><br>
 
-     <!--  Form starts here  -->
-      
+     <!--  Form starts here  -->    
 
       <div class="rating-1">
           <div class="form-label">
+
+                  <!-- Name of the person who send feeback *compalsary -->
+                 <div class="sender_name">
+                    *<label>Ange ditt namn:</label><br>
+                    <input type="text" name="name" id="name_required" required>
+                    <p id="fill_your_name"></p>
+                  </div><br>
+
              <label>Hur upplever du just nu tempot i utbildningen?</label><br>
           </div>
 
@@ -134,7 +142,7 @@
               </div>
           </div>
               <div class="form-comment">
-                <textarea>Skriv här</textarea>
+                <textarea placeholder="Börja skriva här..."></textarea>
               </div>
           
           <div class="rating-1">
@@ -143,27 +151,25 @@
               </div>
           </div>  
               <div class="form-comment">
-                <textarea>Skriv här</textarea>
+                <textarea placeholder="Börja skriva här..."></textarea>
               </div>
       
      <!-- Submit button -->
 
         <div class="form_btn">
           <div  class="btn_form_weekly">
-             <button  class="form_btn_inside" type="Submit" value="login" onclick="atten(this.form)">Skicka</button>
+             <button  class="form_btn_inside" type="Submit" value="login" onclick="allFeedback()">Skicka</button>
+          </div>
         </div>
-        </div>
 
-</div>
-
-
-<div class="submit_message"><p></p></div>
-
+   </div>
 
   </div>
 
-  <div class="main-content-column-right">
 
+  <!-- *******************content at the leftright********************* -->
+
+  <div class="main-content-column-right">
   </div>
 
 </div>
