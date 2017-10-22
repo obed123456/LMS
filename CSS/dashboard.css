@@ -208,8 +208,8 @@ nav a:hover::before {
 
 }
 .header_text_weekly_servey{
-	background-color:#deeded; 
-}
+/*	background-color:rgb(245, 245, 245); 
+*/}
 .header_text_weekly_servey h2 {
 	font-size: 34px;
 	text-align: center;
@@ -272,8 +272,34 @@ nav a:hover::before {
 }
 
 .rating-1:nth-child(odd){
-	background-color: #e3efef;
+	background-color: rgb(245, 245, 245);
+}
+
+#fill_your_name, #enterkod_code_message {
+	color: red;
+	font-size: 14px;
 }
 
 /*------------------weekly evaluation-----------------*/
 
+/*-----------------button class for whole website----------------*/
+
+button {
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #00314a;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+#atten_input {
+    height:25px;
+    font-size:13pt;
+}
