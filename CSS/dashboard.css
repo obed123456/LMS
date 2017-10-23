@@ -191,8 +191,13 @@ nav a:hover::before {
     /*font-family:*/
 }
 
-#smiley-rating-message p {
+#smiley-rating-message {
     /*font-family: */
+    margin-top: 15px;
+    text-align: center;
+
+
+
 }
 
 
