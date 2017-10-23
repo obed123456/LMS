@@ -189,6 +189,7 @@ nav a:hover::before {
 .smiley-rating-question p {
     margin: 0 0 5px;
     /*font-family:*/
+    text-align: center;
 }
 
 #smiley-rating-message {
@@ -213,7 +214,7 @@ nav a:hover::before {
 
 }
 .header_text_weekly_servey{
-/*	background-color:rgb(245, 245, 245); 
+/*	background-color:rgb(245, 245, 245);
 */}
 .header_text_weekly_servey h2 {
 	font-size: 34px;
