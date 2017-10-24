@@ -5,7 +5,11 @@
 }
 a {
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-decoration: none;
+=======
+	text-decoration: none;
+>>>>>>> 30b995f071d8a6bde0957dfe5ff282e6247f0bc2
 }
 =======
 	text-decoration: none;
@@ -350,11 +354,15 @@ button:hover {
   justify-content: center;
   /*align-items: center;
   margin-top: 20px;
+}*/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 */
 =======
 }*/
 
 >>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
+=======
+>>>>>>> 30b995f071d8a6bde0957dfe5ff282e6247f0bc2
 /*------------------Course Evaluation-----------------*/
