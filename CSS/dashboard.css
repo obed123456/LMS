@@ -4,8 +4,14 @@
  font-family: lato;
 }
 a {
+<<<<<<< HEAD
     text-decoration: none;
 }
+=======
+	text-decoration: none;
+}
+
+>>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
 /*----------------Layout overview---------------------*/
 .task {
  line-height: 40px;
@@ -18,6 +24,10 @@ a {
  text-align: left;
 }
 /*Layout under the navbar*/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
 .gradeimg img {
   margin-left: 15px;
   width: 50px;
@@ -328,7 +338,7 @@ button:hover {
 .radio{
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-around;
     width: 500px;
 
 }
@@ -341,6 +351,10 @@ button:hover {
   /*align-items: center;
   margin-top: 20px;
 
+<<<<<<< HEAD
 */
-/*------------------Course Evaluation-----------------*/
+=======
+}*/
 
+>>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
+/*------------------Course Evaluation-----------------*/
