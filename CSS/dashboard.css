@@ -62,7 +62,7 @@ a {
 
 }
 .logout_btn {
-    background-color: red;
+    background-color: #00314a;
     border: none;
     color: white;
     padding: 14px 18px;
@@ -81,7 +81,7 @@ a {
 	height: 50px;
 	width: 100%;
 	/*border: 2px solid red;*/
-	background-color: #00314a;
+	background-color: #f85f06;
 }
 
 
