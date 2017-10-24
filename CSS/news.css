@@ -15,11 +15,14 @@
 .news-title {
   justify-content: center;
   text-align: center;
+  width: 600px;
   padding: 20px;
   /*border: 1px solid black;*/
 }
 .news-box {
   flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
   justify-content: flex-start;
   /*width: 600px;*/
   height: 400px;

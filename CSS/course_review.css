@@ -34,11 +34,16 @@
   width: 500px;
   resize: none;
   overflow: scroll;
+  border: 1px solid red;
 }
 .textarea.course-form-label {
   width: 500px;
   height: 500px;
   overflow: auto;
+}
+
+.course-form-label textarea {
+  resize: none;
 }
 div{
     display:flex;
