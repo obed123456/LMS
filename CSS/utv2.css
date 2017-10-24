@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: lato;
-    
+
    }
    a {
        text-decoration: none;
    }
    /*Layout overview*/
-   
+
    .task {
      line-height: 40px;
      margin-top: 20px;
@@ -16,30 +16,46 @@
      padding: 20px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    }
-   
+
    .task p {
      text-align: left;
    }
-   
+
+   -/*Layout overview*/
+
+/*-.task {
+-  line-height: 40px;
+-  margin-top: 20px;
+-  margin: 20px 20px 20px 20px;
+-  padding: 20px;
+-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+-}
+-
+-.task p {
+-  text-align: left;
+-}		*/
+-
+-/*----------------------------------------------------------------------------------------*/
+
    /*----------------------------------------------------------------------------------------*/
    /*Layout under the navbar*/
-   
+
    .gradeimg img {
      margin-left: 15px;
      width: 50px;
      height: 50px;
    }
-   
+
    .header h1 {
      margin-top: 20px;
      margin-left: 15px;
      text-align: center;
    }
-   
+
    .link a {
      margin-left: 15px;
    }
-   
+
    /*----------------------------------------------------------------------------------------*/
    /*Header with logo and logout*/
    .header{
@@ -50,9 +66,9 @@
        justify-content: space-between;
        color: black;
        align-items: center;
-     
+
    }
-   
+
   .logotype img {
        /*border: 1px solid blue;*/
        flex: 1;
@@ -60,7 +76,7 @@
        position: relative;
        height: 70px;
        width: auto;
-   
+
    }
    .logout_btn {
        background-color: red;
@@ -75,17 +91,17 @@
        margin-right: 20px;
        border-radius: 5px;
    }
-   
+
    /*Relative navbar*/
-   
+
    .navbar {
        height: 50px;
        width: 100%;
        /*border: 2px solid red;*/
        background-color: #00314a;
    }
-   
-   
+
+
    nav {
        float: left;
    }
@@ -102,15 +118,15 @@
        color: #E5F9FF;
        text-decoration: none;
        text-transform: uppercase;
-       font-size: 18px;    
+       font-size: 18px;
        padding-top: 15px;
-   
+
    }
    nav a:hover {
        color: #E5F9FF;
-   
+
    }
-   
+
    nav a:before {
        content: '';
        display: block;
@@ -126,32 +142,32 @@
        top: -15px;
    }
    /*-------------------------------------------------------------------------*/
-   
-  
+
+
 .main-content-column-left {
-       flex: 3;     
+       flex: 3;
        height: 800px;
-       background-color:rgb(245, 245, 245); 
-   
-   
+       background-color:rgb(245, 245, 245);
+
+
 }
    .main-content-column-right {
-       flex: 1;     
-       width: 800px;   
+       flex: 1;
+       width: 800px;
        display: flex;
    	   justify-content: center;
-   
+
  }
           h2 {
        font-size: 34px;
-       font-family:lato; 
-       text-align: center;      
-} 
+       font-family:lato;
+       text-align: center;
+}
 .name{
     margin:25px;
 }
 .form-rating {
-      
+
        margin-bottom: 10px;
        text-align: center;
        font-size: 25px
@@ -173,5 +189,4 @@ button:hover {
 }
 
 #atten_input {
-    height:28px; 
-  
+    height:28px;
