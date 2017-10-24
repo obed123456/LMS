@@ -22,17 +22,11 @@
 .news-box {
   flex-wrap: wrap;
   justify-content: center;
-<<<<<<< HEAD
-  width: 600px;
-  justify-content: flex-start;
-  /*width: 600px;*/
-=======
   /*width: 600px;*/
 
   justify-content: flex-start;
   /*width: 600px;*/
 
->>>>>>> cd498be81b07ba89934d31ebb8bdf400ddf1257d
   height: 400px;
   border: 1px solid lightgrey;
   padding: 40px;
