@@ -167,10 +167,10 @@
     margin:20px;
 }
 .form-rating {
-        background-color:rgb(245, 245, 245);
+       background-color:rgb(245, 245, 245);
        margin-bottom: 10px;
        text-align: center;
-       font-size: 20px
+       font-size: 20px;
 }
  button {
   border-radius: 5px;
