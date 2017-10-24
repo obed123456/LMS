@@ -7,6 +7,20 @@ a {
 	text-decoration: none;
 }
 
+/*----------------Layout overview---------------------*/
+
+.task {
+ line-height: 40px;
+ margin-top: 20px;
+ margin: 20px 20px 20px 20px;
+ padding: 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.task p {
+ text-align: left;
+}
+
 /*Layout under the navbar*/
 
 .gradeimg img {
