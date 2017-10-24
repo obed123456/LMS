@@ -131,7 +131,7 @@
 .main-content-column-left {
        flex: 3;     
        height: 800px;
-       background-color:rgb(245, 245, 245); 
+     
    
    
 }
@@ -139,22 +139,22 @@
        flex: 1;     
        width: 800px;   
        display: flex;
-   	   justify-content: center;
+     justify-content: center;
    
  }
           h2 {
-       font-size: 34px;
+       font-size: 25px;
        font-family:lato; 
        text-align: center;      
 } 
 .name{
-    margin:25px;
+    margin:20px;
 }
 .form-rating {
       
        margin-bottom: 10px;
        text-align: center;
-       font-size: 25px
+       font-size: 20px
 }
  button {
   border-radius: 5px;
