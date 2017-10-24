@@ -1,0 +1,351 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: lato;
+}
+a {
+    text-decoration: none;
+  }
+/*----------------Layout overview---------------------*/
+
+.task {
+ line-height: 40px;
+ margin-top: 20px;
+ margin: 20px 20px 20px 20px;
+ padding: 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.task p {
+ text-align: left;
+}
+
+/*Layout under the navbar*/
+
+.gradeimg img {
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+}
+.header h1 {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.link a {
+  margin-left: 15px;
+}
+/*----------------------------------------------------------------------------------------*/
+/*Header with logo and logout*/
+.header {
+    width: 100%;
+    height: 80px;
+    /*border: 2px solid red;*/
+    display: flex;
+    z-index: -10;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+}
+.logotype img {
+    /*border: 1px solid blue;*/
+    flex: 1;
+    margin: 0 0 5px 20px;
+    position: relative;
+    height: 70px;
+    width: auto;
+}
+.logout_btn {
+    background-color: #00314a;
+    border: none;
+    color: white;
+    padding: 14px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.logout_btn:hover {
+  background: #002e7a;
+  text-decoration: none;
+}
+/*Relative navbar*/
+.navbar {
+    height: 50px;
+    width: 100%;
+    /*border: 2px solid red;*/
+    background-color: #f85f06;
+}
+nav {
+    float: left;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav a{
+    color: #E5F9FF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    /*border: 2px solid red;*/
+    padding-top: 15px;
+}
+nav a:hover {
+    color: #E5F9FF;
+}
+nav a:before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #E5F9FF;
+    position: absolute;
+    width: 0%;
+    top:-15px;
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+    width: 100%;
+    top: -15px;
+}
+/*-------------------------------------------------------------------------*/
+/*Layout under the navbar*/
+.main-content-dashboard {
+    display: flex;
+    width: 100%
+    height: 800px;
+    /*border: 1px solid red;*/
+    /*position: absolute;*/
+}
+.main-content-column-left {
+    margin-top: 8px;
+    flex: 3;
+    /*border: 1px solid blue;*/
+    height: 800px;
+    /*position: relative;*/
+    /*flex-wrap: wrap;*/
+    /*overflow: scroll;*/
+}
+.main-content-column-right {
+    margin-top: 8px;
+    flex: 1;
+    /*border: 1px solid red;*/
+    width: 900px;
+}
+.main-content-column-right .container {
+    margin-top: 20px;
+}
+/*------------------smileys rating-----------------*/
+#smiley-rating {
+    /*display: inline-block;*/
+    margin-top: 15px;
+}
+.smiley-glad, .smiley-meh, .smiley-sad {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.smiley-glad:hover {
+    color: #00cc13;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+.smiley-meh:hover {
+    color: #fcd200;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+.smiley-sad:hover {
+    color: #ff1407;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+.smiley-all {
+    display: flex;
+    justify-content: center;
+}
+.smiley-rating-question p {
+    margin: 0 0 5px;
+    /*font-family:*/
+    text-align: center;
+}
+#smiley-rating-message {
+    /*font-family: */
+    margin-top: 15px;
+    text-align: center;
+}
+/*------------------weekly evaluation-----------------*/
+.main-form {
+    /*border: 1px solid black;*/
+    display: flex;
+    /*justify-content: center;*/
+    text-align: center;
+    flex-direction: column;
+    height: 800px;
+}
+.header_text_weekly_servey{
+/*  background-color:rgb(245, 245, 245);
+*/}
+.header_text_weekly_servey h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.header_text_weekly_servey p {
+    font-size: 18px;
+    text-align: center;
+}
+.form-label {
+    /*border: 1px solid black;*/
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.form-rating {
+    /*border: 1px solid black;*/
+    margin-bottom: 10px;
+    /*border-bottom: 1px solid black;*/
+    text-align: center;
+    font-size: 15px;
+}
+.form-comment{
+    text-align: center;
+}
+.form-comment textarea{
+    /*border: 1px solid black;*/
+    border:1px soild black;
+    width: 35%;
+    resize: none;
+    height: 75px;
+}
+.form-comment >input{
+    /*border: 1px solid black;*/
+}
+.comment_input {
+    width: 100%;
+}
+/*button in weekly evaluation*/
+.form_btn {
+    /*border: 1px solid black;*/
+    text-align: center;
+    justify-content: center;
+}
+.form_btn_inside {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 5px ;
+    margin-top: 5px;
+    /*border: 1px solid black;*/
+}
+.btn_form_weekly {
+    align-self: center;
+}
+/*.rating-1:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}*/
+#fill_your_name, #enterkod_code_message {
+    color: red;
+    font-size: 14px;
+}
+/*------------------weekly evaluation-----------------*/
+/*-----------------button class for whole website----------------*/
+button {
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #00314a;
+  padding: 3px 3px;
+  margin-top: 0;
+  text-decoration: none;
+}
+button:hover {
+  background: #002e7a;
+  text-decoration: none;
+}
+#atten_input {
+    height:28px;
+    font-size:13pt;
+}
+.rating-1 {
+    line-height: 200%;
+}
+
+
+/*------------------Course Evaluation-----------------*/
+/*.course-rev-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.course-rev-title {
+  padding: 20px;
+}
+.form-name {
+    padding: 20px;
+}
+
+#namn {
+  padding: 5px;
+  font-size: 16px;
+  width: 500px
+}
+
+.placeholder-fix:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+
+.placeholder-fix:focus::-moz-placeholder  {
+  color:transparent;
+}
+
+.placeholder-fix:-moz-placeholder {
+  color:transparent;
+}
+
+.form-label {
+  margin: 20px;
+  width: 500px;
+  resize: none;
+  /*overflow: scroll;
+}
+
+.form-label textarea {
+  resize: none;
+}
+.textarea.form-label {
+  width: 500px;
+  height: 500px;
+  overflow: auto;
+}
+
+.display:flex; {
+  flex-direction:column;
+ }
+.radio{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width: 500px;
+
+}
+
+
+.course-rev-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*align-items: center;
+  margin-top: 20px;
+}*/
+
+
+
+
+/*------------------Course Evaluation-----------------*/

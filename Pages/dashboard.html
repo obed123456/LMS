@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/news.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e4f3ab9576.js"></script>
+    <title>TimeLine</title>
+
+</head>
+<body>
+
+  <!-- Transparent header contains logotyp of school and logout button -->
+
+<div class="header">
+
+    <div class="logotype">
+      <a href="dashboard.html"><img src="../Img/KYH-logo.png" alt="Logo" / ></a>
+    </div>
+
+
+    <div class="logout">
+        <a href="index.html" class="logout_btn">Logga ut</a>
+    </div>
+
+
+</div>
+
+<!-- navbar will contains pages in the page -->
+
+<div class="navbar">
+
+    <nav>
+        <ul>
+          <li><a href="dashboard.html">Hem</a></li>
+          <li><a href="kurser.html">Kurser</a></li>
+          <li><a href="feedback.html">Utvärdering</a></li>
+          <li><a href="overview.html">Översikt</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<!-- Main content under the navbar -->
+
+<!-- ****************************News feeds right*********************************************** -->
+
+<div class="main-content-dashboard">
+
+  <div class="main-content-column-left">
+
+    <div class="news-wrapper">
+    <div class="news-title">
+      <h1>Nyheter Från Skolan</h1>
+    </div>
+      <div class="news-box">
+        <ol>
+          <li>2017-10-18</li>
+          <h4>Brandövning</h4>
+          <p>Brandövning kl:13:00 i sal 611</p>
+          <li>2017-10-21</li>
+          <h4>Fotografering</h4>
+          <p>Klassfotografering kl:12:00 - 13:00</p>
+          <li>2017-10-31</li>
+          <h4>Möte</h4>
+          <p>Start-Up gathering i Nacka forum med start kl 14:00.</p>
+          <li>2017-11-05</li>
+          <h4>Arbetsmetodik</h4>
+          <p>Redovisning för projektarbetet kl: 9:00. Sal 511</p>
+          <li></li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ******************************Content under the navbar at the left********************** -->
+
+  <div class="main-content-column-right">
+    <div class="container">
+
+      <form name="login" id="login">
+        <input name="id" type="text" placeholder="Mata in Närvarokod" id="atten_input" required>
+        <button type="button" value="login" name="myButton" onclick="atten(this.form)">Skicka</button>
+      </form>
+        <p id="valid_message"></p>
+        <p id="enterkod_code_message"></p>
+    </div><br>
+
+    <div id="smiley-rating">
+        <div class="smiley-rating-question">
+            <p>Hur har du upplevt dagen?</p>
+        </div>
+                <div class="smiley-all">
+
+                    <div class="smiley-glad">
+                        <span id="clickable-glad-smiley" onclick="smileyFunction()"><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></span>
+                    </div>
+
+                    <div class="smiley-meh">
+                        <span id="clickable-meh-smiley" onclick="smileyFunction()"><i class="fa fa-meh-o fa-2x" aria-hidden="true"></i></span>
+                    </div>
+
+                    <div class="smiley-sad">
+                        <span id="clickable-sad-smiley" onclick="smileyFunction()"><i class="fa fa-frown-o fa-2x" aria-hidden="true"></i></span>
+                    </div>
+
+                </div>
+
+    </div>
+
+    <div id="smiley-rating-message">
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Script tags -->
+<script src="../JS/attendence.js"></script>
+<script src="../JS/smiley-feedback.js"></script>
+
+</body>
+</html>

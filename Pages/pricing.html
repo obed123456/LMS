@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,125 +10,135 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
-<div class="nav-container">
+  <div class="nav-container">
 
-  <!-- navbar to the left -->
-  <div class="navbar">
-    <nav>
-      <ul>
+    <!-- navbar to the left -->
+    <div class="navbar">
+      <nav>
+        <ul>
 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="features.html">Features</a></li>
-      </ul>
-    </nav>
-
-
-
-    <!-- logo in the middle -->
-
-  <div class="logo">
-
-    <img src="../Img/logo-white.png" alt="Logo" / >
-
-  </div>
-
-    <!-- login button in the middle -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="features.html">Features</a></li>
+        </ul>
+      </nav>
 
 
-    <div class="login">
 
-      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      <!-- logo in the middle -->
 
-      <div id="id01" class="modal">
+      <div class="logo">
 
-        <form name="Login" class="modal-content animate" action="">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-          </div>
-          <!-- <form class="modal-content animate" action="login.html">
+        <img src="../Img/logo-white.png" alt="Logo" />
+
+      </div>
+
+      <!-- login button in the middle -->
+
+
+      <div class="login">
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+
+          <form name="Login" class="modal-content animate" action="">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <!-- <form class="modal-content animate" action="login.html">
             <div class="imgcontainer">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div> -->
-          <div class="container">
+            <div class="container">
 
-            <form name="login">
-              <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
-              <input name="id" type="text" placeholder="Username" required>
-              <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
-              <input name="pass" type="password" placeholder="Password" required>
+              <form name="login">
+                <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+                <input name="id" type="text" placeholder="Username" required>
+                <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+                <input name="pass" type="password" placeholder="Password" required>
 
-              <!-- <input type="button" class="button" value="Login" onClick="pasuser(this.form)"> -->
-              <button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
-          </div>
+                <!-- <input type="button" class="button" value="Login" onClick="pasuser(this.form)"> -->
+                <button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
+            </div>
+        </div>
+        </form>
       </div>
-      </form>
-    </div>
 
 
 
-<!-- Pricing below navbar -->
+      <!-- Pricing below navbar -->
 
   <div class="body_wrapper">
-    <div class="price-header">
+    <div class="price-img-container">
       <img src="../Img/image3.jpg" alt="pricing image">
   </div>
 
-
-  <div class="price">
-    <h1>Pricing: <br>
-For your educational institution</h1>
+  <div class="price-headline">
+    <h1>Pricing:<br>For your educational institution</h1>
   </div>
-  <div class="price_main">
-    <div class="offer_left">
-      <div class="price_head">
-        <h2>Try out</h2>
-      </div>
-      <ul>
-        <li>Up to 5 users</li>
-        <li>Add &amp edit schdule</li>
-        <li>Add up to 5 courses</li>
-        <li>Limited support</li>
-        <li>Works on all devices</li>
-      </ul>
-      <a href="mailto:info@teddybears.se" alt="Contact us"><div class="offer-contact-left">
-          <h3>Contact us</h3>
-      </div></a>
 
-    </div>
-    <div class="offer_right">
-      <div class="price_head">
-        <h2>99 €/Month</h2>
+  <div class="price-content-wrapper">
+    <div class="price-content">
+
+      <div class="price-list-wrapper-left">
+        <div class="price-list-left">
+          <div class="price-title">
+            <h2>Try-out version</h2>
+          </div>
+          <div class="price-bullet-list">
+            <ul>
+              <li>Up to 5 users</li>
+              <li>Add and edit schdule</li>
+              <li>Add up to 5 courses</li>
+              <li>Limited support</li>
+              <li>Works on all devices</li>
+            </ul>
+            </div>
+            <div class="price-contact-left">
+                <a href="mailto:info@teamteddy.com"><h4>Contact us</h4></a>
+          </div>
+        </div>
       </div>
-        <ul>
-          <li>Unlimited users</li>
-          <li>Add &amp edit schdule</li>
-          <li>Unlimited classes</li>
-          <li>Get 50gb storage</li>
-          <li>Works on all devices</li>
-          <li>Full support</li>
-        </ul>
-          <a href="mailto:order@teddybears.se" alt="Contact us"><div class="offer-contact-right">
-            <h3>Contact us</h3>
-          </div></a>
+
+
+        <div class="price-list-right">
+          <div class="price-title">
+            <h2>Premium 99€/Month</h2>
+          </div>
+          <div class="price-bullet-list">
+            <ul>
+              <li>Unlimited users</li>
+              <li>Add and edit schdule</li>
+              <li>Unlimited classes</li>
+              <li>Get 50gb storage</li>
+              <li>Full support</li>
+              <li>Works on all devices</li>
+            </ul>
+          </div>
+          <div class="price-contact-right">
+              <a href="mailto:info@teamteddy.com"><h4>Contact us</h4></a>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
+
 
   <!-- <footer> -->
 
-    <div class="footer">
-      <div class="sticky-footer">
-        <p>© 2017 All Rigths reserved
-        </p>
+      <div class="footer">
+        <div class="sticky-footer">
+          <p>© 2017 All Rigths reserved
+          </p>
+        </div>
       </div>
+
+      <!-- </footer> -->
     </div>
 
-  <!-- </footer> -->
-  </div>
-
-<script src="../JS/login.js"></script>
+    <script src="../JS/login.js"></script>
 
 
 </body>

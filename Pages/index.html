@@ -2,56 +2,57 @@
 <html>
 
 <head>
-	<title>LMS 1.0</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LMS 1.0</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 
-	<div class="nav-container">
+  <div class="nav-container">
 
-		<!-- navbar to the left -->
-		<div class="navbar">
-			<nav>
-				<ul>
+    <!-- navbar to the left -->
+    <div class="navbar">
+      <nav>
+        <ul>
 
-					<li><a href="index.html">Home</a></li>
-					<li><a href="pricing.html">Pricing</a></li>
-					<li><a href="features.html">Features</a></li>
-				</ul>
-			</nav>
-
-
-
-			<!-- logo in the middle -->
-
-			<div class="logo">
-		     <a href="index.html"><img src="../Img/logo-white.png" alt="Logo" / ></a>
-			</div>
-
-			<!-- login button in the middle -->
-
-			<div class="login">
-
-				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-				<div id="id01" class="modal">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="features.html">Features</a></li>
+        </ul>
+      </nav>
 
 
 
+      <!-- logo in the middle -->
 
-					<form name="Login" class="modal-content animate" action="pasuser(this.form)">
-						<div class="imgcontainer">
-							<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-						</div>
-						<!-- <form class="modal-content animate" action="login.html">
+      <div class="logo">
+        <a href="index.html"><img src="../Img/logo-white.png" alt="Logo" / ></a>
+      </div>
+
+      <!-- login button in the middle -->
+
+      <div class="login">
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+
+
+
+
+          <form name="Login" class="modal-content animate" action="pasuser(this.form)">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <!-- <form class="modal-content animate" action="login.html">
 							<div class="imgcontainer">
 								<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 							</div> -->
+
 							<div class="container">
 
 								<form name="login">
@@ -59,7 +60,9 @@
 									<input name="id" type="text" placeholder="Username" required>
 									<label><i style="font-size:15px" class="fa">&#xf023;</i></label>
 									<input name="pass" type="password" placeholder="Password" required>
-
+									<p id="invalid_message"></p>
+<!--
+ -->
 									<!-- <input type="button" class="button" value="Login" onClick="pasuser(this.form)"> -->
 									<button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
 							</div>
@@ -71,92 +74,94 @@
 
 
 
-			<!-- This is the mid content with buttons -->
-			<div class="main-head">
 
-				<div class="mid-content">
+      <!-- This is the mid content with buttons -->
+      <div class="main-head">
 
-					<div class="ind_left">
-						<h3>Teach who you want,<br>when you want,<br>where you want.</h3>
-						<p>Easy-to-use thus very powerfull. <br>Suitable for any type of education.<br>Powerful tool for better education.<br></p>
+        <div class="mid-content">
 
-						<ul>
-							<li>100% Cloud based.</li>
-							<li>Issue Certificate.</li>
-							<li>Manage Courses.</li>
-						</ul>
-						<h3>Read more about features</h3>
-						<a href="features.html"><button class=ind_btn>Features</button></a>
-						<!-- <form action="../Pages/features.html">
+          <div class="ind_left">
+            <h3>Teach who you want,<br>when you want,<br>where you want.</h3>
+            <p>Easy-to-use thus very powerfull. <br>Suitable for any type of education.<br>Powerful tool for better education.<br></p>
+
+
+            <ul>
+              <li>100% Cloud based.</li>
+              <li>Issue Certificate.</li>
+              <li>Manage Courses.</li>
+            </ul>
+
+            <h3>Read more about features</h3>
+            <a href="features.html"><button class=ind_btn>Features</button></a>
+            <!-- <form action="../Pages/features.html">
+
               <input type="submit" value="Features">
             </form> -->
 
 
-					</div>
+          </div>
 
-				</div>
-
-				<div class="background-image">
-				<!-- <img src="../Img/background.png" alt="background"> -->					
-				</div>
-
-			</div>
+        </div>
 
 
-
-
-
-			<!-- contents under the header -->
-
-			<div class="centered_text">
-				<div class="inside_text" <h2>Digital learning platform, <br>easy-to-use <br>LMS for your digital education <br>needs.</h2>
-				</div>
-			</div>
-
-
-
-
-
-			<!-- icon under the middle text -->
-			<div class="icons_3">
-
-				<div class="box1">
-					<img src="../Img/icon/degree.png" alt="Student">
-					<p><br>
-						<span class="heading">Student Inloggning.</span><br><br> Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
-				</div>
-
-				<div class="box2">
-					<img src="../Img/icon/cloud.png" alt="Cloud">
-					<p><br>
-						<span class="heading">Automatisk Backup.</span><br><br> Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
-				</div>
-
-				<div class="box3">
-					<img src="../Img/icon/subject.png" alt="subject">
-					<p><br>
-						<span class="heading">Lägg upp kurser.</span><br><br> Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
-				</div>
-
-			</div>
-
-
-			<!--  footer -->
-
-			<div class="footer">
-				<div class="sticky-footer">
-					<p>© 2017 All Rigths reserved
-					</p>
-				</div>
-			</div>
+      </div>
 
 
 
 
 
 
-			<!-- Add all the script tag here -->
-			<script src="../JS/login.js"></script>
+      <!-- contents under the header -->
+
+      <div class="centered_text">
+        <div class="inside_text" <h2>Digital learning platform, <br>easy-to-use <br>LMS for your digital education <br>needs.</h2>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- icon under the middle text -->
+      <div class="icons_3">
+
+        <div class="box1">
+          <img src="../Img/icon/degree.png" alt="Student">
+          <p><br>
+            <span class="heading">Student Inloggning.</span><br><br> Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
+        </div>
+
+        <div class="box2">
+          <img src="../Img/icon/cloud.png" alt="Cloud">
+          <p><br>
+            <span class="heading">Automatisk Backup.</span><br><br> Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
+        </div>
+
+        <div class="box3">
+          <img src="../Img/icon/subject.png" alt="subject">
+          <p><br>
+            <span class="heading">Lägg upp kurser.</span><br><br> Få alla dina betalningar på samma faktura, bestäm själv hur mycket du vill betala varje månad.</p>
+        </div>
+
+      </div>
+
+
+      <!--  footer -->
+
+      <div class="footer">
+        <div class="sticky-footer">
+          <p>© 2017 All Rigths reserved
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- Add all the script tag here -->
+      <script src="../JS/login.js"></script>
 </body>
 
 </html>
