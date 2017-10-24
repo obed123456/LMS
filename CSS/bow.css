@@ -148,9 +148,6 @@ img {
   overflow: auto;
 }
 
-    display:flex; {
-    flex-direction:column;
- }
 .radio{
     display:flex;
     flex-direction:row;
