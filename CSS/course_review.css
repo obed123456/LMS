@@ -29,19 +29,20 @@
   color:transparent;
 }
 
-.form-label {
+.course-form-label {
   margin: 20px;
   width: 500px;
   resize: none;
   overflow: scroll;
+  border: 1px solid red;
 }
-.textarea.form-label {
+.textarea.course-form-label {
   width: 500px;
   height: 500px;
   overflow: auto;
 }
 
-.form-label textarea {
+.course-form-label textarea {
   resize: none;
 }
 div{
