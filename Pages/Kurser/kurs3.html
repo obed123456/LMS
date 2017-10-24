@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../CSS/dashboard.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
@@ -31,8 +32,9 @@
 
     <nav>
       <ul>
+        <li><a href="../dashboard.html">Hem</a></li>
         <li><a href="../kurser.html">Kurser</a></li>
-        <li><a href="../feedback.html">Feedback</a></li>
+        <li><a href="../feedback.html">Utvärdering</a></li>
         <li><a href="../overview.html">Översikt</a></li>
       </ul>
     </nav>
@@ -50,6 +52,60 @@
       </div>
     </div>
   </div>
+
+  <div class="course-rev-wrapper">
+<form action="">
+  <div class="course-rev-title">
+    <h1>Utvärdering av kurs</h1>
+  </div>
+    <div class="form-name">
+        <h4>Namn:</h4>
+        <input type="text" id="namn" placeholder ="Uppge namn" class="placeholder-fix">
+      </div>
+
+          <div class="form-label">
+            <label><h4>Vad tyckte du om kursens upplägg?</h4></label><br>
+              <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
+            </div>
+
+      <div class="form-label">
+          <label><h4>Motsvarade kursen dina förväntningar?</h4></label><br>
+            <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+        </div>
+
+            <div class="form-label">
+              <label><h4>Vad har varit bra med kursen?</h4></label><br>
+                <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
+              </div>
+
+    <div class="form-label">
+        <label><h4>Vad har varit mindre bra med kursen?</h4></label><br>
+          <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+    </div>
+
+      <div class="form-label">
+        <label><h4>Har du några förslag på förbättringar?</h4></label><br>
+          <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+        </div>
+
+    <div class="form-label">
+        <label><h4>Vad ger du kursen som helhet? På en skala mellan 1-7, där 1=Dåligt 7=Bra.</h4> </label><br>
+        <div class="radio">
+        <label>1>/label><input type="radio"name="gender"value="1" unchecked>
+        <input type="radio"name="gender"value="2">
+        <input type="radio"name="gender"value="3">
+        <input type="radio"name="gender"value="4">
+        <input type="radio"name="gender"value="5">
+        <input type="radio"name="gender"value="6">
+        <input type="radio"name="gender"value="7">
+        <label>7</label>
+      </div>
+        <div class="course-rev-btn">
+       <button type="submit">Skicka!</button>
+     </div>
+     </div>
+        </form>
+      </div>
 
 </body>
 
