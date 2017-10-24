@@ -22,7 +22,8 @@
 .news-box {
   flex-wrap: wrap;
   justify-content: center;
-  width: 600px;
+  /*width: 600px;*/
+
   justify-content: flex-start;
   /*width: 600px;*/
   height: 400px;
