@@ -26,7 +26,7 @@
   border: 1px solid lightgrey;
   padding: 40px;
   box-shadow: 5px #00314a;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .news-box ol li {

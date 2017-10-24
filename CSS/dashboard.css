@@ -6,10 +6,25 @@
 a {
 	text-decoration: none;
 }
+/*Layout overview*/
+
+.task {
+  line-height: 40px;
+  margin-top: 20px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.task p {
+  text-align: left;
+}
+
+-/*Layout overview*/
 
 /*Layout under the navbar*/
 
-.gradeimg img {
+.gradeimg {
   margin-left: 15px;
   width: 50px;
   height: 50px;
@@ -68,7 +83,6 @@ a {
 	/*border: 2px solid red;*/
 	background-color: #00314a;
 }
-
 
 nav {
 	float: left;
@@ -310,3 +324,74 @@ button:hover {
 .rating-1 {
 	line-height: 200%;
 }
+
+/*------------------Course Evaluation-----------------*/
+.course-rev-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.course-rev-title {
+  padding: 20px;
+}
+.form-name {
+    padding: 20px;
+}
+
+#namn {
+  padding: 5px;
+  font-size: 16px;
+  width: 500px
+}
+
+.placeholder-fix:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+
+.placeholder-fix:focus::-moz-placeholder  {
+  color:transparent;
+}
+
+.placeholder-fix:-moz-placeholder {
+  color:transparent;
+}
+
+.form-label {
+  margin: 20px;
+  width: 500px;
+  resize: none;
+  overflow: scroll;
+}
+
+.form-label textarea {
+  resize: none;
+}
+.textarea.form-label {
+  width: 500px;
+  height: 500px;
+  overflow: auto;
+}
+
+.display:flex; {
+  flex-direction:column;
+ }
+.radio{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 500px;
+
+}
+
+
+.course-rev-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*align-items: center;*/
+  margin-top: 20px;
+
+}
+
+/*------------------Course Evaluation-----------------*/
