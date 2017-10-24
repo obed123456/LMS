@@ -6,8 +6,10 @@
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  margin: 10px;
-  padding: 20px;
+  /*margin: 10px;*/
+  /*padding: 20px;*/
+
+
 }
 
 .news-title {
@@ -19,8 +21,13 @@
 }
 .news-box {
   flex-wrap: wrap;
+<<<<<<< HEAD
   justify-content: center;
   width: 600px;
+=======
+  justify-content: flex-start;
+  /*width: 600px;*/
+>>>>>>> 8ad1ed3f81bf8cdf57857fc9bf3796b5b48db09e
   height: 400px;
   border: 1px solid lightgrey;
   padding: 40px;
@@ -30,7 +37,7 @@
 
 .news-box ol li {
   list-style: circle;
-  lsit-style-position: 20px;
+  list-style-position: 20px;
   border-top: 1px solid lightgrey;
   margin: 40px 0 5px 0;
   padding-left: 0px;
