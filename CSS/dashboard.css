@@ -4,18 +4,8 @@
  font-family: lato;
 }
 a {
-<<<<<<< HEAD
-<<<<<<< HEAD
     text-decoration: none;
-=======
-	text-decoration: none;
->>>>>>> 30b995f071d8a6bde0957dfe5ff282e6247f0bc2
-}
-=======
-	text-decoration: none;
-}
-
->>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
+  }
 /*----------------Layout overview---------------------*/
 .task {
  line-height: 40px;
@@ -28,10 +18,7 @@ a {
  text-align: left;
 }
 /*Layout under the navbar*/
-<<<<<<< HEAD
-=======
 
->>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
 .gradeimg img {
   margin-left: 15px;
   width: 50px;
@@ -193,7 +180,7 @@ nav a:hover::before {
 }
 /*------------------weekly evaluation-----------------*/
 .main-form {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     /*justify-content: center;*/
     text-align: center;
@@ -356,13 +343,7 @@ button:hover {
   margin-top: 20px;
 }*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*/
-=======
-}*/
 
->>>>>>> 9ff060046e947fb7747dbfb18a6ed2cc73a0b7cb
-=======
->>>>>>> 30b995f071d8a6bde0957dfe5ff282e6247f0bc2
+
+
 /*------------------Course Evaluation-----------------*/
