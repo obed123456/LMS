@@ -328,7 +328,7 @@ button:hover {
 }
 /*------------------Bourse Table Info-----------------*/
 table, th, td {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-collapse: collapse;
 }
 th, td {
@@ -337,7 +337,14 @@ th, td {
 }
 table#t01 {
     width: 100%;
-    background-color: #f1f1c1;
+}
+.tabletop {
+  background-color: #a2a2a2;
+  color: white;
+}
+td:nth-child(6) {
+  margin-top: 5px;
+  text-align: right;
 }
 
 /*------------------Course Evaluation-----------------*/
