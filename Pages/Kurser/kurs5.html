@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Kurs Arbestmetodik</title>
+  <title>TimeLine | KYH</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../CSS/dashboard.css">
@@ -22,8 +22,35 @@
     <div class="logout">
       <a href="../index.html" class="logout_btn">Logga ut</a>
     </div>
+  </div>
 
-
+  <div class="task">
+    <table id="t01">
+      <tr>
+        <th>Kurskod</th>
+        <th>Kursnamn</th>
+        <th>Betyg</th>
+        <th>Slutbetyg</th>
+      </tr>
+      <tr>
+        <td>KYH051</td>
+        <td>Individuellt projekt</td>
+        <td>VG</td>
+        <td>VG</td>
+      </tr>
+      <tr>
+        <td>KYH052</td>
+        <td>Tentamen/Hemtenta</td>
+        <td>VG</td>
+        <td>VG</td>
+      </tr>
+      <tr>
+        <td>KYH053</td>
+        <td>Projekt i grupp</td>
+        <td>VG</td>
+        <td>VG</td>
+      </tr>
+    </table>
   </div>
 
   <!-- navbar will contains pages in the page -->
@@ -43,69 +70,113 @@
 
   <div class="course">
     <div class="task">
-      <h3>ARBETSMETODIK FÖR UTVECKLARE</h3>
+      <h1>ARBETSMETODIK</h1>
+      <p>Utbildningsnummer: 201514480-2 och 201514500-2</p>
+      <p>Fastställd av ledningsgruppen: 2017-08-08</p>
+      <h2>Kurspoäng</h2>
       <p><strong>40 YHP</strong></p>
-      <p>Som utvecklare finns det många verktyg och metoder man måste ha koll på. Exempelvis förväntas alla kunna versionshantering med ex. GIT idag.</p>
-      <p><a href="https://drive.google.com/file/d/0B7fJUwPMr-vaOXYydENpal9SSkU/view">Ditt Betyg</a></p>
-      <div class="gradeimg">
-        <img src="../../Img/icon/grade.png" alt="betyg">
-      </div>
+      <h2>Innehåll</h2>
+      <p>Kursen ger de studerande avancerade kunskaper och färdigheter i att programmera och strukturera Javascript-projekt.
+      </p>
+      <p>De studerande får kunskaper om att det finns olika Javascript-versioner och lär sig jämföra dessa samt får förståelse för deras olika kompabilitet med olika webbläsare och plattformar. De studerande ges goda kunskaper gällande att använda olika
+        Javascript-bibliotek t.ex. JQuery.</p>
+      <p>De studerande ges goda kunskaper i hur ramverk fungerar samt kunna välja lämpliga tekniker utifrån projektspecifikationer.
+      </p>
+      <p>Kursen innehåller programmering i Javascript, däribland objektorienterade implementationer i Javascript m.m. Kursen tar även upp hur man använder ramverk i Javascript samt hur man tar hjälp av verktyg som är relevanta för Javascript-fokuserad utveckling.</p>
+      <h2>Kursens läranderesultat (mål)</h2>
+      <p>Efter avslutad kurs ska den studerande ha:</p>
+      <p>Kunskaper om:</p>
+      <ol>
+        <li>Javascript, grundläggande syntax</li>
+        <li>Javascriptsversioner och dess kompabilitet</li>
+        <li>Hur Javascript körs i webbläsaren</li>
+        <li>Javascript-bibliotek</li>
+        <li>Javascript-ramverk</li>
+        <li>DOM</li>
+        <li>AJAX</li>
+        <li>HTTP 1.1 / 2.0</li>
+        <li>Websockets och polling</li>
+      </ol>
+      <p>Färdigheter i att:</p>
+      <ol>
+        <li>Lösa programmeringsuppgifter med Javascript</li>
+        <li>Använda Javascript för att skriva browser-tillämpningar</li>
+        <li>Använda Javascript-bibliotek och Javascript-ramverk</li>
+      </ol>
+      <p>Kompetenser för att:</p>
+      <ol>
+        <li>Tillämpa JavaScript som ett programmeringsspråk för att lösa olika typer av tillämpningar inom webbutveckling.</li>
+        <li>Utveckla en webbapplikation baserad på ett Javascript-ramverk</li>
+      </ol>
+      <h2>Betygsättning</h2>
+      <p><strong>Examinationsform</strong></p>
+      <p>Individuellt projekt</p>
+      <p>Tentamen/Hemtenta</p>
+      <p>Projekt i grupp</p>
+      <p><strong>Betygsgrader</strong></p>
+      <p>IG, G och VG</p>
+      <p><strong>Icke godkänt (IG)</strong></p>
+      <p>Den studerande har fullföljt kursen men inte nått alla mål för kursen</p>
+      <p><strong>Kriterier för betyget Godkänt (G)</strong></p>
+      <p>Den studerande har nått samtliga mål med kursen</p>
+      <p><strong>Kriterier för betyget Väl Godkänt (VG)</strong></p>
+      <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
     </div>
   </div>
 
   <div class="course-rev-wrapper">
-<form action="">
-  <div class="course-rev-title">
-    <h1>Utvärdering av kurs</h1>
-  </div>
-    <div class="form-name">
+    <form action="">
+      <div class="course-rev-title">
+        <h1>Utvärdering av kurs</h1>
+      </div>
+      <div class="form-name">
         <h4>Namn:</h4>
-        <input type="text" id="namn" placeholder ="Uppge namn" class="placeholder-fix">
+        <input type="text" id="namn" placeholder="Uppge namn" class="placeholder-fix">
       </div>
 
-          <div class="form-label">
-            <label><h4>Vad tyckte du om kursens upplägg?</h4></label><br>
-              <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
-            </div>
+      <div class="form-label">
+        <label><h4>Vad tyckte du om kursens upplägg?</h4></label><br>
+        <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
+      </div>
 
       <div class="form-label">
-          <label><h4>Motsvarade kursen dina förväntningar?</h4></label><br>
-            <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
-        </div>
+        <label><h4>Motsvarade kursen dina förväntningar?</h4></label><br>
+        <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+      </div>
 
-            <div class="form-label">
-              <label><h4>Vad har varit bra med kursen?</h4></label><br>
-                <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
-              </div>
+      <div class="form-label">
+        <label><h4>Vad har varit bra med kursen?</h4></label><br>
+        <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea>
+      </div>
 
-    <div class="form-label">
+      <div class="form-label">
         <label><h4>Vad har varit mindre bra med kursen?</h4></label><br>
-          <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
-    </div>
+        <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+      </div>
 
       <div class="form-label">
         <label><h4>Har du några förslag på förbättringar?</h4></label><br>
-          <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
-        </div>
+        <textarea placeholder="Obligatoriskt" rows="10" cols="15"></textarea><br>
+      </div>
 
-    <div class="form-label">
+      <div class="form-label">
         <label><h4>Vad ger du kursen som helhet? På en skala mellan 1-7, där 1=Dåligt 7=Bra.</h4> </label><br>
         <div class="radio">
-        <label>1</label><input type="radio"name="gender"value="1" unchecked>
-        <input type="radio"name="gender"value="2">
-        <input type="radio"name="gender"value="3">
-        <input type="radio"name="gender"value="4">
-        <input type="radio"name="gender"value="5">
-        <input type="radio"name="gender"value="6">
-        <input type="radio"name="gender"value="7">
-        <label>7</label>
-      </div>
+          <label>1</label><input type="radio" name="gender" value="1" unchecked>
+          <input type="radio" name="gender" value="2">
+          <input type="radio" name="gender" value="3">
+          <input type="radio" name="gender" value="4">
+          <input type="radio" name="gender" value="5">
+          <input type="radio" name="gender" value="6">
+          <input type="radio" name="gender" value="7">
+          <label>7</label>
+        </div>
         <div class="course-rev-btn">
-       <button type="submit">Skicka!</button>
-     </div>
-     </div>
-        </form>
+          <button type="submit">Skicka!</button>
+        </div>
       </div>
+    </form>
+  </div>
 
 </body>
 

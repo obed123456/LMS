@@ -242,7 +242,6 @@ nav a:hover::before {
 	margin-bottom: 10px;
 	font-size: 25px;
 	text-align: center;
-
 }
 
 .form-rating {
@@ -251,7 +250,6 @@ nav a:hover::before {
 	/*border-bottom: 1px solid black;*/
 	text-align: center;
 	font-size: 15px;
-
 }
 .form-comment{
 	text-align: center;
@@ -263,7 +261,7 @@ nav a:hover::before {
 	resize: none;
 	height: 75px;
 }
-.form-comment >input{
+.form-comment input{
 	/*border: 1px solid black;*/
 
 }
@@ -328,7 +326,19 @@ button:hover {
 .rating-1 {
 	line-height: 200%;
 }
-
+/*------------------Bourse Table Info-----------------*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
 
 /*------------------Course Evaluation-----------------*/
 /*.course-rev-wrapper{
