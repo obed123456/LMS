@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../CSS/dashboard.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../../CSS/modal.css">
 </head>
 
 <body>
@@ -65,18 +66,65 @@
         <td>tentamen.pdf</td>
         <td><input type="file" name="" value=""></td>
         <td>-</td>
-        <td><img src="../../Img/message.png" alt="comment"></td>
+        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
       <tr>
         <td>2017-12-12</td>
         <td>Projekt i grupp</td>
         <td>project.pdf</td>
-        <td><input type="file" name="" value=""></td>
+        <td><div id="modal-btn">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+</div></td>
         <th>-</th>
         <td><img src="../../Img/message.png" alt="comment"></td>
       </tr>
     </table>
   </div>
+
+
+<!-- ***************Modal 01 with id01..upload document********************* -->
+
+
+<!-- ***********Form starts here****************** -->
+<div id="id01" class="modal">  
+  <form class="modal-content animate" action="">
+    <div class="imgcontainer">
+     <!-- close button in the right top -->
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <!-- Your text goes here -->
+        <input type="file" id="uploadBox">
+            <button onclick="buttonSubmitClicked(event)">Lämna In</button><br>
+            <p id="success-message"></p>
+
+    <!-- End of your text -->
+  </form>
+ </div>
+
+<!-- *******************Modal 01 finish here**************** -->
+
+
+<!-- ***************Modal 01 with id02..Comments from teacher********************* -->
+
+<!-- ***********Form starts here****************** -->
+<div id="id02" class="modal">  
+  <form class="modal-content animate" action="">
+    <div class="imgcontainer">
+     <!-- close button in the right top -->
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+    <!-- Your text goes here -->
+         <textarea>Du har fått VG på DOM!</textarea>
+
+
+    <!-- End of your text -->
+  </form>
+</div>
+
+<!-- *******************Modal 02 finish here**************** -->
+
+
 
   <div class="course">
     <div class="task">
@@ -135,8 +183,6 @@
   </div>
 
 
+<script src="../../JS/modal.js"></script>
 </body>
-
-
-
 </html>
