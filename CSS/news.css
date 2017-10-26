@@ -21,13 +21,12 @@
 }
 .news-box {
   flex-wrap: wrap;
-<<<<<<< HEAD
   justify-content: center;
-  width: 600px;
-=======
+  /*width: 600px;*/
+
   justify-content: flex-start;
   /*width: 600px;*/
->>>>>>> 8ad1ed3f81bf8cdf57857fc9bf3796b5b48db09e
+
   height: 400px;
   border: 1px solid lightgrey;
   padding: 40px;
