@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>TimeLine | KYH</title>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../CSS/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="../../CSS/modal.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
@@ -41,32 +41,59 @@
 
   <div class="task">
     <table id="t01">
+      <caption>Avslutad Kurs</caption>
       <tr class="tabletop">
         <th>Kurskod</th>
         <th>Kursnamn</th>
         <th>Betyg</th>
         <th>Slutbetyg</th>
+        <th>Kommentar</th>
       </tr>
       <tr>
         <td>KYH051</td>
         <td>Individuellt projekt</td>
         <td>VG</td>
         <td>VG</td>
+        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
       <tr>
         <td>KYH052</td>
         <td>Tentamen/Hemtenta</td>
         <td>VG</td>
         <td>VG</td>
+        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
       <tr>
         <td>KYH053</td>
         <td>Projekt i grupp</td>
         <td>VG</td>
         <td>VG</td>
+        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
     </table>
   </div>
+
+  <!-- ***************Modal 01 with id02..Comments from teacher********************* -->
+
+  <!-- ***********Form starts here****************** -->
+  <div id="id02" class="modal">
+    <form class="modal-content animate" action="">
+      <div class="imgcontainer">
+       <!-- close button in the right top -->
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+      <!-- Your text goes here -->
+           <div class="task">
+             <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
+             <p>Du har fått betyget <strong>VG</strong> på kursen.</p>
+           </div>
+
+
+      <!-- End of your text -->
+    </form>
+  </div>
+
+  <!-- *******************Modal 02 finish here**************** -->
 
   <div class="course">
     <div class="task">
@@ -163,7 +190,7 @@
         <div class="form-comment">
           <textarea placeholder="Skriv här"></textarea>
         </div>
-        
+
          <div class="rating-1">
           <div class="form-label">
             <label>Hur upplever du just nu tempot i utbildningen?</label><br>
