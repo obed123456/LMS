@@ -379,6 +379,9 @@ button:hover {
   padding: 20px;
   overflow-y: scroll;
 }
+.news-slides {
+  border-bottom: 1px solid grey; 
+}
 
 .news-box dt {
   font-size: 22px;
@@ -393,5 +396,7 @@ button:hover {
   padding-top: 3px;
 
 }
+
+
 
 /*-------------------------------------------------------*/
