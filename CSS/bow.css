@@ -54,10 +54,10 @@ img {
   text-decoration: none;
 }
 
-.dropdown {
+/*.dropdown {
   float: left;
   overflow: hidden;
-}
+}*/
 
 .dropdown .dropbtn {
   border-radius: 5px;

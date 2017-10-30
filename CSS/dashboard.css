@@ -325,6 +325,30 @@ button:hover {
     line-height: 200%;
 }
 
+/*------------------Course Table Info-----------------*/
+table, th, td {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 {
+    width: 100%;
+}
+.tabletop {
+  background-color: #a2a2a2;
+  color: white;
+}
+td:nth-child(6) {
+  margin-top: 5px;
+  text-align: right;
+}
+img#modal-btn {
+  cursor: pointer;
+}
+
 
 /*------------------Course Evaluation-----------------*/
 /*.course-rev-wrapper{
