@@ -3,17 +3,17 @@
 	padding: 25px 25px;
 	font-size: 25px;
 	border-radius: 5px;
-	background-color: rgb(255,145,0);
+	background-color: #f85f06;;
 	color: white;
 	text-transform: uppercase;
 }
 table {
 	margin-top: 20px;
-	font-size: 24px;
+	font-size: 16px;
 	margin-left: 20px;
 }
 td {
-	font-size: 18px;
+	font-size: 16px;
 }
 h2 {
 	margin-left: 20px;
