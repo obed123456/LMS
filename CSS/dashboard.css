@@ -67,8 +67,9 @@ a {
     border-radius: 5px;
 }
 .logout_btn:hover {
-  background: #002e7a;
-  text-decoration: none;
+  opacity: 0.8;
+  /*background: #002e7a;
+  text-decoration: none;*/
 }
 /*Relative navbar*/
 .navbar {
@@ -255,18 +256,28 @@ nav a:hover::before {
 /*------------------weekly evaluation-----------------*/
 /*-----------------button class for whole website----------------*/
 button {
+  background-color: #00314a;
+  border: none;
+  color: white;
+  padding: 14px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
   border-radius: 5px;
+  /*border-radius: 5px;
   font-family: Arial;
   color: #ffffff;
   font-size: 18px;
   background: #00314a;
   padding: 3px 3px;
   margin-top: 0;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 button:hover {
-  background: #002e7a;
-  text-decoration: none;
+  opacity: 0.8;
 }
 #atten_input {
     height:28px;
@@ -294,6 +305,9 @@ table#t01 {
 td:nth-child(6) {
   margin-top: 5px;
   text-align: right;
+}
+img#modal-btn {
+  cursor: pointer;
 }
 
 /*------------------Course Evaluation-----------------*/
