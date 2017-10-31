@@ -253,6 +253,7 @@ nav a:hover::before {
 /*.rating-1:nth-child(odd){
     background-color: rgb(245, 245, 245);
 }*/
+
 #fill_your_name, #enterkod_code_message {
     color: red;
     font-size: 14px;
@@ -398,8 +399,26 @@ button:hover {
 
 
 /*------------------Course Evaluation-----------------*/
+.range-slider-courses {
+  margin: 15px;
+  display: block;
+  flex: auto;
+  text-align: center;
+}
+.range-slider-courses p {
+  text-align: center;
+}
 
 
+@media (max-width: 650px) {
+  .range-slider-courses {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 500px) {
+  .range-slider-courses {
+    zoom: 0.7;
+  }
 /*------------------ News feed -----------------------*/
 
 /**{

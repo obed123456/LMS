@@ -154,7 +154,7 @@
 
   <!-- *******************************************Course overview************************************* -->
 
-
+      <div class="task">
         <div class="rating-1">
           <div class="form-label">
             <label>Hur upplever du just nu tempot i utbildningen?</label><br>
@@ -182,34 +182,18 @@
           <textarea placeholder="Skriv här"></textarea>
         </div>
 
-        <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
-         <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
           <form>
-            <div class="form-rating">
-              <label>Dåligt</label>
-              <input type="radio" name="weekly" value="_1">
-              <input type="radio" name="weekly" value="_2">
-              <input type="radio" name="weekly" value="_3">
-              <input type="radio" name="weekly" value="_4">
-              <input type="radio" name="weekly" value="_5">
-              <label>Mycket bra</label><br>
+            <div class="rating-1">
+                <div class="form-label">
+                <label>Hur upplever du just nu tempot i utbildningen?</label>
             </div>
+          </div>
+              <div class="range-slider-courses">
+                <label class="slider-text-bad">Dåligt</label>
+                <input type="range" min="0" max="10" value="5" class="range-slider" id="myRange1">
+                <label class="slider-text-good">Mycket bra</label>
+                <p><span id="demo1"></span></p>
+              </div>
           </form>
 
         <!-- Submit button -->
@@ -227,7 +211,12 @@
     </div>
     <div id="submit_message">
       <p></p>
+    </div>
 
-</body>
+  <script src="../../JS/feedback.js"></script>
+  <script src="../../JS/range-slider-courses.js"></script>
+
+ </body>
+
 
 </html>
