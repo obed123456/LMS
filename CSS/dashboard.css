@@ -510,14 +510,18 @@ img#modal-btn {
 
 /*-------------------------------------------------------*/
 
+.wrapper {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
 .teacher-course {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  margin: 10px 5px 0px 5px;;
+  padding: 10px;
   height: 20px;
   border: 1px solid grey;
   background-color: grey;
@@ -527,12 +531,10 @@ img#modal-btn {
 #teacher-date, #teacher-subject, #teacher-course, #teacher-upload, #teacher-submit {
   text-align: center;
   width: 10%;
-  border: 1px solid grey;
 
 }
 
 #teacher-date {
-
 }
 
 #teacher-subject {
@@ -551,7 +553,6 @@ img#modal-btn {
   text-align: center;
   width: 20%;
   height: 35px;
-  border: 1px solid grey;
 
 }
 
@@ -561,23 +562,21 @@ img#modal-btn {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  margin: 0px 5px 10px 5px;
-  height: 35px;
-  border: 1px solid grey;
+  height: 25px;
+  border-bottom: 1px solid lightgrey;
+
 }
 
 #teacher-date-input, #teacher-subject-input, #teacher-course-input, #teacher-upload-input, #teacher-submit-input {
   text-align: center;
   width: 10%;
-  height: 35px;
-  border: 1px solid grey;
+  height: 25px;
 
 }
 
 #teacher-comment-input {
   text-align: center;
   width: 20%;
-  height: 35px;
-  border: 1px solid grey;
+  height: 25px;
 
 }
