@@ -24,9 +24,9 @@ function pasuser(form) {
     // if (form.pass.value==student.pass) {
     location = "dashboard.html";
   } else if (form.id.value == teacher.id && form.pass.value == teacher.pass) {
-    location = "login.html";
+    location = "../Pages/teacher/teacher_dash.html";
   } else if (form.id.value == admin.id && form.pass.value == admin.pass) {
-    location = "login.html"
+    location = "admin_dash.html"
   } else {
     document.getElementById("invalid_message").innerHTML = "Invalid username or password";
   }

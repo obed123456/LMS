@@ -6,7 +6,7 @@
   <title>TimeLine | KYH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../CSS/dashboard.css">
-  <!-- <link rel="stylesheet" href="../../CSS/course_review.css"> -->
+  <link rel="stylesheet" type="text/css" href="../../CSS/modal.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
@@ -38,49 +38,105 @@
         <li><a href="../overview.html">Översikt</a></li>
       </ul>
     </nav>
-
   </div>
+
   <div class="task">
     <table id="t01">
-      <caption>Avslutad Kurs</caption>
+      <caption>Pågående Kurs</caption>
       <tr class="tabletop">
-        <th>Kurskod</th>
+        <th>Slutdatum</th>
         <th>Kursnamn</th>
+        <th>Dokument</th>
+        <th>Inlämning</th>
         <th>Betyg</th>
-        <th>Slutbetyg</th>
         <th>Kommentar</th>
       </tr>
       <tr>
-        <td>KYH041</td>
+        <td>2017-12-12</td>
         <td>Individuellt projekt</td>
-        <td>VG</td>
+        <td>ip.pdf</td>
+        <td><div id="modal-btn">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+</div></td>
         <td>VG</td>
         <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
       <tr>
-        <td>KYH042</td>
+        <td>2017-12-12</td>
         <td>Tentamen/Hemtenta</td>
-        <td>VG</td>
-        <td>VG</td>
+        <td>tentamen.pdf</td>
+        <td><div id="modal-btn">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+</div></td>
+        <td>-</td>
         <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
       <tr>
-        <td>KYH043</td>
+        <td>2017-12-12</td>
         <td>Projekt i grupp</td>
-        <td>VG</td>
-        <td>VG</td>
+        <td>project.pdf</td>
+        <td><div id="modal-btn">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+</div></td>
+        <th>-</th>
         <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
       </tr>
     </table>
   </div>
 
+  <!-- ***************Modal 01 with id01..upload document********************* -->
+
+
+  <!-- ***********Form starts here****************** -->
+  <div id="id01" class="modal">
+    <form class="modal-content animate" action="">
+      <div class="imgcontainer">
+       <!-- close button in the right top -->
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+
+      <!-- Your text goes here -->
+      <div class="task">
+        <h1>Inlämning</h1>
+        <p>Välj ditt dokument och lämna in.</p>
+          <input type="file" id="uploadBox">
+              <button onclick="buttonSubmitClicked(event)">Lämna In</button><br>
+              <p id="success-message"></p>
+      </div>
+      <!-- End of your text -->
+    </form>
+   </div>
+
+  <!-- *******************Modal 01 finish here**************** -->
+  <!-- ***************Modal 01 with id02..Comments from teacher********************* -->
+
+  <!-- ***********Form starts here****************** -->
+  <div id="id02" class="modal">
+    <form class="modal-content animate" action="">
+      <div class="imgcontainer">
+       <!-- close button in the right top -->
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+      <!-- Your text goes here -->
+           <div class="task">
+             <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
+             <p>Du har fått betyget <strong>VG</strong> på kursen.</p>
+           </div>
+
+
+      <!-- End of your text -->
+    </form>
+  </div>
+
+  <!-- *******************Modal 02 finish here**************** -->
+
   <div class="course">
     <div class="task">
-      <h1>GRÄNSSNITTDISIGN</h1>
+      <h1>HTML5 och CSS3</h1>
       <p>Utbildningsnummer: 201514480-2 och 201514500-2</p>
       <p>Fastställd av ledningsgruppen: 2017-08-08</p>
       <h2>Kurspoäng</h2>
-      <p><strong>30 YHP</strong></p>
+      <p><strong>40 YHP</strong></p>
       <h2>Innehåll</h2>
       <p>Kursen ger de studerande avancerade kunskaper och färdigheter i att programmera och strukturera Javascript-projekt.
       </p>
@@ -130,82 +186,7 @@
     </div>
   </div>
 
-
- <!-- *******************************************Course overview************************************* -->
-
-
-        <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
-        <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
-          <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
-        <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
-         <div class="rating-1">
-          <div class="form-label">
-            <label>Hur upplever du just nu tempot i utbildningen?</label><br>
-          </div>
-        </div>
-        <div class="form-comment">
-          <textarea placeholder="Skriv här"></textarea>
-        </div>
-
-          <form>
-            <div class="form-rating">
-              <label>Dåligt</label>
-              <input type="radio" name="weekly" value="_1">
-              <input type="radio" name="weekly" value="_2">
-              <input type="radio" name="weekly" value="_3">
-              <input type="radio" name="weekly" value="_4">
-              <input type="radio" name="weekly" value="_5">
-              <label>Mycket bra</label><br>
-            </div>
-          </form>
-
-        <!-- Submit button -->
-
-        <div class="form_btn">
-          <div class="btn_form_weekly">
-            <button class="form_btn_inside" type="Submit" value="login" onclick="allFeedback()">Skicka</button>
-          </div>
-        </div>
-
-      </div>
-    </form>
-  </div>
-
-    </div>
-    <div id="submit_message">
-      <p></p>
+  <script src="../../JS/modal.js"></script>
 
 </body>
 
