@@ -70,7 +70,7 @@ p {
     border-radius: 5px;
 }
 .logout_btn:hover {
-  background: #002e7a;
+  opacity: 0.8;
   text-decoration: none;
 }
 /*Relative navbar*/
@@ -326,7 +326,7 @@ button {
   text-decoration: none;*/
 }
 button:hover {
-  background: #002e7a;
+  opacity: 0.8;
   text-decoration: none;
   /*background: #002e7a;
   text-decoration: none;*/
