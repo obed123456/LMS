@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../CSS/dashboard.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <title>TimeLine</title>
+  <title>TimeLine | KYH</title>
 
 </head>
 
@@ -44,12 +44,12 @@
 
   <!-- Main content under the navbar -->
 
-<!--   <div class="task">
- -->
 
     <div class="main-content-column-left">
       <!-- Weekly Evaluation -->
       <div class="main-form">
+
+          <div class="task">
 
         <div class="header_text_weekly_servey">
           <h2>Vecka 44</h2>
@@ -74,13 +74,12 @@
 
           <form>
             <div class="form-rating">
-              <label>Dåligt</label>
-              <input type="radio" name="weekly" value="_1">
-              <input type="radio" name="weekly" value="_2">
-              <input type="radio" name="weekly" value="_3">
-              <input type="radio" name="weekly" value="_4">
-              <input type="radio" name="weekly" value="_5">
-              <label>Mycket bra</label><br>
+
+              <label class="slider-text-bad">Dåligt</label>
+              <input type="range" min="0" max="10" value="5" class="range-slider" id="myRange1">
+              <label class="slider-text-good">Mycket bra</label>
+              <p><span id="demo1"></span></p>
+
             </div>
           </form>
         </div>
@@ -92,13 +91,12 @@
 
           <form>
             <div class="form-rating">
-              <label>Dåligt</label>
-              <input type="radio" name="weekly" value="_1">
-              <input type="radio" name="weekly" value="_2">
-              <input type="radio" name="weekly" value="_3">
-              <input type="radio" name="weekly" value="_4">
-              <input type="radio" name="weekly" value="_5">
-              <label>Mycket bra</label><br>
+
+                <label class="slider-text-bad">Dåligt</label>
+                <input type="range" min="0" max="10" value="5" class="range-slider" id="myRange2">
+                <label class="slider-text-good">Mycket bra</label>
+                <p><span id="demo2"></span></p>
+
             </div>
           </form>
         </div>
@@ -110,13 +108,12 @@
 
           <form>
             <div class="form-rating">
-              <label>Dåligt</label>
-              <input type="radio" name="weekly" value="_1">
-              <input type="radio" name="weekly" value="_2">
-              <input type="radio" name="weekly" value="_3">
-              <input type="radio" name="weekly" value="_4">
-              <input type="radio" name="weekly" value="_5">
-              <label>Mycket bra</label><br>
+
+                <label class="slider-text-bad">Dåligt</label>
+                <input type="range" min="0" max="10" value="5" class="range-slider" id="myRange3">
+                <label class="slider-text-good">Mycket bra</label>
+                <p><span id="demo3"></span></p>
+
             </div>
           </form>
         </div>
@@ -128,13 +125,12 @@
 
           <form>
             <div class="form-rating">
-              <label>Dåligt</label>
-              <input type="radio" name="weekly" value="_1">
-              <input type="radio" name="weekly" value="_2">
-              <input type="radio" name="weekly" value="_3">
-              <input type="radio" name="weekly" value="_4">
-              <input type="radio" name="weekly" value="_5">
-              <label>Mycket bra</label><br>
+
+                <label class="slider-text-bad">Dåligt</label>
+                <input type="range" min="0" max="10" value="5" class="range-slider" id="myRange4">
+                <label class="slider-text-good">Mycket bra</label>
+                <p><span id="demo4"></span></p>
+
             </div>
           </form>
         </div>
@@ -165,23 +161,15 @@
           </div>
         </div>
 
+        <div id="submit_message">
+          <p></p>
+        </div>
+
+        </div>
+
       </div>
 
     </div>
-    <div id="submit_message">
-      <p></p>
-    <!-- </div> -->
-
-    <!-- *******************content at the right********************* -->
-
-    <!--   <div class="main-content-column-right">
-       <div id="submit_message"><p></p></div>
-  </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-</div> -->
-  </div>
 
 
 
@@ -189,6 +177,7 @@
 
   <!-- Script tags -->
   <script src="../JS/feedback.js"></script>
+  <script src="../JS/range-slider.js"></script>
 
 
 </body>

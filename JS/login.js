@@ -24,7 +24,7 @@ function pasuser(form) {
     // if (form.pass.value==student.pass) {
     location = "dashboard.html";
   } else if (form.id.value == teacher.id && form.pass.value == teacher.pass) {
-    location = "login.html";
+    location = "teacher_dash.html";
   } else if (form.id.value == admin.id && form.pass.value == admin.pass) {
     location = "login.html"
   } else {
