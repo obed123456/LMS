@@ -5,84 +5,87 @@
   <meta charset="utf-8">
   <title>TimeLine | KYH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../CSS/dashboard.css">
-  <link rel="stylesheet" type="text/css" href="../../CSS/modal.css">
+  <link rel="stylesheet" href="../../../CSS/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="../../../CSS/modal.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
   <!-- Transparent header contains logotyp of school and logout button -->
 
-  <div class="header">
+    <div class="header">
 
-    <div class="logotype">
-      <a href="../dashboard.html"><img src="../../Img/KYH-logo.png" alt="Logo" / ></a>
+      <div class="logotype">
+        <a href="../student_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo" / ></a>
+      </div>
+
+      <div class="logout">
+        <a href="../../index.html" class="logout_btn">Logga ut</a>
+      </div>
+
+
     </div>
 
-    <div class="logout">
-      <a href="../index.html" class="logout_btn">Logga ut</a>
+    <!-- navbar will contains pages in the page -->
+
+    <div class="navbar">
+
+      <nav>
+        <ul>
+          <li><a href="../student_dash.html">Hem</a></li>
+          <li><a href="../student_kurser.html">Kurser</a></li>
+          <li><a href="../student_feedback.html">Utvärdering</a></li>
+          <li><a href="../student_overview.html">Översikt</a></li>
+        </ul>
+      </nav>
+
     </div>
 
+    <div class="task">
+      <table id="t01">
+        <caption>Pågående Kurs</caption>
+        <tr class="tabletop">
+          <th>Slutdatum</th>
+          <th>Kursnamn</th>
+          <th>Dokument</th>
+          <th>Inlämning</th>
+          <th>Betyg</th>
+          <th>Kommentar</th>
+        </tr>
+        <tr>
+          <td>2017-12-12</td>
+          <td>Individuellt projekt</td>
+          <td>ip.pdf</td>
+          <td><div id="modal-btn">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+          </div></td>
+          <td>VG</td>
+          <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+        </tr>
+        <tr>
+          <td>2017-12-12</td>
+          <td>Tentamen/Hemtenta</td>
+          <td>tentamen.pdf</td>
+          <td>
+            <div id="modal-btn">
+              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+            </div></td>
+          <td>-</td>
+          <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+        </tr>
+        <tr>
+          <td>2017-12-12</td>
+          <td>Projekt i grupp</td>
+          <td>project.pdf</td>
+          <td><div id="modal-btn">
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+  </div></td>
+          <th>-</th>
+          <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+        </tr>
+      </table>
+    </div>
 
-  </div>
-
-  <!-- navbar will contains pages in the page -->
-
-  <div class="navbar">
-
-    <nav>
-      <ul>
-        <li><a href="../dashboard.html">Hem</a></li>
-        <li><a href="../kurser.html">Kurser</a></li>
-        <li><a href="../feedback.html">Utvärdering</a></li>
-        <li><a href="../overview.html">Översikt</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="task">
-    <table id="t01">
-      <caption>Pågående Kurs</caption>
-      <tr class="tabletop">
-        <th>Slutdatum</th>
-        <th>Kursnamn</th>
-        <th>Dokument</th>
-        <th>Inlämning</th>
-        <th>Betyg</th>
-        <th>Kommentar</th>
-      </tr>
-      <tr>
-        <td>2017-12-12</td>
-        <td>Individuellt projekt</td>
-        <td>ip.pdf</td>
-        <td><div id="modal-btn">
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
-</div></td>
-        <td>VG</td>
-        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
-      </tr>
-      <tr>
-        <td>2017-12-12</td>
-        <td>Tentamen/Hemtenta</td>
-        <td>tentamen.pdf</td>
-        <td><div id="modal-btn">
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
-</div></td>
-        <td>-</td>
-        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
-      </tr>
-      <tr>
-        <td>2017-12-12</td>
-        <td>Projekt i grupp</td>
-        <td>project.pdf</td>
-        <td><div id="modal-btn">
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
-</div></td>
-        <th>-</th>
-        <td><img src="../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
-      </tr>
-    </table>
-  </div>
 
   <!-- ***************Modal 01 with id01..upload document********************* -->
 
@@ -103,11 +106,14 @@
               <button onclick="buttonSubmitClicked(event)">Lämna In</button><br>
               <p id="success-message"></p>
       </div>
+
       <!-- End of your text -->
     </form>
    </div>
 
   <!-- *******************Modal 01 finish here**************** -->
+
+
   <!-- ***************Modal 01 with id02..Comments from teacher********************* -->
 
   <!-- ***********Form starts here****************** -->
@@ -186,7 +192,7 @@
     </div>
   </div>
 
-  <script src="../../JS/modal.js"></script>
+  <script src="../../../JS/modal.js"></script>
 
 </body>
 
