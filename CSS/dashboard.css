@@ -488,6 +488,9 @@ img#modal-btn {
   padding: 20px;
   overflow-y: scroll;
 }
+.news-slides {
+  border-bottom: 1px solid grey;
+}
 
 .news-box dt {
   font-size: 22px;
@@ -503,4 +506,78 @@ img#modal-btn {
 
 }
 
+
+
 /*-------------------------------------------------------*/
+
+
+.teacher-course {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px 5px 0px 5px;;
+  height: 20px;
+  border: 1px solid grey;
+  background-color: grey;
+  color: white;
+}
+
+#teacher-date, #teacher-subject, #teacher-course, #teacher-upload, #teacher-submit {
+  text-align: center;
+  width: 10%;
+  border: 1px solid grey;
+
+}
+
+#teacher-date {
+
+}
+
+#teacher-subject {
+
+}
+
+#teacher-course {
+
+}
+
+#teacher-upload {
+
+}
+
+#teacher-comment {
+  text-align: center;
+  width: 20%;
+  height: 35px;
+  border: 1px solid grey;
+
+}
+
+.teacher-course-input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px 5px 10px 5px;
+  height: 35px;
+  border: 1px solid grey;
+}
+
+#teacher-date-input, #teacher-subject-input, #teacher-course-input, #teacher-upload-input, #teacher-submit-input {
+  text-align: center;
+  width: 10%;
+  height: 35px;
+  border: 1px solid grey;
+
+}
+
+#teacher-comment-input {
+  text-align: center;
+  width: 20%;
+  height: 35px;
+  border: 1px solid grey;
+
+}
