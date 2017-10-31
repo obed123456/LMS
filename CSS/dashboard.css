@@ -445,7 +445,10 @@ img#modal-btn {
 .range-slider-courses p {
   text-align: center;
 }
-
+#submit_message_courses {
+  text-align: center;
+  margin: 25px 0;
+}
 
 @media (max-width: 650px) {
   .range-slider-courses {
@@ -456,6 +459,7 @@ img#modal-btn {
   .range-slider-courses {
     zoom: 0.7;
   }
+}
 /*------------------ News feed -----------------------*/
 
 /**{
