@@ -37,46 +37,37 @@
 </div>
 
 
+<!-- Contents below the header. Adding excerises, test and list of all excercises and tests.  -->
 
   <div class="wrapper">
-
       <div class="submit-message">
         <p id="submit-message"></p>        
-      </div>
+      </div>      
       <div class="invalid-message">
         <p id="invalid-message"></p>        
       </div>
 
-
-
     <div class="teacher-input-bar">
 
-     <div class="label">
-            <label id="date-label">Datum</label>
-            <label id="excercise-label">Prov/Inlämning</label>
-            <label id="description-label" >Rubrik</label>
-            <label id="upload-label">Ladda upp</label>
-      </div>
+        <div class="label">
+              <label id="date-label">Datum</label>
+              <label id="excercise-label">Prov/Inlämning</label>
+              <label id="description-label" >Rubrik</label>
+              <label id="upload-label">Ladda upp</label>
+        </div>
 
-      <div class="input">
-            <input type="date" name="date" id="date-input" >
-            <!-- <input type="text" name="text" id="excercise-input"> -->
-            <select name="examination" id ="excercise-input">
-              <option value="excercise">Inlämning</option>
-              <option value="test">Examination</option>
-            </select>
-            <input type="text" name="text" id="description-input" maxlength="65">
-            <input type="file" name="file" id="upload-input">
-<!--             <div class="btn-add-excercise">
-              <button type="submit" id="btn-excercise">Spara</button>
-            </div> -->
-      </div>
-           <div class="btn-add-excercise">
-              <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
-            </div>
-
-
-
+        <div class="input">
+              <input type="date" name="date" id="date-input">
+              <select name="examination" id ="excercise-input">
+                <option value="excercise">Inlämning</option>
+                <option value="test">Examination</option>
+              </select>
+                <input type="text" name="text" id="description-input" maxlength="65">
+                <input type="file" name="file" id="upload-input">
+        </div>
+             <div class="btn-add-excercise">
+                <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
+              </div>
     </div>
 
     <div class="teacher-course">
@@ -107,8 +98,7 @@
                 <div id="teacher-subject-input">Uppgift</div>
                   <div id="teacher-course-input">HTML/CSS</div>
                       <div id="teacher-upload-input">none</div>
-
-            </div>
+          </div>
 
   </div>
 
