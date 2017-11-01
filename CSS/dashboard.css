@@ -511,29 +511,35 @@ img#modal-btn {
 
 /*-------------------------------------------------------*/
 
+.wrapper {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
+.teacher-input-bar {
+/*  padding: 10px;
+*/  margin-bottom: 20px; 
+
+}
 .teacher-course {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  margin: 10px 5px 0px 5px;;
+  padding: 10px;
   height: 20px;
   border: 1px solid grey;
   background-color: grey;
   color: white;
 }
 
-#teacher-date, #teacher-subject, #teacher-course, #teacher-upload, #teacher-submit {
-  text-align: center;
+#teacher-date, #teacher-subject, #teacher-upload, #teacher-submit {
   width: 10%;
-  border: 1px solid grey;
 
 }
 
 #teacher-date {
-
 }
 
 #teacher-subject {
@@ -541,20 +547,20 @@ img#modal-btn {
 }
 
 #teacher-course {
-
+  width: 35%;
+  height: 35px;
 }
 
 #teacher-upload {
 
 }
 
-#teacher-comment {
+/*#teacher-comment {
   text-align: center;
   width: 20%;
   height: 35px;
-  border: 1px solid grey;
 
-}
+}*/
 
 .teacher-course-input {
   display: flex;
@@ -562,23 +568,85 @@ img#modal-btn {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  margin: 0px 5px 10px 5px;
-  height: 35px;
-  border: 1px solid grey;
+  height: 25px;
+  border-bottom: 1px solid lightgrey;
+
 }
 
-#teacher-date-input, #teacher-subject-input, #teacher-course-input, #teacher-upload-input, #teacher-submit-input {
-  text-align: center;
+#teacher-date-input, #teacher-subject-input, #teacher-upload-input, #teacher-submit-input {
   width: 10%;
-  height: 35px;
-  border: 1px solid grey;
+  height: 25px;
 
+}
+
+#teacher-course-input {
+  width: 35%;
+  height: 35px;
 }
 
 #teacher-comment-input {
   text-align: center;
   width: 20%;
-  height: 35px;
-  border: 1px solid grey;
+  height: 25px;
 
+}
+
+
+
+#date-label, #excercise-label, #description-label, #upload-label {
+  width: 10%;
+ /* margin-left: 18px;*/
+  /*border: 1px solid black;*/
+}
+.label, .input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+      /*border: 1px solid black;*/
+
+
+}
+#description-label, #description-input{
+  width: 35%;
+  flex-wrap: wrap;
+}
+#date-input, #excercise-input, #description-input, #upload-input, .btn-add-excercise {
+    width: 10%;
+    /*margin-left: 15px;*/
+    border-radius: 5px;
+    height: 25px;
+    /*border: 1px solid black;*/
+    /*justify-content: space-between;*/
+}
+#description-input {
+  width: 35%;
+  flex-wrap: wrap;
+
+}
+/*.btn-add-excercise {  
+  border: 1px solid black;
+  align-items: flex-end;
+  margin-left: 20px;
+  margin-top: 0px;
+}*/
+#excercise-input {
+  height: 29px;
+}
+.label {
+  margin-bottom: 5px;
+
+}
+.btn-add-excercise {
+  text-align: center;
+  justify-content: space-between;
+  /*margin: 0 50% 0 50;*/
+  margin-left: 85%;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.submit-message, .invalid-message {
+  margin-left: 40%;
+  padding-bottom: 15px;
 }
