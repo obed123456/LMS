@@ -8,8 +8,74 @@
 </head>
 
 <body>
+<!-- Transparent header contains logotyp of school and logout button -->
+
+<div class="header">
+
+    <div class="logotype">
+      <a href="teacher_dash.html"><img src="./../Img/KYH-logo.png" alt="Logo" / ></a>
+    </div>
+
+  <form>
+    <div class="logout">
+        <a href="index.html" class="logout_btn">Logga ut</a>
+    </div>
+  </form>
+
+</div>
+
+<!-- navbar will contains pages in the page -->
+
+<div class="navbar">
+
+    <nav>
+        <ul>
+          <li><a href="teacher_dash.html">Hem</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+
+
   <div class="wrapper">
+
+      <div class="submit-message">
+        <p id="submit-message"></p>        
+      </div>
+      <div class="invalid-message">
+        <p id="invalid-message"></p>        
+      </div>
+
+
+
     <div class="teacher-input-bar">
+
+     <div class="label">
+            <label id="date-label">Datum</label>
+            <label id="excercise-label">Prov/Inlämning</label>
+            <label id="description-label" >Rubrik</label>
+            <label id="upload-label">Ladda upp</label>
+      </div>
+
+      <div class="input">
+            <input type="date" name="date" id="date-input" >
+            <!-- <input type="text" name="text" id="excercise-input"> -->
+            <select name="examination" id ="excercise-input">
+              <option value="excercise">Inlämning</option>
+              <option value="test">Examination</option>
+            </select>
+            <input type="text" name="text" id="description-input" maxlength="65">
+            <input type="file" name="file" id="upload-input">
+<!--             <div class="btn-add-excercise">
+              <button type="submit" id="btn-excercise">Spara</button>
+            </div> -->
+      </div>
+           <div class="btn-add-excercise">
+              <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
+            </div>
+
+
 
     </div>
 
@@ -44,7 +110,11 @@
 
             </div>
 
-  </div
+  </div>
+
+  <script src="../JS/examination.js">
+ 
+  </script>
 
 
 </body>
