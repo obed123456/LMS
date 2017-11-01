@@ -15,10 +15,10 @@ Skicka upp ändringar till Github. || git push --set-upstream origin "din_egen_b
 Prova detta om du inte är kopplat mot staging || git branch --set-upstream-to=origin/staging<br><br><br>
 
 ///// jobba med andras branchar//////
-Koppla med andras branch först || git checkout branchnamn
-Uppstreama med andra branch....|| git branch --set-upstream-to=origin/branchnamn
-Hämta hem senaste ändringar    || git pull 
-Efter dina ändringar pusha upp || git add ..... git commit -m ""..... git push origin branchnamn
+Koppla med andras branch först || git checkout branchnamn<br>
+Uppstreama med andra branch....|| git branch --set-upstream-to=origin/branchnamn<br>
+Hämta hem senaste ändringar    || git pull <br>
+Efter dina ändringar pusha upp || git add ..... git commit -m ""..... git push origin branchnamn<br>
 
 /////processen inne i github.com ////<br><br><br>
 
