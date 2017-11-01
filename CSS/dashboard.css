@@ -517,8 +517,8 @@ img#modal-btn {
 }
 
 .teacher-input-bar {
-  padding: 10px;
-  margin-bottom: 20px; 
+/*  padding: 10px;
+*/  margin-bottom: 20px; 
 
 }
 .teacher-course {
@@ -588,4 +588,64 @@ img#modal-btn {
   width: 20%;
   height: 25px;
 
+}
+
+
+
+#date-label, #excercise-label, #description-label, #upload-label {
+  width: 10%;
+ /* margin-left: 18px;*/
+  /*border: 1px solid black;*/
+}
+.label, .input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+      /*border: 1px solid black;*/
+
+
+}
+#description-label, #description-input{
+  width: 35%;
+  flex-wrap: wrap;
+}
+#date-input, #excercise-input, #description-input, #upload-input, .btn-add-excercise {
+    width: 10%;
+    /*margin-left: 15px;*/
+    border-radius: 5px;
+    height: 25px;
+    /*border: 1px solid black;*/
+    /*justify-content: space-between;*/
+}
+#description-input {
+  width: 35%;
+  flex-wrap: wrap;
+
+}
+/*.btn-add-excercise {  
+  border: 1px solid black;
+  align-items: flex-end;
+  margin-left: 20px;
+  margin-top: 0px;
+}*/
+#excercise-input {
+  height: 29px;
+}
+.label {
+  margin-bottom: 5px;
+
+}
+.btn-add-excercise {
+  text-align: center;
+  justify-content: space-between;
+  /*margin: 0 50% 0 50;*/
+  margin-left: 85%;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.submit-message, .invalid-message {
+  margin-left: 40%;
+  padding-bottom: 15px;
 }
