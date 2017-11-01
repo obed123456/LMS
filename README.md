@@ -14,9 +14,9 @@ Skriv || git commit -m "kommentera"<br>
 Skicka upp ändringar till Github. || git push --set-upstream origin "din_egen_branch" <br>
 Prova detta om du inte är kopplat mot staging || git branch --set-upstream-to=origin/staging<br><br><br>
 
-///// jobba med andras branchar//////
+///// jobba med andras branchar//////<br>
 Koppla med andras branch först || git checkout branchnamn<br>
-Uppstreama med andra branch....|| git branch --set-upstream-to=origin/branchnamn<br>
+Koppla med andra branch........|| git branch --set-upstream-to=origin/branchnamn<br>
 Hämta hem senaste ändringar    || git pull <br>
 Efter dina ändringar pusha upp || git add ..... git commit -m ""..... git push origin branchnamn<br>
 
