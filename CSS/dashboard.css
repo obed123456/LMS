@@ -516,6 +516,11 @@ img#modal-btn {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.teacher-input-bar {
+  padding: 10px;
+  margin-bottom: 20px; 
+
+}
 .teacher-course {
   display: flex;
   flex-wrap: wrap;
@@ -528,8 +533,7 @@ img#modal-btn {
   color: white;
 }
 
-#teacher-date, #teacher-subject, #teacher-course, #teacher-upload, #teacher-submit {
-  text-align: center;
+#teacher-date, #teacher-subject, #teacher-upload, #teacher-submit {
   width: 10%;
 
 }
@@ -542,19 +546,20 @@ img#modal-btn {
 }
 
 #teacher-course {
-
+  width: 35%;
+  height: 35px;
 }
 
 #teacher-upload {
 
 }
 
-#teacher-comment {
+/*#teacher-comment {
   text-align: center;
   width: 20%;
   height: 35px;
 
-}
+}*/
 
 .teacher-course-input {
   display: flex;
@@ -567,11 +572,15 @@ img#modal-btn {
 
 }
 
-#teacher-date-input, #teacher-subject-input, #teacher-course-input, #teacher-upload-input, #teacher-submit-input {
-  text-align: center;
+#teacher-date-input, #teacher-subject-input, #teacher-upload-input, #teacher-submit-input {
   width: 10%;
   height: 25px;
 
+}
+
+#teacher-course-input {
+  width: 35%;
+  height: 35px;
 }
 
 #teacher-comment-input {
