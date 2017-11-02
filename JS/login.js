@@ -22,11 +22,11 @@ var admin = {
 function pasuser(form) {
   if (form.id.value == student.id && form.pass.value == student.pass) {
     // if (form.pass.value==student.pass) {
-    location = "dashboard.html";
+    location = "../Pages/student/student_dash.html";
   } else if (form.id.value == teacher.id && form.pass.value == teacher.pass) {
     location = "../Pages/teacher/teacher_dash.html";
   } else if (form.id.value == admin.id && form.pass.value == admin.pass) {
-    location = "admin_dash.html"
+    location = "../Pages/admin/admin_dash.html"
   } else {
     document.getElementById("invalid_message").innerHTML = "Invalid username or password";
   }
