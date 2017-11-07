@@ -546,7 +546,7 @@ img#modal-btn {
   color: white;
 }
 
-#teacher-date, #teacher-subject, #teacher-upload, #teacher-submit {
+#teacher-date, #teacher-subject, #teacher-upload, #teacher-submit, #teacher-select  {
   width: 10%;
 
 }
@@ -585,7 +585,7 @@ img#modal-btn {
 
 }
 
-#teacher-date-input, #teacher-subject-input, #teacher-upload-input, #teacher-submit-input {
+#teacher-date-input, #teacher-subject-input, #teacher-upload-input, #teacher-submit-input, #teacher-select-input{
   width: 10%;
   height: 25px;
 
@@ -605,7 +605,7 @@ img#modal-btn {
 
 
 
-#date-label, #excercise-label, #description-label, #upload-label {
+#date-label, #excercise-label, #description-label, #upload-label, #course-label-select {
   width: 10%;
  /* margin-left: 18px;*/
   /*border: 1px solid black;*/
@@ -622,7 +622,7 @@ img#modal-btn {
   width: 35%;
   flex-wrap: wrap;
 }
-#date-input, #excercise-input, #description-input, #upload-input, .btn-add-excercise {
+#date-input, #excercise-input, #description-input, #upload-input, #course-select, .btn-add-excercise {
     width: 10%;
     /*margin-left: 15px;*/
     border-radius: 5px;
