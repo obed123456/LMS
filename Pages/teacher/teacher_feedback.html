@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../CSS/dashboard.css">
     <!-- <link rel="stylesheet" href="../../CSS/chart.css"> -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://use.fontawesome.com/e4f3ab9576.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script> -->
     <title>TimeLine | KYH</title>
 
 </head>
@@ -40,7 +41,22 @@
 
 <!-- Main content under the navbar -->
 <!-- ****************************Charts*********************************************** -->
+
 <div class="task">
+  <div id="curve_chart" style="width: 700px; height: 500px"></div>
+</div>
+
+<div class="task">
+  <div class="pieComment">
+  <div id="piechart" style="width: 600px; height: 400px;"></div>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+    </ul>
+  </div>
+</div>
+<!-- <div class="task">
 <canvas id="myPieChart" width="auto" height="auto"></canvas>
 <p>bla bla bla</p>
 </div>
@@ -53,7 +69,7 @@
 <div class="task">
 <canvas id="myChart2" width="auto" height="auto"></canvas>
 <p>bla bla bla</p>
-</div>
+</div> -->
 
 <!-- Script tags -->
 <script src="../../JS/chart.js"></script>

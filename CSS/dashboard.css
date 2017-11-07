@@ -10,6 +10,14 @@ p {
   font-size: 16px;
 }
 /*----------------Layout overview---------------------*/
+
+.pieComment {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+
+}
+
 canvas#myChart {
     display: block;
     height: 400px;
@@ -523,7 +531,7 @@ img#modal-btn {
 
 .teacher-input-bar {
 /*  padding: 10px;
-*/  margin-bottom: 20px; 
+*/  margin-bottom: 20px;
 
 }
 .teacher-course {
@@ -628,7 +636,7 @@ img#modal-btn {
   flex-wrap: wrap;
 
 }
-/*.btn-add-excercise {  
+/*.btn-add-excercise {
   border: 1px solid black;
   align-items: flex-end;
   margin-left: 20px;
