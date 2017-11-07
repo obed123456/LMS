@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../../CSS/bow.css">
+  <link rel="stylesheet" href="../../CSS/dashboard.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </style>
+  <title>TimeLine | KYH</title>
+</head>
+
+<body>
+<!-- Transparent header contains logotyp of school and logout button -->
+
+<div class="header">
+
+    <div class="logotype">
+      <a href="teacher_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo" / ></a>
+    </div>
+
+  <form>
+    <div class="logout">
+        <a href="../index.html" class="logout_btn">Logga ut</a>
+    </div>
+  </form>
+
+</div>
+
+<!-- navbar will contains pages in the page -->
+
+<div class="navbar">
+
+    <nav>
+        <ul>
+          <li><a href="teacher_dash.html">Hem</a></li>
+          <li><a href="teacher_kurser.html">Mina Kurser</a></li>
+          <li><a href="teacher_feedback.html">Utvärdering</a></li>
+          <!-- <li><a href="teacher_overview.html">Översikt</a></li> -->
+          <li><a href="teacher-course-edit.html">Uppgifter</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+  <div class="allCards">
+
+    <div class="card">
+      <img src="../../Img/icon/subject.png" alt="Student">
+      <h1>Pågående Kurser</h1>
+      <p class="title"><img src="../../Img/KYH-logo.png" alt="Logo" / ></p>
+      <!-- <div class="navbar_course"> -->
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="Kurser/kurs2.html">HTML5</a>
+            <a href="Kurser/kurs2.html">CSS3</a>
+            <a href="Kurser/kurs1.html">JavaScript</a>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="card">
+      <img src="../../Img/icon/subject.png" alt="Student">
+      <h1>Kommande Kurser</h1>
+      <p class="title"><img src="../../Img/KYH-logo.png" alt="Logo" / ></p>
+      <!-- <div class="navbar_course"> -->
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+           <!-- <a href="Kurser/kurs8.html">Examensarbete</a>
+            <a href="Kurser/kurs7.html">LIA</a>
+            <a href="Kurser/kurs6.html">UX-Design</a> -->
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="card">
+      <img src="../../Img/icon/degree.png" alt="Books">
+      <h1>Avslutade Kurser</h1>
+      <p class="title"><img src="../../Img/KYH-logo.png" alt="Logo" / ></p>
+      <!-- <div class="navbar_course"> -->
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
+          <div class="dropdown-content" id="myDropdown">
+          <!--  <a href="Kurser/kurs5.html">Arbetsmetodik</a>
+            <a href="Kurser/kurs4.html">Gränssnittdisign</a>
+            <a href="Kurser/kurs3.html">Dynamisk Webutveckling</a> -->
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+  </div>
+
+  <script src="../../JS/login.js"></script>
+</body>
+
+</html>

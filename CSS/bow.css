@@ -54,10 +54,10 @@ img {
   text-decoration: none;
 }
 
-.dropdown {
+/*.dropdown {
   float: left;
   overflow: hidden;
-}
+}*/
 
 .dropdown .dropbtn {
   border-radius: 5px;
@@ -66,7 +66,7 @@ img {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #00314a;
   text-align: center;
   cursor: pointer;
   width: 300px;

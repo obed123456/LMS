@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../CSS/dashboard.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>TimeLine | KYH</title>
+
+</head>
+
+<body>
+<!-- Transparent header contains logotyp of school and logout button -->
+
+<div class="header">
+
+    <div class="logotype">
+      <a href="teacher_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo" / ></a>
+    </div>
+
+  <form>
+    <div class="logout">
+        <a href="index.html" class="logout_btn">Logga ut</a>
+    </div>
+  </form>
+
+</div>
+
+<!-- navbar will contains pages in the page -->
+
+<div class="navbar">
+
+    <nav>
+        <ul>
+          <li><a href="teacher_dash.html">Hem</a></li>
+          <li><a href="teacher_courses.html">Mina Kurser</a></li>
+          <li><a href="teacher_feedback.html">Utvärdering</a></li>
+          <!-- <li><a href="teacher_overview.html">Översikt</a></li> -->
+          <li><a href="teacher-course-edit.html">Uppgifter</a></li>
+
+        </ul>
+    </nav>
+
+</div>
+
+
+<!-- Contents below the header. Adding excerises, test and list of all excercises and tests.  -->
+
+  <div class="wrapper">
+      <div class="submit-message">
+        <p id="submit-message"></p>
+      </div>
+      <div class="invalid-message">
+        <p id="invalid-message"></p>
+      </div>
+
+    <div class="teacher-input-bar">
+     <div class="label">
+            <label id="date-label">Datum</label>
+            <label id="course-label-select">Välj kurs</label>
+            <label id="excercise-label">Prov/Inlämning</label>
+            <label id="description-label" >Kursmoment</label>
+            <label id="upload-label">Ladda upp</label>
+      </div>
+
+      <div class="input">
+            <input type="date" name="date" id="date-input" >
+            <select name="course-select" id ="course-select">
+              <<option value=""></option>
+              <option value="course-js">JavaScript</option>
+              <option value="course-html">HTML/CSS</option>
+              <option value="course-php">PHP</option>
+            </select>
+            <select name="examination" id ="excercise-input">
+              <<option value=""></option>
+              <option value="excercise">Inlämning</option>
+              <option value="test">Examination</option>
+            </select>
+            <input type="text" name="text" id="description-input" maxlength="65">
+            <input type="file" name="file" id="upload-input">
+      </div>
+           <div class="btn-add-excercise">
+              <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
+            </div>
+
+    </div>
+<!--************************ List of excercise and tests *************************-->
+
+
+    <div class="teacher-course">
+        <div id="teacher-date" class="heading-date">Datum</div>
+        <div id="teacher-select" class="heading-select">Kurs</div>
+          <div id="teacher-subject" class="heading-subject">Prov/inlämning</div>
+            <div id="teacher-course" class="heading-course">Kursmoment</div>
+                <div id="teacher-upload" class="heading-upload">Ladda upp</div>
+
+      </div>
+
+      <div class="teacher-course-input">
+          <div id="teacher-date-input" class="li-item-date">2017-11-30</div>
+            <div id="teacher-select-input" class="li-item-select">HTML/CSS</div>
+            <div id="teacher-subject-input" class="li-item-subject">Examination</div>
+              <div id="teacher-course-input" class="li-item-course">Vad ska man tänka på innan validerar - https://validator.w3.org/ </div>
+                  <div id="teacher-upload-input" class="li-item-upload">Scrum.pdf</div>
+
+        </div>
+
+        <div class="teacher-course-input">
+            <div id="teacher-date-input" class="li-item-date">2017-12-05</div>
+              <div id="teacher-select-input" class="li-item-select">JavaScript</div>
+              <div id="teacher-subject-input" class="li-item-subject">Uppgift</div>
+                <div id="teacher-course-input" class="li-item-course">Roadtrip pt 3</div>
+                    <div id="teacher-upload-input" class="li-item-upload">none</div>
+
+          </div>
+
+          <div class="teacher-course-input" onclick="exersiceExpand()">
+              <div id="teacher-date-input" class="li-item-date">2017-12-07</div>
+                <div id="teacher-select-input" class="li-item-select">PHP</div>
+                <div id="teacher-subject-input" class="li-item-subject">Uppgift</div>
+                    <div id="teacher-course-input" class="li-item-course">Databas</div>
+                      <div id="teacher-upload-input" class="li-item-upload">none</div>
+
+            </div>
+            <!-- <div id="expand" style = "display: none">
+          <div class="teacher-correction">
+            <div id="exersice-corr-date">Datum</div>
+              <div id="exersice-student">Namn</div>
+              <div id="exersice-corr-subject">Ämne</div>
+                <div id="exersice-corr-course">Kurs</div>
+                    <div id="exersice-corr-upload">Inlämning</div>
+                      <div id="exersice-comment">Kommentar</div>
+                      <div id="exersice-grade">Betyg</div>
+
+            </div>
+
+            <div id="li-teacher-correction">
+              <div id="li-exersice-corr-date">2017-11-30</div>
+                <div id="li-exersice-student">Obed Samuel</div>
+                <div id="li-exersice-corr-subject">Uppgift</div>
+                  <div id="li-exersice-corr-course">JavaScript</div>
+                      <div id="li-exersice-corr-upload">obed.pdf</div>
+                        <div id="li-exersice-comment">Kommentar</div>
+                        <div id="li-exersice-grade">VG</div>
+
+              </div>
+            </div> -->
+  </div>
+
+  <script src="../../JS/examination.js">
+
+  </script>
+
+
+</body>
+</html>

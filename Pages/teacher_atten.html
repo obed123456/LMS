@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../CSS/teacher_atten.css">
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<p>Tryck för närvaro kod</p>
+
+<form name="randform">
+<input type="button" value="Skapa närvaro-kod" onClick="randomString();">&nbsp;
+<input type="text" name="randomfield" value="">
+</form>
+
+
+<script>
+function randomString() {
+	var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	var string_length = 5;
+	var randomstring = '';
+	for (var i=0; i<string_length; i++) {
+		var rnum = Math.floor(Math.random() * chars.length);
+		randomstring += chars.substring(rnum,rnum+1);
+	}
+	document.randform.randomfield.value = randomstring;
+}
+</script>
+<table style="width:50%">
+  <tr>
+  <td>Namn</td>
+  <td>Efternamn</td>
+  <td>Närvaro</td>
+  </tr>
+  <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+   <tr>
+  <td>Elev</td>
+  <td>Eftrnmn</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label></td>
+  </tr>
+</table>
+</body>
+</html>
