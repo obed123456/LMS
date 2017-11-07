@@ -2,8 +2,9 @@
       var date = document.getElementById("date-input").value;
       var excercise = document.getElementById("excercise-input").value;
       var description = document.getElementById("description-input").value;
+      var course = document.getElementById("course-select").value;
 
-      if(description === "" || excercise === null || date === null) {
+      if(description === "" || excercise === "" || date === null || course === "" ) {
          document.getElementById("invalid-message").innerHTML = "Ange datum och rubrik";
          document.getElementById("invalid-message").style.color  ="red";
 
