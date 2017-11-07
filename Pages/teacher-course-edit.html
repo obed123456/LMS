@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../CSS/dashboard.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <title>Kurs uppgifter</title>
+  <title>Lärar input</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
 <div class="header">
 
     <div class="logotype">
-      <a href="teacher_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo" / ></a>
+      <a href="teacher_dash.html"><img src="./../Img/KYH-logo.png" alt="Logo" / ></a>
     </div>
 
   <form>
@@ -32,11 +32,6 @@
     <nav>
         <ul>
           <li><a href="teacher_dash.html">Hem</a></li>
-          <li><a href="teacher_courses.html">Mina Kurser</a></li>
-          <li><a href="teacher_feedback.html">Utvärdering</a></li>
-          <li><a href="teacher_overview.html">Översikt</a></li>
-          <li><a href="teacher-course-edit.html">Uppgifter</a></li>
-
         </ul>
     </nav>
 
@@ -49,11 +44,13 @@
       <div class="submit-message">
         <p id="submit-message"></p>
       </div>
+
       <div class="invalid-message">
         <p id="invalid-message"></p>
       </div>
 
     <div class="teacher-input-bar">
+
      <div class="label">
             <label id="date-label">Datum</label>
             <label id="excercise-label">Prov/Inlämning</label>
@@ -63,6 +60,7 @@
 
       <div class="input">
             <input type="date" name="date" id="date-input" >
+            <!-- <input type="text" name="text" id="excercise-input"> -->
             <select name="examination" id ="excercise-input">
               <<option value=""></option>
               <option value="excercise">Inlämning</option>
@@ -70,13 +68,16 @@
             </select>
             <input type="text" name="text" id="description-input" maxlength="65">
             <input type="file" name="file" id="upload-input">
+<!--             <div class="btn-add-excercise">
+              <button type="submit" id="btn-excercise">Spara</button>
+            </div> -->
       </div>
            <div class="btn-add-excercise">
               <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
             </div>
 
     </div>
-<!--************************ List of excercise and tests *************************-->
+<!--************************ List- *************************-->
 
 
     <div class="teacher-course">
@@ -135,7 +136,7 @@
             </div> -->
   </div>
 
-  <script src="../../JS/examination.js">
+  <script src="../JS/examination.js">
 
   </script>
 
