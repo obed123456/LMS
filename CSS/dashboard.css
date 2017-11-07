@@ -614,9 +614,13 @@ img#modal-btn {
   width: 100%;
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
+  font-weight: bold;
+=======
   /*border: 1px solid black;*/
       /*border: 1px solid black;*/
 
+>>>>>>> 2a147d30bc42e0df50ab36bbbf7f96bc6125af18
 
 }
 #description-label, #description-input{
@@ -662,3 +666,30 @@ img#modal-btn {
   margin-left: 40%;
   padding-bottom: 15px;
 }
+<<<<<<< HEAD
+ #li-exersice-corr-date, #li-exersice-student, #li-exersice-corr-subject #li-exersice-corr-course, #li-exersice-corr-upload, #li-exersice-comment, #li-exersice-grade  {
+    width: 10%;
+  }
+
+#expand {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-course-input:hover {
+  background-color: #F5F5F5
+}
+
+@media only screen and (max-width: 800px) {
+
+  .teacher-course, .teacher-course-input {
+    align-self: center;
+    height: 35px;
+  }
+
+
+
+}
+=======
+>>>>>>> 2a147d30bc42e0df50ab36bbbf7f96bc6125af18
