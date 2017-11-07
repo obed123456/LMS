@@ -10,19 +10,6 @@ p {
   font-size: 16px;
 }
 /*----------------Layout overview---------------------*/
-
-.pieComment {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-
-}
-
-canvas#myChart {
-    display: block;
-    height: 400px;
-    width: 400px;
-}
 .task {
  line-height: 40px;
  margin-top: 20px;
@@ -662,3 +649,31 @@ img#modal-btn {
   margin-left: 40%;
   padding-bottom: 15px;
 }
+
+/*--------------------CSS for teacher charts----------------------*/
+
+
+.pieComment {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  width: ;
+
+}
+
+/*.pieChart1 {
+  display: inline-flex;
+}*/
+
+.svg {
+  display: inline-flex;
+}
+
+
+/*canvas#myChart {
+    display: block;
+    height: 400px;
+    width: 400px;
+}*/
+
+/*--------------------CSS for teacher charts----------------------*/
