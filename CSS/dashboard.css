@@ -649,33 +649,49 @@ img#modal-btn {
   padding-bottom: 15px;
 }
 
+
 /*--------------------CSS for teacher charts----------------------*/
 
 
 .pieComment {
-  display: inline-flex;
+  /*display: inline-flex;*/
   flex-wrap: nowrap;
+  /*flex-direction: row-reverse;*/
+  /*border: 1px red solid;*/
+
+}
+.main-pieChart {
+  display: flex;
+  justify-content: center;
+}
+.main-pieChart:nth-child(even){
   flex-direction: row-reverse;
-  width: ;
+}
+.pieComment li {
+  list-style: none;
+}
+.heading-text {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 
 }
-
-/*.pieChart1 {
-  display: inline-flex;
-}*/
-
-.svg {
-  display: inline-flex;
+.smiley {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  /*border: 1px solid black;*/
+  justify-content: center;
 }
-
-
-/*canvas#myChart {
-    display: block;
-    height: 400px;
-    width: 400px;
-}*/
-
+.smiley-2, .smiley-1, .smiley-3 {
+  margin-right: 5px;
+}
 /*--------------------CSS for teacher charts----------------------*/
+
+
+/*------------------Adding excercise and test for teacher-----------*/
 
  #li-exersice-corr-date, #li-exersice-student, #li-exersice-corr-subject #li-exersice-corr-course, #li-exersice-corr-upload, #li-exersice-comment, #li-exersice-grade  {
     width: 10%;
@@ -701,3 +717,4 @@ img#modal-btn {
 
 
 }
+
