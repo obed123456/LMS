@@ -541,8 +541,7 @@ img#modal-btn {
   justify-content: space-between;
   padding: 10px;
   height: 20px;
-  border: 1px solid grey;
-  background-color: grey;
+  background-color: #a2a2a2;
   color: white;
 }
 
