@@ -614,8 +614,7 @@ img#modal-btn {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  /*border: 1px solid black;*/
-      /*border: 1px solid black;*/
+  font-weight: bold;
 
 
 }
@@ -661,4 +660,29 @@ img#modal-btn {
 .submit-message, .invalid-message {
   margin-left: 40%;
   padding-bottom: 15px;
+}
+
+ #li-exersice-corr-date, #li-exersice-student, #li-exersice-corr-subject #li-exersice-corr-course, #li-exersice-corr-upload, #li-exersice-comment, #li-exersice-grade  {
+    width: 10%;
+  }
+
+#expand {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-course-input:hover {
+  background-color: #F5F5F5
+}
+
+@media only screen and (max-width: 800px) {
+
+  .teacher-course, .teacher-course-input {
+    align-self: center;
+    height: 35px;
+  }
+
+
+
 }
