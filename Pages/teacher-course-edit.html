@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../CSS/dashboard.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <title>Lärar input</title>
 </head>
 
@@ -41,20 +42,15 @@
 
   <div class="wrapper">
       <div class="submit-message">
-<<<<<<< HEAD
         <p id="submit-message"></p>
       </div>
-=======
-        <p id="submit-message"></p>        
-      </div>      
->>>>>>> 221cf51f8c37ac22e9cdb872ccfd98518531b7dd
+
       <div class="invalid-message">
         <p id="invalid-message"></p>
       </div>
 
     <div class="teacher-input-bar">
 
-<<<<<<< HEAD
      <div class="label">
             <label id="date-label">Datum</label>
             <label id="excercise-label">Prov/Inlämning</label>
@@ -66,6 +62,7 @@
             <input type="date" name="date" id="date-input" >
             <!-- <input type="text" name="text" id="excercise-input"> -->
             <select name="examination" id ="excercise-input">
+              <<option value=""></option>
               <option value="excercise">Inlämning</option>
               <option value="test">Examination</option>
             </select>
@@ -79,28 +76,6 @@
               <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
             </div>
 
-
-=======
-        <div class="label">
-              <label id="date-label">Datum</label>
-              <label id="excercise-label">Prov/Inlämning</label>
-              <label id="description-label" >Rubrik</label>
-              <label id="upload-label">Ladda upp</label>
-        </div>
->>>>>>> 221cf51f8c37ac22e9cdb872ccfd98518531b7dd
-
-        <div class="input">
-              <input type="date" name="date" id="date-input">
-              <select name="examination" id ="excercise-input">
-                <option value="excercise">Inlämning</option>
-                <option value="test">Examination</option>
-              </select>
-                <input type="text" name="text" id="description-input" maxlength="65">
-                <input type="file" name="file" id="upload-input">
-        </div>
-             <div class="btn-add-excercise">
-                <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
-              </div>
     </div>
 <!--************************ List- *************************-->
 
@@ -128,7 +103,7 @@
                     <div id="teacher-upload-input" class="li-item-upload">none</div>
 
           </div>
-<<<<<<< HEAD
+
           <div class="teacher-course-input" onclick="exersiceExpand()">
               <div id="teacher-date-input" class="li-item-date">2017-12-07</div>
                 <div id="teacher-subject-input" class="li-item-subject">Uppgift</div>
@@ -136,7 +111,7 @@
                       <div id="teacher-upload-input" class="li-item-upload">none</div>
 
             </div>
-            <div id="expand" style = "display: none">
+            <!-- <div id="expand" style = "display: none">
           <div class="teacher-correction">
             <div id="exersice-corr-date">Datum</div>
               <div id="exersice-student">Namn</div>
@@ -147,14 +122,6 @@
                       <div id="exersice-grade">Betyg</div>
 
             </div>
-=======
-          <div class="teacher-course-input">
-              <div id="teacher-date-input">2017-12-07</div>
-                <div id="teacher-subject-input">Uppgift</div>
-                  <div id="teacher-course-input">HTML/CSS</div>
-                      <div id="teacher-upload-input">none</div>
-          </div>
->>>>>>> 221cf51f8c37ac22e9cdb872ccfd98518531b7dd
 
             <div id="li-teacher-correction">
               <div id="li-exersice-corr-date">2017-11-30</div>
@@ -166,7 +133,7 @@
                         <div id="li-exersice-grade">VG</div>
 
               </div>
-            </div>
+            </div> -->
   </div>
 
   <script src="../JS/examination.js">

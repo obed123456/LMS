@@ -564,6 +564,7 @@ img#modal-btn {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  font-weight: bold;
 
 }
 #description-label, #description-input{
@@ -611,4 +612,19 @@ img#modal-btn {
 
   display: flex;
   flex-direction: column;
+}
+
+.teacher-course-input:hover {
+  background-color: #F5F5F5
+}
+
+@media only screen and (max-width: 800px) {
+
+  .teacher-course, .teacher-course-input {
+    align-self: center;
+    height: 35px;
+  }
+
+
+
 }
