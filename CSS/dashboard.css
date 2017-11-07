@@ -690,7 +690,9 @@ img#modal-btn {
 }
 /*--------------------CSS for teacher charts----------------------*/
 
+
 /*------------------Adding excercise and test for teacher-----------*/
+
  #li-exersice-corr-date, #li-exersice-student, #li-exersice-corr-subject #li-exersice-corr-course, #li-exersice-corr-upload, #li-exersice-comment, #li-exersice-grade  {
     width: 10%;
   }
