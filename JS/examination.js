@@ -5,7 +5,7 @@
       var course = document.getElementById("course-select").value;
 
       if(description === "" || excercise === "" || date === null || course === "" ) {
-         document.getElementById("invalid-message").innerHTML = "Ange datum och rubrik";
+         document.getElementById("invalid-message").innerHTML = "Vänligen fyll i alla fält";
          document.getElementById("invalid-message").style.color  ="red";
 
       } else {
