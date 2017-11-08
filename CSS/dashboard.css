@@ -573,7 +573,7 @@ img#modal-btn {
   justify-content: space-between;
   padding: 10px;
   height: 25px;
-  border-bottom: 1px solid lightgrey;
+  /*border-bottom: 1px solid lightgrey;*/
 
 }
 
