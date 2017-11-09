@@ -10,7 +10,7 @@
 table {
 	margin-top: 20px;
 	font-size: 16px;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 td {
 	font-size: 16px;
@@ -21,6 +21,7 @@ h2 {
 .first-row-overview {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 
