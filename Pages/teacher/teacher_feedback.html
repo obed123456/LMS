@@ -45,11 +45,11 @@
 
 <div class="task">
   <div class="heading-text">
-    <h1>Daglig utvärdering</h1>
+    <h2>DAGLIG UTVÄRDERING</h2>
   </div>
 
   <div id="lineChart"></div>
-   <div class="smiley"> 
+   <div class="smiley">
       <div class="smiley-3"><p>1</p><i class="fa fa-frown-o fa-1x" aria-hidden="true"></i></div>
     <div class="smiley-2"><p>2</p><i class="fa fa-meh-o fa-1x" aria-hidden="true"></i></div>
     <div class="smiley-1"><p>3</p><i class="fa fa-smile-o fa-1x" aria-hidden="true"></i></div>
@@ -58,17 +58,37 @@
 </div>
 
 <div class="task">
-  <div class="heading-text"><h1>Veckoutvärdering</h1></div>
+  <div class="heading-text"><h2>VECKOUTVÄRDERING</h2></div>
+  <div class="main-curveChart">
   <div id="curve_chart" style="width: 700px; height: 500px"></div>
+    <!-- <h3>KOMMENTARER</h3> -->
+    <ul>
+      <h3>KOMMENTARER</h3><br>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li><br>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li><br>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li><br>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li><br>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li><br>
+    </ul>
+    </div>
 </div>
 
 <div class="task">
+  <button type="button" name="button" onclick="divVisibility('div1');">Arbetsmetodik</button>
+  <button type="button" name="button" onclick="divVisibility('div2');">javascript</button>
+  <button type="button" name="button" onclick="divVisibility('div3');">Kurs</button>
+  <div id="div1" style="display: none;"><h1>div1</h1></div>
+  <div id="div2" style="display: none;"><h1>div2</h1></div>
   <div class="heading-text"><h1>Kursutvärdering</h1></div>
+  <div id="div3" style="display: none;">
+
     <div class="main-pieChart">
       <div class="pieChart">
         <div class="pieComment">
           <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
           </ul>
@@ -83,22 +103,22 @@
   <div class="pieChart">
     <div class="pieComment">
       <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
       </ul>
     </div>
   </div>
           <div class="pieChart">
                   <div id="pieChart2"></div>
-          </div>  
+          </div>
 </div>
 
     <div class="main-pieChart">
       <div class="pieChart">
         <div class="pieComment">
           <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
           </ul>
@@ -108,6 +128,8 @@
             <div id="pieChart3"></div>
       </div>
     </div>
+
+  </div>
 <!--    <div class="pieComment">
         <div id="pieChart3"></div>
    </div> -->
@@ -118,6 +140,31 @@
 <script src="../../JS/chart.js"></script>
 <!-- <script src="../../JS/attendence.js"></script>
 <script src="../../JS/smiley-feedback.js"></script> -->
+<script>
 
-</body>
-</html>
+var divs = ["div1", "div2", "div3"];
+   var visibleDivId = null;
+   function divVisibility(divId) {
+     if(visibleDivId === divId) {
+       visibleDivId = null;
+     } else {
+       visibleDivId = divId;
+     }
+     hideNonVisibleDivs();
+   }
+   function hideNonVisibleDivs() {
+     var i, divId, div;
+     for(i = 0; i < divs.length; i++) {
+       divId = divs[i];
+       div = document.getElementById(divId);
+       if(visibleDivId === divId) {
+         div.style.display = "table";
+       } else {
+         div.style.display = "none";
+       }
+     }
+   };
+
+   </script>
+   </body>
+   </html>
