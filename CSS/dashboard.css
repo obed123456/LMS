@@ -609,7 +609,7 @@ img#modal-btn {
   width: 35%;
   flex-wrap: wrap;
 }
-#date-input, #excercise-input, #description-input, #upload-input, #course-select, .btn-add-excercise {
+#date-input, #excercise-input, #description-input, #upload-input, #course-select, .btn-add-excercise, #date-label, #course-label-select, #excercise-label, #upload-label {
     width: 10%;
     /*margin-left: 15px;*/
     border-radius: 5px;
@@ -617,23 +617,16 @@ img#modal-btn {
     /*border: 1px solid black;*/
     /*justify-content: space-between;*/
 }
-#description-input {
+#description-input, #description-label {
   width: 35%;
   flex-wrap: wrap;
 
 }
-/*.btn-add-excercise {
-  border: 1px solid black;
-  align-items: flex-end;
-  margin-left: 20px;
-  margin-top: 0px;
-}*/
 #excercise-input {
   height: 29px;
 }
 .label {
   margin-bottom: 5px;
-
 }
 .btn-add-excercise {
   text-align: center;
