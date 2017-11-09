@@ -8,17 +8,47 @@ a {
   }
 p {
   font-size: 16px;
+  line-height: 20px;
 }
+
+li {
+  line-height: 20px;
+}
+
 /*----------------Layout overview---------------------*/
+.course {
+  display: flex;
+  width: 50%;
+}
+
+.course li {
+  margin-left: 20px;
+}
+
+.course h2 {
+  text-align: center;
+}
+
 .task {
  line-height: 40px;
  margin-top: 20px;
  margin: 20px 20px 20px 20px;
  padding: 20px;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ border-radius: 5px;
 }
 .task p {
  text-align: left;
+}
+
+#course-evaluation {
+  text-align: center;
+  width: 50%;
+}
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*Layout under the navbar*/
@@ -183,6 +213,12 @@ nav a:hover::before {
     text-align: center;
 }
 /*------------------weekly evaluation-----------------*/
+#name_required {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+
 .main-form {
     /*border: 1px solid black;*/
     display: flex;
@@ -223,9 +259,10 @@ nav a:hover::before {
 .form-comment textarea{
     /*border: 1px solid black;*/
     border:1px soild black;
-    width: 35%;
+    width: 70%;
     resize: none;
     height: 75px;
+    border-radius: 5px;
 }
 .form-comment >input{
     /*border: 1px solid black;*/
@@ -333,6 +370,7 @@ button:hover {
 #atten_input {
     height:28px;
     font-size:13pt;
+    border-radius: 5px;
 }
 .rating-1 {
     line-height: 200%;
@@ -348,7 +386,7 @@ th, td {
     text-align: left;
 }
 table#t01 {
-    width: 100%;
+  width: 100%;
 }
 .tabletop {
   background-color: #a2a2a2;
@@ -650,7 +688,15 @@ img#modal-btn {
 
 
 /*--------------------CSS for teacher charts----------------------*/
+.main-curveChart {
+  display: flex;
+  justify-content: space-around;
+  /*flex-direction: row;*/
+}
 
+.main-curveChart li {
+  list-style: none;
+}
 
 .pieComment {
   /*display: inline-flex;*/
@@ -716,4 +762,3 @@ img#modal-btn {
 
 
 }
-

@@ -1,16 +1,19 @@
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 0px;
 }
+
 th, td {
-    padding: 5px;
-    text-align: left;    
+    text-align: center;
+    
 }
+
 .switch {
   position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+  display: block;
+  width: 65px;
+  height: 40px;
 }
 
 .switch input {display:none;}
@@ -22,22 +25,22 @@ th, td {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: green;
+  background-color: lime;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
-.slider:before {
+/*.slider:before {
   position: absolute;
   content: "";
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: none;
   -webkit-transition: .4s;
   transition: .4s;
-}
+}*/
 
 input:checked + .slider {
   background-color: red;
@@ -54,10 +57,33 @@ input:checked + .slider:before {
 }
 
 /* Rounded sliders */
-.slider.round {
+/*.slider.round {
   border-radius: 34px;
 }
 
 .slider.round:before {
   border-radius: 50%;
+}*/
+.atten_btn {
+    /*border: 1px solid black;*/
+    text-align: center;
+    justify-content: center;
+}
+
+.btn_atten {
+    align-self: center;
+}
+button {
+  background-color: #00314a;
+  border: none;
+  color: white;
+  padding: 14px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
