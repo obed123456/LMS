@@ -706,7 +706,7 @@ img#modal-btn {
   flex-direction: row-reverse;
 }
 .pieComment li {
-  list-style: none;
+  /*list-style: none;*/
 }
 .heading-text {
   font-size: 16px;
@@ -725,6 +725,10 @@ img#modal-btn {
 }
 .smiley-2, .smiley-1, .smiley-3 {
   margin-right: 5px;
+}
+
+.pieChart {
+  /*border: 1px solid red;*/
 }
 /*--------------------CSS for teacher charts----------------------*/
 
