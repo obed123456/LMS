@@ -681,6 +681,13 @@ img#modal-btn {
 
 
 /*--------------------CSS for teacher charts----------------------*/
+
+/*.curveChart {
+  width: 400px;
+  height: 400px;
+  border: 1px solid red;
+}*/
+
 .main-curveChart {
   display: flex;
   justify-content: space-around;
