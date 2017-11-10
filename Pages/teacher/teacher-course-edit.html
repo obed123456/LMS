@@ -45,7 +45,7 @@
 
 <!-- Contents below the header. Adding excerises, test and list of all excercises and tests.  -->
 
-  <div class="wrapper">
+  <!-- <div class="wrapper">
       <div class="submit-message">
         <p id="submit-message"></p>
       </div>
@@ -82,11 +82,12 @@
               <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
             </div>
 
-    </div>
-<!--************************ List of excercise and tests *************************-->
+    </div> -->
+
+<!-- ************************ List of excercise and tests ************************* -->
 
 
-    <div class="teacher-course">
+    <!-- <div class="teacher-course">
         <div id="teacher-date" class="heading-date">Datum</div>
         <div id="teacher-select" class="heading-select">Kurs</div>
           <div id="teacher-subject" class="heading-subject">Inlämning/Examnination</div>
@@ -121,6 +122,136 @@
                       <div id="teacher-upload-input" class="li-item-upload">Scrum.pdf</div>
 
             </div>
+  </div> -->
+
+  <div class="task">
+    <h2>LÄGG TILL UPPGIFT</h2>
+    <table id="t01">
+      <div class="teacher-input-bar">
+       <div class="label">
+              <label id="date-label">Datum</label>
+              <label id="course-label-select">Välj kurs</label>
+              <label id="excercise-label">Inlämning/Examination</label>
+              <label id="description-label">Kursmoment</label>
+              <label id="upload-label">Ladda upp</label>
+        </div>
+
+        <div class="input">
+              <input type="date" name="date" id="date-input" >
+              <select name="course-select" id ="course-select">
+                <option value=""></option>
+                <option value="course-js">JavaScript</option>
+                <option value="course-html">HTML/CSS</option>
+                <option value="course-php">PHP</option>
+              </select>
+              <select name="examination" id ="excercise-input">
+                <<option value=""></option>
+                <option value="excercise">Inlämning</option>
+                <option value="test">Examination</option>
+              </select>
+              <input type="text" name="text" id="description-input" maxlength="65">
+              <input type="file" name="file" id="upload-input">
+        </div>
+             <div class="btn-add-excercise">
+                <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
+              </div>
+
+      </div>
+
+      <tr class="tabletop">
+        <th>Datum</th>
+        <th>Kurs</th>
+        <th>Inlämning/Examination</th>
+        <th>Kursmoment</th>
+        <th>Dokument</th>
+      </tr>
+      <tr>
+        <td>2017-12-12</td>
+        <td>HTML5 & CSS3</td>
+        <td>Emamination</td>
+        <td>HTML/CSS - Validering av kod</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td>2017-12-12</td>
+        <td>Javascript</td>
+        <td>Inlämning</td>
+        <td>JavaScript - Roadtrip pt 3</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td>2017-12-12</td>
+        <td>PHP</td>
+        <td>Examination</td>
+        <td>PHP - Grunder i databas hantering</td>
+        <th>scrum.pdf</th>
+      </tr>
+    </table>
+  </div>
+
+  <div class="task">
+    <h2>LÄGG TILL KURSNYHETER</h2>
+    <table id="t01">
+      <div class="teacher-input-bar">
+       <div class="label">
+              <label id="date-label">Datum</label>
+              <label id="course-label-select">Välj kurs</label>
+              <label id="excercise-label">Rubrik</label>
+              <label id="description-label">Text</label>
+              <label id="upload-label">Ladda upp</label>
+        </div>
+
+        <div class="input">
+              <input type="date" name="date" id="date-input" >
+              <select name="course-select" id ="course-select">
+                <option value=""></option>
+                <option value="course-js">JavaScript</option>
+                <option value="course-html">HTML/CSS</option>
+                <option value="course-php">PHP</option>
+              </select>
+              <select name="examination" id ="excercise-input">
+                <<option value=""></option>
+                <option value="excercise">Inlämning</option>
+                <option value="test">Examination</option>
+              </select>
+              <input type="text" name="text" id="description-input" maxlength="65">
+              <input type="file" name="file" id="upload-input">
+        </div>
+             <div class="btn-add-excercise">
+                <button type="submit" id="btn-excercise" onclick="addExcercise()">Spara</button>
+              </div>
+
+      </div>
+
+      <tr class="tabletop">
+        <th>Datum</th>
+        <th>Kurs</th>
+        <th>Rubrik</th>
+        <th>Text</th>
+        <th>Dokument</th>
+      </tr>
+      <tr>
+        <td>2017-12-12</td>
+        <td>HTML5 & CSS3</td>
+        <td>Emamination</td>
+        <td>HTML/CSS - Validering av kod</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td>2017-12-12</td>
+        <td>Javascript</td>
+        <td>Inlämning</td>
+        <td>JavaScript - Roadtrip pt 3</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td>2017-12-12</td>
+        <td>PHP</td>
+        <td>Examination</td>
+        <td>PHP - Grunder i databas hantering</td>
+        <th>scrum.pdf</th>
+      </tr>
+    </table>
   </div>
 
   <script src="../../JS/examination.js">
