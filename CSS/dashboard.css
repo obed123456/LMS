@@ -703,7 +703,8 @@ img#modal-btn {
   flex-wrap: nowrap;
   /*flex-direction: row-reverse;*/
   /*border: 1px red solid;*/
-
+  border: 1px solid red;
+  width: 450px;
 }
 .main-pieChart {
   display: flex;
@@ -713,7 +714,7 @@ img#modal-btn {
   flex-direction: row-reverse;
 }
 .pieComment li {
-  /*list-style: none;*/
+  list-style: none;
 }
 .heading-text {
   font-size: 16px;
@@ -736,6 +737,10 @@ img#modal-btn {
 
 .pieChart {
   /*border: 1px solid red;*/
+}
+
+#div1 h3, #div2 h3, #div3 h3 {
+  padding-top: 15px
 }
 /*--------------------CSS for teacher charts----------------------*/
 
