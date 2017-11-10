@@ -116,7 +116,7 @@ function drawBasic() {
           ['Dåligt', 4]
         ]);
 
-        var pieOptions1 = {'title':'Vad tyckte eleverna om kursen Arbetsmetodik?',
+        var pieOptions1 = {'title':'Vad tyckte eleverna om kursen som helhet?',
                        'width':500,
                        'height':300,
                         colors: ['#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6']};
@@ -145,7 +145,7 @@ function drawChart2() {
     ['Dåligt', 20]
   ]);
 
-  var pieOptions2 = {'title':'Vad tyckte eleverna om kursen Gränssnittdesign?',
+  var pieOptions2 = {'title':'Vad tyckte eleverna om upplägget på kursen?',
                  'width':500,
                  'height':300,
                   colors: ['#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6']};
@@ -173,7 +173,7 @@ function drawChart3() {
     ['Dåligt', 6]
   ]);
 
-  var pieOptions3 = {'title':'Vad tyckte eleverna om kursen Dynamisk Webutveckling?',
+  var pieOptions3 = {'title':'Exempel fråga!',
                  'width':500,
                  'height':300,
                   colors: ['#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6']};
