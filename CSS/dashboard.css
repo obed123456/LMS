@@ -15,6 +15,10 @@ li {
   line-height: 20px;
 }
 
+.hidden {
+  display: none;
+}
+
 /*----------------Layout overview---------------------*/
 .course {
   display: flex;
@@ -702,19 +706,24 @@ img#modal-btn {
   /*display: inline-flex;*/
   flex-wrap: nowrap;
   /*flex-direction: row-reverse;*/
-  /*border: 1px red solid;*/
-  border: 1px solid red;
   width: 450px;
+  /*height: 270px;*/
+  /*overflow-y: scroll;*/
+  padding: 20px;
+  margin: 25px;
 }
+
 .main-pieChart {
   display: flex;
   justify-content: center;
 }
-.main-pieChart:nth-child(even){
+/*.main-pieChart:nth-child(even){
   flex-direction: row-reverse;
-}
+}*/
+
 .pieComment li {
-  list-style: none;
+  /*list-style: none;*/
+  padding-bottom: 10px;
 }
 .heading-text {
   font-size: 16px;
