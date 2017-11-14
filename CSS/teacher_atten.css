@@ -4,9 +4,11 @@ table, th, td {
     padding: 0px;
 }
 
-th, td {
-    text-align: center;
-    
+td {
+  text-align: left;
+}
+th {
+  text-align: center;
 }
 
 .switch {
@@ -86,4 +88,8 @@ button {
   margin-right: 20px;
   border-radius: 5px;
   margin-top: 5px;
+}
+input[type=text]{
+  height: 28px;
+  border-radius: 5px;
 }
