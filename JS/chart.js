@@ -1,3 +1,34 @@
+
+document
+.getElementById('target')
+.addEventListener('change', function () {
+  'use strict';
+  var vis = document.querySelector('.vis'),
+  target = document.getElementById(this.value);
+          if (vis !== null) {
+          vis.className = 'inv';
+          }
+          if (target !== null ) {
+          target.className = 'vis';
+          }
+        });
+
+document
+    .getElementById('target1')
+    .addEventListener('change', function () {
+        'use strict';
+        var vis1 = document.querySelector('.vis1'),
+            target1 = document.getElementById(this.value);
+        if (vis1 !== null) {
+            vis1.className = 'inv1';
+        }
+        if (target1 !== null ) {
+            target1.className = 'vis1';
+        }
+});
+
+
+
 // ---------------------lineChart----------------------------------
 
 google.charts.load('current', {packages: ['corechart', 'line']});
@@ -312,42 +343,42 @@ function drawChart9() {
 
 // ---------------------pieChart-9----------------------------------
 
-window.addEventListener("load", function () {
-
-  var firstPie = document.querySelector('#div1');
-  var secondPie = document.querySelector('#div2');
-  var thirdPie = document.querySelector('#div3');
-
-  setTimeout(function () {
-    firstPie.classList.add('hidden');
-    secondPie.classList.add('hidden');
-    thirdPie.classList.add('hidden');
-  }, 0);
-
-});
+// window.addEventListener("load", function () {
+//
+//   var firstPie = document.querySelector('#div1');
+//   var secondPie = document.querySelector('#div2');
+//   var thirdPie = document.querySelector('#div3');
+//
+//   setTimeout(function () {
+//     firstPie.classList.add('hidden');
+//     secondPie.classList.add('hidden');
+//     thirdPie.classList.add('hidden');
+//   }, 0);
+//
+// });
 
 // ---------------------pieChart-9----------------------------------
 // ---------------------toggle view----------------------------------
 
-var divs = ["div1", "div2", "div3"];
-   var visibleDivId = null;
-   function divVisibility(divId) {
-     if(visibleDivId === divId) {
-       visibleDivId = null;
-     } else {
-       visibleDivId = divId;
-     }
-     hideNonVisibleDivs();
-   }
-   function hideNonVisibleDivs() {
-     var i, divId, div;
-     for(i = 0; i < divs.length; i++) {
-       divId = divs[i];
-       div = document.getElementById(divId);
-       if(visibleDivId === divId) {
-         div.style.display = "block";
-       } else {
-         div.style.display = "none";
-       }
-     }
-   };
+// var divs = ["div1", "div2", "div3"];
+//    var visibleDivId = null;
+//    function divVisibility(divId) {
+//      if(visibleDivId === divId) {
+//        visibleDivId = null;
+//      } else {
+//        visibleDivId = divId;
+//      }
+//      hideNonVisibleDivs();
+//    }
+//    function hideNonVisibleDivs() {
+//      var i, divId, div;
+//      for(i = 0; i < divs.length; i++) {
+//        divId = divs[i];
+//        div = document.getElementById(divId);
+//        if(visibleDivId === divId) {
+//          div.style.display = "block";
+//        } else {
+//          div.style.display = "none";
+//        }
+//      }
+//    };

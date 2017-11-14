@@ -18,8 +18,21 @@ li {
 .hidden {
   display: none;
 }
+h2 {
+  text-align: center;
+}
 
 /*----------------Layout overview---------------------*/
+#rubrik {
+  border-radius: 5px;
+}
+.inv {
+  display: none;
+}
+#target {
+  height: 29px;
+}
+
 .course {
   display: flex;
   width: 50%;
@@ -652,6 +665,7 @@ img#modal-btn {
 }
 #excercise-input {
   height: 29px;
+
 }
 .label {
   margin-bottom: 5px;
@@ -678,6 +692,13 @@ img#modal-btn {
   height: 400px;
   border: 1px solid red;
 }*/
+
+.inv {
+display: none;
+}
+.inv1 {
+display: none;
+}
 
 .main-curveChart {
   display: flex;
