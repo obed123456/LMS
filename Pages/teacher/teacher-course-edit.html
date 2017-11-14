@@ -73,7 +73,7 @@
             </select>
 
             <select name="examination" id ="excercise-input">
-              <<option value=""></option>
+              <option value=""></option>
               <option value="excercise">Inlämning</option>
               <option value="test">Examination</option>
             </select>
@@ -90,24 +90,24 @@
 
 <!-- ************************labels***************************-->
     <div class="teacher-course">
-        <div id="teacher-date" class="heading-date">Datum</div>
-        <div id="teacher-select" class="heading-select">Kurs</div>
-          <div id="teacher-subject" class="heading-subject">Inlämning/Examnination</div>
-            <div id="teacher-course" class="heading-course">Kursmoment</div>
-                <div id="teacher-upload" class="heading-upload">Dokument</div>
+        <div  class="heading-date">Datum</div>
+        <div  class="heading-select">Kurs</div>
+          <div  class="heading-subject">Inlämning/Examnination</div>
+            <div  class="heading-course">Kursmoment</div>
+                <div  class="heading-upload">Dokument</div>
 
       </div>
 <!--****************************Excercise 1*************************** -->
-      <div class="teacher-course-input">
-          <div id="teacher-date-input" class="li-item-date">2017-11-30</div>
-            <div id="teacher-select-input" class="li-item-select">HTML/CSS</div>
-            <div id="teacher-subject-input" class="li-item-subject">Examination</div>
-              <div id="teacher-course-input" class="li-item-course">HTML/CSS - Validering av kod  </div>
-                  <div id="teacher-upload-input" class="li-item-upload">none</div>
+      <div class="teacher-course-input" onclick="exersiceExpand()">
+          <div class="li-item-date">2017-11-30</div>
+            <div class="li-item-select">HTML/CSS</div>
+             <div class="li-item-subject">Examination</div>
+              <div class="li-item-course">HTML/CSS - Validering av kod  </div>
+                  <div class="li-item-upload">none</div>
 
         </div>
 <!-- /////////////////// Student list label ///////////////////////// -->
-<div id="expand">
+<div id="expand" style="display: none; padding-bottom: 5px;">
     <div class="main">
       <div class="header1">
         <div class="section-1">
@@ -123,7 +123,7 @@
       </div>
     </div>
 <!-- ***************list of all students********************-->
-  <div class="list-items-header">
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">1</div>
         <div class="date">2017-01-01</div>
@@ -134,8 +134,8 @@
           <div class="comment"><img src="message.png" id="myBtn"></div>
           <div class="grade"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+ </div>
+ <div class="list-items-header">
     <div class="section-1">
         <div class="id">2</div>
         <div class="date list-items">2017-01-10</div>
@@ -146,8 +146,8 @@
           <div class="comment list-items"><img src="message.png" id="myBtn2"></div>
           <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">3</div>
         <div class="date list-items">-</div>
@@ -158,8 +158,8 @@
         <div class="comment list-items"><img src="message.png" id="myBtn3"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">4</div>
         <div class="date list-items">-</div>
@@ -170,8 +170,8 @@
         <div class="comment list-items"><img src="message.png" id="myBtn4"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
       <div class="id">5</div>
       <div class="date list-items">-</div>
@@ -182,8 +182,8 @@
       <div class="comment list-items"><img src="message.png" id="myBtn5"></div>
       <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>      
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
         <div class="id">6</div>
         <div class="date list-items">-</div>
@@ -194,8 +194,8 @@
          <div class="comment list-items"><img src="message.png" id="myBtn6"></div>
          <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
         <div class="id">7</div>
         <div class="date list-items">-</div>
@@ -206,8 +206,8 @@
         <div class="comment list-items"><img src="message.png" id="myBtn7"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">8</div>
         <div class="date list-items">-</div>
@@ -218,20 +218,33 @@
         <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
+</div>
 
+<!-- *************************Button below the list********************* -->
+    <div class="list-items-header">
+      <div class="section-1">
+            <div class="id"></div>
+            <div class="date list-items"></div>
+          <div class="name list-items"></div>
+      </div>
+      <div class="section-2">
+          <div class="document list-items"></div>
+          <div class="comment list-items"></div>
+          <div class="grade list-items"><button onclick="save()">Spara</button><p id="save" style="display: none;"></p></div>
+      </div>     
+    </div>    
 </div>
 <!-- ***************************Excercise 2***************************** -->
-        <div class="teacher-course-input" onclick="exersiceExpand()">
-            <div id="teacher-date-input" class="li-item-date">2017-12-05</div>
-              <div id="teacher-select-input" class="li-item-select">JavaScript</div>
-              <div id="teacher-subject-input" class="li-item-subject">Inlämning</div>
-                <div id="teacher-course-input" class="li-item-course">JavaScript - Roadtrip pt 3</div>
-                    <div id="teacher-upload-input" class="li-item-upload">none</div>
+        <div class="teacher-course-input" onclick="exersiceExpand2()">
+            <div class="li-item-date">2017-12-05</div>
+              <div class="li-item-select">JavaScript</div>
+              <div class="li-item-subject">Inlämning</div>
+                <div class="li-item-course">JavaScript - Roadtrip pt 3</div>
+                    <div class="li-item-upload">none</div>
 
           </div>
 <!-- /////////////////// Student list label ///////////////////////// -->
-<div id="expand">
+<div id="expand2" style="display: none;">
     <div class="main">
       <div class="header1">
         <div class="section-1">
@@ -247,7 +260,7 @@
       </div>
     </div>
   <!-- ***************list of all students********************-->
-  <div class="list-items-header">
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">1</div>
         <div class="date">2017-01-01</div>
@@ -258,8 +271,8 @@
           <div class="comment"><img src="message.png" id="myBtn"></div>
           <div class="grade"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">2</div>
         <div class="date list-items">2017-01-10</div>
@@ -270,8 +283,8 @@
           <div class="comment list-items"><img src="message.png" id="myBtn2"></div>
           <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">3</div>
         <div class="date list-items">-</div>
@@ -282,8 +295,8 @@
         <div class="comment list-items"><img src="message.png" id="myBtn3"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">4</div>
         <div class="date list-items">-</div>
@@ -294,8 +307,8 @@
         <div class="comment list-items"><img src="message.png" id="myBtn4"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
     <div class="section-1">
       <div class="id">5</div>
       <div class="date list-items">-</div>
@@ -306,8 +319,8 @@
       <div class="comment list-items"><img src="message.png" id="myBtn5"></div>
       <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>      
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
         <div class="id">6</div>
         <div class="date list-items">-</div>
@@ -318,8 +331,8 @@
          <div class="comment list-items"><img src="message.png" id="myBtn6"></div>
          <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
         <div class="id">7</div>
         <div class="date list-items">-</div>
@@ -329,9 +342,9 @@
         <div class="document list-items">-</div>
         <div class="comment list-items"><img src="message.png" id="myBtn7"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
-      </div>     
-  </div>
-  <div class="list-items-header">
+     </div>     
+</div>
+<div class="list-items-header">
     <div class="section-1">
         <div class="id">8</div>
         <div class="date list-items">-</div>
@@ -342,20 +355,33 @@
         <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
     </div>     
-  </div>
+</div>
 
+<!-- *************************Button below the list********************* -->
+    <div class="list-items-header">
+      <div class="section-1">
+            <div class="id"></div>
+            <div class="date list-items"></div>
+          <div class="name list-items"></div>
+      </div>
+      <div class="section-2">
+          <div class="document list-items"></div>
+          <div class="comment list-items"></div>
+          <div class="grade list-items"><button onclick="save()">Spara</button><p id="save" style="display: none;"></p></div>
+      </div>     
+    </div>    
 </div>
 <!-- ***************************Excercise 2***************************** -->
-          <div class="teacher-course-input" onclick="exersiceExpand()">
-              <div id="teacher-date-input" class="li-item-date">2017-12-07</div>
-                <div id="teacher-select-input" class="li-item-select">PHP</div>
-                <div id="teacher-subject-input" class="li-item-subject">Examnination</div>
-                    <div id="teacher-course-input" class="li-item-course">PHP - Grunder i databas hantering</div>
-                      <div id="teacher-upload-input" class="li-item-upload">Scrum.pdf</div>
+          <div class="teacher-course-input" onclick="exersiceExpand3()">
+              <div class="li-item-date">2017-12-07</div>
+                <div class="li-item-select">PHP</div>
+                  <div class="li-item-subject">Examnination</div>
+                    <div class="li-item-course">PHP - Grunder i databas hantering</div>
+                      <div class="li-item-upload">Scrum.pdf</div>
             </div>
 <!-- /////////////////// Student list label ///////////////////////// -->
 
-<div id="expand 2">
+<div id="expand3" style="display: none;">
   <div class="main">
     <div class="header1">
       <div class="section-1">
@@ -372,7 +398,7 @@
 </div>
 
 <!-- ***************list of all students********************-->
-  <div class="list-items-header">
+<div class="list-items-header">
       <div class="section-1">
         <div class="id">1</div>
         <div class="date">2017-01-01</div>
@@ -383,8 +409,8 @@
         <div class="comment"><img src="message.png" id="myBtn"></div>
         <div class="grade"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
             <div class="id">2</div>
             <div class="date list-items">2017-01-10</div>
@@ -395,8 +421,8 @@
           <div class="comment list-items"><img src="message.png" id="myBtn2"></div>
           <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
             <div class="id">3</div>
             <div class="date list-items">-</div>
@@ -407,8 +433,8 @@
           <div class="comment list-items"><img src="message.png" id="myBtn3"></div>
           <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
      </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
           <div class="id">4</div>
           <div class="date list-items">-</div>
@@ -419,8 +445,8 @@
         <div class="comment list-items"><img src="message.png" id="myBtn4"></div>
         <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
         <div class="section-1">
             <div class="id">5</div>
             <div class="date list-items">-</div>
@@ -431,8 +457,8 @@
             <div class="comment list-items"><img src="message.png" id="myBtn5"></div>
             <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
         </div>      
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
           <div class="id">6</div>
           <div class="date list-items">-</div>
@@ -443,8 +469,8 @@
           <div class="comment list-items"><img src="message.png" id="myBtn6"></div>
           <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
               <div class="id">7</div>
               <div class="date list-items">-</div>
@@ -455,8 +481,8 @@
             <div class="comment list-items"><img src="message.png" id="myBtn7"></div>
             <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
-  <div class="list-items-header">
+</div>
+<div class="list-items-header">
       <div class="section-1">
               <div class="id">8</div>
               <div class="date list-items">-</div>
@@ -467,7 +493,6 @@
             <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
             <div class="grade list-items"><select><option></option><option>IG</option><option>G</option><option>VG</option></select></div>
       </div>     
-  </div>
 </div>
 
 
@@ -492,10 +517,12 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <label>Type your comments below</label>
-      <textarea id="comment"style="resize: none; height: 50px; width: 100%;"></textarea>
+      <textarea id="comment" style="resize: none; height: 50px; width: 100%;"></textarea>
       <button type="button" onclick="newFunc2()">Skicka</button>
       <p id="message" style="color: red;"><p>
     </div>
+  </div>
+
   </div>
 
 </div>   

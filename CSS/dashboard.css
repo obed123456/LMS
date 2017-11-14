@@ -609,43 +609,26 @@ img#modal-btn {
   justify-content: space-between;
   padding: 10px;
   height: 25px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;  
+  background-color: #d0c3c3;
 
 }
-
-#teacher-date-input, #teacher-subject-input, #teacher-upload-input, #teacher-submit-input, #teacher-select-input{
+.heading-date, .heading-select, .heading-subject, .heading-upload, .li-item-date, .li-item-select, .li-item-subject, .li-item-upload   {
   width: 10%;
   height: 25px;
-
 }
-
-#teacher-course-input {
+.heading-course, .li-item-course {
   width: 35%;
   height: 35px;
-}
-
-#teacher-comment-input {
-  text-align: center;
-  width: 20%;
-  height: 25px;
-
-}
-
-
-
-#date-label, #excercise-label, #description-label, #upload-label, #course-label-select {
-  width: 10%;
- /* margin-left: 18px;*/
-  /*border: 1px solid black;*/
 }
 .label, .input {
   width: 100%;
   display: flex;
   justify-content: space-around;
   font-weight: bold;
-
-
 }
+
 #description-label, #description-input{
   width: 35%;
   flex-wrap: wrap;
@@ -662,6 +645,10 @@ img#modal-btn {
   width: 35%;
   flex-wrap: wrap;
 
+}
+#expand, #expand2, #expand3 {
+  display: none; 
+  padding-bottom: 5px;
 }
 #excercise-input {
   height: 29px;
