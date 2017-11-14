@@ -18,8 +18,14 @@ li {
 .hidden {
   display: none;
 }
+h2 {
+  text-align: center;
+}
 
 /*----------------Layout overview---------------------*/
+#rubrik {
+  border-radius: 5px;
+}
 .inv {
   display: none;
 }
