@@ -15,7 +15,24 @@ li {
   line-height: 20px;
 }
 
+.hidden {
+  display: none;
+}
+h2 {
+  text-align: center;
+}
+
 /*----------------Layout overview---------------------*/
+#rubrik {
+  border-radius: 5px;
+}
+.inv {
+  display: none;
+}
+#target {
+  height: 29px;
+}
+
 .course {
   display: flex;
   width: 50%;
@@ -661,6 +678,7 @@ img#modal-btn {
 }
 #excercise-input {
   height: 29px;
+
 }
 .label {
   margin-bottom: 5px;
@@ -681,6 +699,20 @@ img#modal-btn {
 
 
 /*--------------------CSS for teacher charts----------------------*/
+
+/*.curveChart {
+  width: 400px;
+  height: 400px;
+  border: 1px solid red;
+}*/
+
+.inv {
+display: none;
+}
+.inv1 {
+display: none;
+}
+
 .main-curveChart {
   display: flex;
   justify-content: space-around;
@@ -692,29 +724,35 @@ img#modal-btn {
 }
 
 .pieComment {
-  /*display: inline-flex;*/
-  flex-wrap: nowrap;
-  /*flex-direction: row-reverse;*/
-  /*border: 1px red solid;*/
-
+  /*flex-wrap: nowrap;*/
+  width: 450px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
 }
+
 .main-pieChart {
   display: flex;
   justify-content: center;
 }
-.main-pieChart:nth-child(even){
-  flex-direction: row-reverse;
-}
+
 .pieComment li {
-  list-style: none;
+  padding-bottom: 10px;
 }
+
+.pieComment h3 {
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
 .heading-text {
   font-size: 16px;
   width: 100%;
   text-align: center;
   padding: 15px;
   font-weight: bold;
-
 }
 .smiley {
   display: flex;
@@ -725,6 +763,14 @@ img#modal-btn {
 }
 .smiley-2, .smiley-1, .smiley-3 {
   margin-right: 5px;
+}
+
+.pieHeading {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
 /*--------------------CSS for teacher charts----------------------*/
 
