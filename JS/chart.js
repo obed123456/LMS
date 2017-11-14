@@ -312,42 +312,42 @@ function drawChart9() {
 
 // ---------------------pieChart-9----------------------------------
 
-window.addEventListener("load", function () {
-
-  var firstPie = document.querySelector('#div1');
-  var secondPie = document.querySelector('#div2');
-  var thirdPie = document.querySelector('#div3');
-
-  setTimeout(function () {
-    firstPie.classList.add('hidden');
-    secondPie.classList.add('hidden');
-    thirdPie.classList.add('hidden');
-  }, 0);
-
-});
+// window.addEventListener("load", function () {
+//
+//   var firstPie = document.querySelector('#div1');
+//   var secondPie = document.querySelector('#div2');
+//   var thirdPie = document.querySelector('#div3');
+//
+//   setTimeout(function () {
+//     firstPie.classList.add('hidden');
+//     secondPie.classList.add('hidden');
+//     thirdPie.classList.add('hidden');
+//   }, 0);
+//
+// });
 
 // ---------------------pieChart-9----------------------------------
 // ---------------------toggle view----------------------------------
 
-var divs = ["div1", "div2", "div3"];
-   var visibleDivId = null;
-   function divVisibility(divId) {
-     if(visibleDivId === divId) {
-       visibleDivId = null;
-     } else {
-       visibleDivId = divId;
-     }
-     hideNonVisibleDivs();
-   }
-   function hideNonVisibleDivs() {
-     var i, divId, div;
-     for(i = 0; i < divs.length; i++) {
-       divId = divs[i];
-       div = document.getElementById(divId);
-       if(visibleDivId === divId) {
-         div.style.display = "block";
-       } else {
-         div.style.display = "none";
-       }
-     }
-   };
+// var divs = ["div1", "div2", "div3"];
+//    var visibleDivId = null;
+//    function divVisibility(divId) {
+//      if(visibleDivId === divId) {
+//        visibleDivId = null;
+//      } else {
+//        visibleDivId = divId;
+//      }
+//      hideNonVisibleDivs();
+//    }
+//    function hideNonVisibleDivs() {
+//      var i, divId, div;
+//      for(i = 0; i < divs.length; i++) {
+//        divId = divs[i];
+//        div = document.getElementById(divId);
+//        if(visibleDivId === divId) {
+//          div.style.display = "block";
+//        } else {
+//          div.style.display = "none";
+//        }
+//      }
+//    };
