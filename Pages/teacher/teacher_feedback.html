@@ -245,16 +245,15 @@
 
 
 <div class="task">
-  <div class="heading-text"><h2>KURSUTVÄRDERING</h2></div>
-
-    <select id="target">
+  <div class="heading-text"><h2>KURSUTVÄRDERING</h2>
+    <select id="target1">
         <option value="">Avslutade Kurser</option>
-        <option value="content_1">Arbetsmetodik</option>
-        <option value="content_2">Dynamisk Webbutveckling</option>
-        <option value="content_3">Gränssnittdesign</option>
+        <option value="course_1">Arbetsmetodik</option>
+        <option value="course_2">Dynamisk Webbutveckling</option>
+        <option value="course_3">Gränssnittdesign</option>
     <select>
-
-    <div id="content_1" class="inv">
+  </div>
+    <div id="course_1" class="inv1">
 <!--place content for piecharts-1 here--->
 <div id="div1">
   <div class="pieHeading">
@@ -321,7 +320,7 @@
 
 
     </div>
-    <div id="content_2" class="inv">
+    <div id="course_2" class="inv1">
 <!--place content for piecharts-2 here--->
 
 <div id="div2">
@@ -387,7 +386,7 @@
 </div>
 
     </div>
-    <div id="content_3" class="inv">
+    <div id="course_3" class="inv1">
 <!--place content for piecharts-3 here--->
       <div id="div3">
         <div class="pieHeading">
@@ -454,22 +453,6 @@
 
           </div>
 
-    <script>
-        document
-            .getElementById('target')
-            .addEventListener('change', function () {
-                'use strict';
-                var vis = document.querySelector('.vis'),
-                    target = document.getElementById(this.value);
-                if (vis !== null) {
-                    vis.className = 'inv';
-                }
-                if (target !== null ) {
-                    target.className = 'vis';
-                }
-        });
-    </script>
-
   </div>
 <!--    <div class="pieComment">
         <div id="pieChart3"></div>
@@ -477,20 +460,11 @@
 
 </div>
 
-<style>
-.inv {
-display: none;
-}
-</style>
-
 <!-- Script tags -->
 <script src="../../JS/chart.js"></script>
 
 <!-- <script src="../../JS/attendence.js"></script>
 <script src="../../JS/smiley-feedback.js"></script> -->
-<script>
-
-   </script>
 
    </body>
    </html>

@@ -13,6 +13,20 @@ document
           }
         });
 
+document
+    .getElementById('target1')
+    .addEventListener('change', function () {
+        'use strict';
+        var vis1 = document.querySelector('.vis1'),
+            target1 = document.getElementById(this.value);
+        if (vis1 !== null) {
+            vis1.className = 'inv1';
+        }
+        if (target1 !== null ) {
+            target1.className = 'vis1';
+        }
+});
+
 
 
 // ---------------------lineChart----------------------------------
