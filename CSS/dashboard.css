@@ -20,6 +20,13 @@ li {
 }
 
 /*----------------Layout overview---------------------*/
+.inv {
+  display: none;
+}
+#target {
+  height: 29px;
+}
+
 .course {
   display: flex;
   width: 50%;
