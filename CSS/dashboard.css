@@ -672,7 +672,7 @@ img#modal-btn {
 }
 #excercise-input {
   height: 29px;
-  
+
 }
 .label {
   margin-bottom: 5px;
@@ -699,6 +699,13 @@ img#modal-btn {
   height: 400px;
   border: 1px solid red;
 }*/
+
+.inv {
+display: none;
+}
+.inv1 {
+display: none;
+}
 
 .main-curveChart {
   display: flex;
