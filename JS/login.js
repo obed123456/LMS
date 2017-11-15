@@ -48,16 +48,3 @@ window.onclick = function(e) {
 function myFunction(a) {
   a.parentNode.getElementsByClassName("dropdown-content")[0].classList.toggle("show");
 }
-
-// -----------------------randomstring--------------------------------------
-
-function randomString() {
-	var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-	var string_length = 5;
-	var randomstring = '';
-	for (var i=0; i<string_length; i++) {
-		var rnum = Math.floor(Math.random() * chars.length);
-		randomstring += chars.substring(rnum,rnum+1);
-	}
-	document.randform.randomfield.value = randomstring;
-}

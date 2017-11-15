@@ -20,11 +20,12 @@
   function exersiceExpand () {
     var x = document.getElementById("expand");
     if (x.style.display === "none") {
-      x.style.display = "block";
+      x.style.display = "flex";
     } else {
         x.style.display = "none";
     }
   }
+
 
 
   function addCourseNews() {
@@ -62,3 +63,4 @@
     }
 
   }
+
