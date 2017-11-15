@@ -25,6 +25,26 @@
         x.style.display = "none";
     }
   }
+
+
+  function addCourseNews() {
+    // var date = document.getElementById("date-input").value;
+    var rubrik = document.getElementById("rubrik-input").value;
+    var text = document.getElementById("text-input").value;
+    var kurs = document.getElementById("kurs-select").value;
+
+    if(text === "" || rubrik === "" || kurs === "" ) {
+       document.getElementById("invalid-news-message").innerHTML = "Vänligen fyll i alla fält";
+       document.getElementById("invalid-news-message").style.color  ="red";
+
+    } else {
+      document.getElementById("submit-news-message").innerHTML = "Sparat";
+      document.getElementById("invalid-news-message").style.display  ="none";
+      document.getElementById("text-input").value ="";
+      // document.getElementById("date-input").value = "";
+
+  }
+
     function exersiceExpand2 () {
     var y = document.getElementById("expand2");
     if (y.style.display === "none") {
@@ -40,4 +60,5 @@
     } else {
         z.style.display = "none";
     }
+
   }
