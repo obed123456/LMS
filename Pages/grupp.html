@@ -3,84 +3,60 @@
 <head>
   <meta charset="utf-8">
   <title>Gruppindelning</title>
-    <link rel = "stylesheet" href = "grupp.css">
+    <link rel = "stylesheet" href = "../CSS/grupp.css">
   </head>
 <body>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+
+}
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
     <div class="container">
     <div class="box1">
-      <table>
-        <tr>
-         <td>Anna Larsson</td>
-         </tr>
-         <tr>
-         <td>Ernst Kirchsteiger</td>
-         </tr>
-         <tr>
-         <td>Sofia Wistam</td>
-         </tr>
-         <tr>
-         <td>Lena PH</td>
-         </tr>
-         <tr>
-         <td>Obed Samuel</td>
-         </tr>
-         <tr>
-         <td>Anja Pärson</td>
-         </tr>
-         <tr>
-         <td>Björn Borg</td>
-         </tr>
-         <tr>
-         <td>Jocke Luong</td>
-         </tr>
-         <tr>
-         <td>Anders Bagge</td>
-         </tr>
-         <tr>
-         <td>Lotta Engberg</td>
-         </tr>
-         <tr>
-         <td>Patrik Ellboj</td>
-         </tr>
-         <tr>
-         <td>Magnus Wallin</td>
-         </tr>
-         <tr>
-         <td>Ulf Brunnberg</td>
-         </tr>
-         <tr>
-         <td>Sickan</td>
-         </tr>
-         <tr>
-         <td>Leif GW Persson</td>
-         </tr>
-         <tr>
-         <td>Zlatan Ibrahimovic</td>
-         </tr>
-         </table>
+     <ul>
+	 <li draggable="true" ondragstart="drag(event)"id="sudent1">Anna Larsson</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student2">Ernst Kirchsteiger</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student3">Sofia Wistam</li>	 
+	 <li draggable="true" ondragstart="drag(event)"id="student4">Lena PH</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student5">Obed Samuel</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student6">Anja Pärson</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student7">Björn Borg</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student8">Jocke Luong</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student9">Anders Bagge</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student10">Lotta Engberg</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student11">Patrik Ellboj</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student12">Magnus Wallin</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student13">Ulf Brunnberg</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student14">Sickan</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student15">Leif GW Persson</li>
+	 <li draggable="true" ondragstart="drag(event)"id="student16">Zlatan Ibrahimovic</li>
+	 </ul>
     </div>
-    <div class="box2"></div>
-    <div class="box3">
-        <div class=grupp1></class></div>
-        <div class=grupp2></class></div>
-        <div class="grupp3"></class></div>
+	<div id="grupp1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="grupp2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="grupp3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="grupp4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="grupp5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <!-- <div class="box2"></div>
+    <div class="box3"></div> -->
+        <div class="grupp1"></div>
+        <div class="grupp2"></div>
+        <div class="grupp3"></div>
+		<div class="grupp4"></div>
+		<div class="grupp5"></div>
     </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
