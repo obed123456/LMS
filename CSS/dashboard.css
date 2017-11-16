@@ -85,22 +85,21 @@ h2 {
 /*----------------------------------------------------------------------------------------*/
 /*Header with logo and logout*/
 .header {
-    width: 100%;
-    height: 80px;
-    /*border: 2px solid red;*/
-    display: flex;
-    z-index: -10;
-    justify-content: space-between;
-    color: black;
-    align-items: center;
+  width: 100%;
+  height: 80px;    /*border: 2px solid red;*/
+  display: flex;
+  z-index: -10;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
 }
 .logotype img {
-    /*border: 1px solid blue;*/
-    flex: 1;
-    margin: 0 0 5px 20px;
-    position: relative;
-    height: 70px;
-    width: auto;
+  /*border: 1px solid blue;*/
+  flex: 1;
+  margin: 0 0 5px 20px;
+  position: relative;
+  height: 70px;
+  width: auto;
 }
 .logout_btn {
     background-color: #00314a;
@@ -614,7 +613,9 @@ img#modal-btn {
   height: 35px;
 
 }*/
-
+#myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7, #myBtn8  {
+  cursor: pointer;
+}
 .teacher-course-input {
   display: flex;
   flex-wrap: wrap;
@@ -623,8 +624,9 @@ img#modal-btn {
   padding: 10px;
   height: 25px;
   border-bottom: 1px solid black;
-  border-top: 1px solid black;  
+  border-top: 1px solid black;
   background-color: #d0c3c3;
+  cursor: pointer;
 
 }
 .heading-date, .heading-select, .heading-subject, .heading-upload, .li-item-date, .li-item-select, .li-item-subject, .li-item-upload   {
@@ -660,7 +662,7 @@ img#modal-btn {
 
 }
 #expand, #expand2, #expand3 {
-  display: none; 
+  display: none;
   padding-bottom: 5px;
 }
 #excercise-input {
@@ -776,6 +778,7 @@ display: none;
 
 .teacher-course-input:hover {
   background-color: #F5F5F5
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -836,4 +839,46 @@ justify-content: space-around;
 }
 #text-label {
   width: 30%;
+}
+
+/*------------------------ADMIN USER---------------*/
+
+.user-label {
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.user-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.add-user-btn {
+  margin-left: 85%;
+}
+#firstname-lable, #firstname-input {
+  width: 15%;
+  height: 28px;
+  border-radius: 5px;
+}
+#lastname-lable, #lastname-input {
+  width: 15%;
+  height: 28px;
+  border-radius: 5px;
+}
+#password-lable, #password-input {
+  width: 15%;
+  height: 28px;
+  border-radius: 5px;
+}
+#password1-lable, #password1-input {
+  width: 15%
+  height: 28px;
+  border-radius: 5px;
+}
+#clearens-lable, #clearens-input {
+  width: 15%
+  height: 28px;
+  border-radius: 5px;
 }
