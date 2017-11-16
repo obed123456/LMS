@@ -26,7 +26,6 @@
     }
   }
 
-
     function exersiceExpand2 () {
     var y = document.getElementById("expand2");
     if (y.style.display === "none") {
@@ -42,6 +41,7 @@
     } else {
         z.style.display = "none";
     }
+
   }
 
   function addCourseNews() {
@@ -59,6 +59,7 @@
       document.getElementById("invalid-news-message").style.display  ="none";
       document.getElementById("text-input").value ="";
       // document.getElementById("date-input").value = "";
+
 
   }
 }

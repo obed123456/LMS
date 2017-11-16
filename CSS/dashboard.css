@@ -787,43 +787,11 @@ display: none;
     align-self: center;
     height: 35px;
   }
-}
-/*---------------------- ADD COURSE NEWS ------------------------------*/
-.btn-add-news {
-  text-align: center;
-  justify-content: space-between;
-  /*margin: 0 50% 0 50;*/
-  margin-left: 85%;
-  margin-top: 10px;
-  padding-bottom: 20px;
-}
-.add-news-messege {
-  margin-left: 85%;
-}
 
-#rubrik-input {
-  height: 28px;
-  border-radius: 5px;
-  width: 15%;
+
 
 }
 
-#kurs-select {
-  height: 28px;
-  width: 10%;
-
-}
-#text-input {
-  height: 28px;
-  width: 30%;
-  border-radius: 5px
-}
-.input-news {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-
-}
 .label-news {
 font-weight: bold;
 width: 100%;
@@ -882,3 +850,4 @@ justify-content: space-around;
   height: 28px;
   border-radius: 5px;
 }
+
