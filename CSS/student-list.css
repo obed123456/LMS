@@ -1,9 +1,9 @@
         *{
 	    	font-family: lato;
 	    }
-	    .main {	    	
-	    	border-bottom: 1px solid black;	
-	    	border-top: 1px solid black;	
+	    .main {
+	    	border-bottom: 1px solid black;
+	    	border-top: 1px solid black;
 	    }
 		   .header1, .list-items-header {
 			display: flex;
@@ -11,10 +11,10 @@
 	}
 		   .section-1{
            	display: flex;
-           	width: 50%;        
+           	width: 50%;
            	justify-content: space-between;
            }
-           .section-2 {     	
+           .section-2 {
            	display: flex;
            	width: 50%;
             justify-content: space-between;
@@ -101,4 +101,37 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*------------------ADD COURSE NEWS-------------*/
+.label-news {
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.input-news {
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#btn-news, #submit-news-message, #invalid-news-message {
+  margin-left: 85%;
+}
+#kurs-label-select, #kurs-select {
+  width: 15%;
+  height: 28px;
+  border-radius: 5px;
+}
+#rubrik-label, #rubrik-input {
+  width: 20%;
+  height: 28px;
+  border-radius: 5px;
+}
+#text-lable, #text-input {
+  width: 30%;
+  height: 28px;
+  border-radius: 5px;
 }
