@@ -813,11 +813,11 @@ justify-content: space-around;
 
 .user-label {
   font-weight: bold;
-  width: 100%;
+  /*width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;*/
 }
-.user-input {
+.user-input, .user-label {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -825,29 +825,8 @@ justify-content: space-around;
 .add-user-btn {
   margin-left: 85%;
 }
-#firstname-lable, #firstname-input {
+#firstname-lable, #firstname-input, #lastname-lable, #lastname-input, #password-lable, #password-input, #password1-lable, #password1-input, #clearens-lable, #clearens-input {
   width: 15%;
   height: 28px;
   border-radius: 5px;
 }
-#lastname-lable, #lastname-input {
-  width: 15%;
-  height: 28px;
-  border-radius: 5px;
-}
-#password-lable, #password-input {
-  width: 15%;
-  height: 28px;
-  border-radius: 5px;
-}
-#password1-lable, #password1-input {
-  width: 15%
-  height: 28px;
-  border-radius: 5px;
-}
-#clearens-lable, #clearens-input {
-  width: 15%
-  height: 28px;
-  border-radius: 5px;
-}
-
