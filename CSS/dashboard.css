@@ -815,6 +815,7 @@ justify-content: space-around;
   font-weight: bold;
   /*width: 100%;
   display: flex;
+  justify-content: space-around;*/
 }
 .user-input, .user-label {
   width: 100%;
@@ -829,7 +830,6 @@ justify-content: space-around;
   height: 28px;
   border-radius: 5px;
 }
-
 #lastname-lable, #lastname-input {
   width: 15%;
   height: 28px;
@@ -880,4 +880,3 @@ justify-content: space-around;
 .utb-label {
 	font-weight: bold;
 }
-
