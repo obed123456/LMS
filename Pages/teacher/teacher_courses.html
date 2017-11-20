@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="../../CSS/bow.css">
   <link rel="stylesheet" href="../../CSS/dashboard.css">
+  <link rel="stylesheet" href="../../CSS/teacher_atten.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </style>
   <title>TimeLine | KYH</title>
@@ -29,7 +30,6 @@
 <!-- navbar will contains pages in the page -->
 
 <div class="navbar">
-
     <nav>
         <ul>
           <li><a href="teacher_dash.html">Hem</a></li>
@@ -39,60 +39,656 @@
           <li><a href="teacher-course-edit.html">Uppgifter</a></li>
         </ul>
     </nav>
+</div><br>
+<div class="task">
+  <h2>NÄRVAROLISTA</h2>
+  <form name="randform">
+    <input type="button" value="Generera Kod" onClick="randomString();">&nbsp;
+    <input type="text" name="randomfield" value="">
+  </form><br>
 
+  <table id="01">
+    <tr>
+      <th>Namn</th>
+      <th>13/11</th>
+      <th>14/11</th>
+      <th>16/11</th>
+      <th>20/11</th>
+      <th>22/11</th>
+      <th>23/11</th>
+      <th>27/11</th>
+      <th>29/11</th>
+      <th>30/11</th>
+    </tr>
+    <tr>
+      <td>Anna Larsson</td>
+      <td>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Ernst Kirchsteiger</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Sofia Wistam</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Lena PH</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td><td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Obed Samuel</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Anja Pärson</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Björn Borg</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Jocke Luong</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Anders Bagge</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Lotta Engberg</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Patrik Ellboj</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Magnus Wallin</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Ulf Brunnberg</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Sickan</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Leif GW Persson</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+    <tr>
+  <td>Zlatan Ibrahimovic</td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  <td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+<td><label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider"></span>
+</label></td>
+  </tr>
+</table>
 </div>
 
-  <div class="allCards">
 
-    <div class="card">
-      <img src="../../Img/icon/subject.png" alt="Student">
-      <h1>Pågående Kurser</h1>
-      <p class="title"><img src="../../Img/KYH-logo.png" alt="Logo" / ></p>
-      <!-- <div class="navbar_course"> -->
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="Kurser/kurs2.html">HTML5</a>
-            <a href="Kurser/kurs2.html">CSS3</a>
-            <a href="Kurser/kurs1.html">JavaScript</a>
-          </div>
-        </div>
-      <!-- </div> -->
-    </div>
-
-    <div class="card">
-      <img src="../../Img/icon/subject.png" alt="Student">
-      <h1>Kommande Kurser</h1>
-      <p class="title"><img src="../../Img/KYH-logo.png" alt="Logo" / ></p>
-      <!-- <div class="navbar_course"> -->
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="Kurser/kurs8.html">Examensarbete</a>
-            <a href="Kurser/kurs7.html">LIA</a>
-            <a href="Kurser/kurs6.html">UX-Design</a>
-          </div>
-        </div>
-      <!-- </div> -->
-    </div>
-
-    <div class="card">
-      <img src="../../Img/icon/degree.png" alt="Books">
-      <h1>Avslutade Kurser</h1>
-      <p class="title"><img src="../../Img/KYH-logo.png" alt="Logo" / ></p>
-      <!-- <div class="navbar_course"> -->
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction(this)">Se Mina Kurser</button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="Kurser/kurs5.html">Arbetsmetodik</a>
-            <a href="Kurser/kurs4.html">Gränssnittdisign</a>
-            <a href="Kurser/kurs3.html">Dynamisk Webutveckling</a>
-          </div>
-        </div>
-      <!-- </div> -->
-    </div>
-
-  </div>
 
   <script src="../../JS/login.js"></script>
 </body>
