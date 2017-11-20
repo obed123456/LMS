@@ -39,47 +39,45 @@
 <!-- **********************-Add News******************* -->
 
 <div class="task">
-  <h2>LÄGG TILL KURSNYHETER</h2>
-    <div class="submit-message">
-      <p id="submit-message"></p>
-    </div>
-    <div class="invalid-message">
-      <p id="invalid-message"></p>
-    </div>
+  <h2>LÄGG TILL KURSNYHETER</h2><br>
 
-  <div class="teacher-input-bar">
-   <div class="label">
-          <label id="date-label">Datum</label>
-          <label id="course-label-select">Välj kurs</label>
-          <label id="excercise-label">Rubrik</label>
-          <label id="description-label">Text</label>
+  <div class="teacher-input-news">
+   <div class="label-news">
+          <!-- <label id="date-label">Datum</label> -->
+          <label id="kurs-label-select">Välj Kurs</label>
+          <label id="rubrik-label">Rubrik</label>
+          <label id="text-label">Text</label>
           <!-- <label id="upload-label">Ladda upp</label> -->
     </div>
-
 
     <div class="input-news">
           <!-- <input type="date" name="date" id="date-input"> -->
           <select name="kurs-select" id ="kurs-select">
             <option value="">Välj Kurs</option>
-
             <option value="course-js">JavaScript</option>
             <option value="course-html">HTML/CSS</option>
             <option value="course-php">PHP</option>
           </select>
-          <input type="text" name="text" id="rubrik" maxlength="20">
+          <input type="text" name="text" id="rubrik-input" maxlength="20">
           <!-- <select name="examination" id ="excercise-input">
             <option value=""></option>
             <option value="excercise">Inlämning</option>
             <option value="test">Examination</option>
           </select> -->
-          <input type="text" name="text" id="description-input" maxlength="100">
-          <!-- <input type="file" name="file" id="upload-input"> -->
-    </div>
-         <div class="btn-add-excercise">
-            <button type="submit" id="btn-excercise" onclick="addExcercise()">Lägg Till</button>
-          </div>
-
-  </div>
+          <input type="text" name="text" id="text-input" maxlength="100">
+      </div><!-- <input type="file" name="file" id="upload-input"> -->
+  </div><br>
+  <div class="btn-add-news">
+     <button type="submit" id="btn-news" onclick="addCourseNews()">Lägg Till</button>
+   </div>
+   <div class="add-news-messege">
+      <div class="submit-news-message">
+        <p id="submit-news-message"></p>
+      </div>
+      <div class="invalid-mewsmessage">
+        <p id="invalid-news-message"></p>
+      </div>
+   </div>
 </div>
 
 
@@ -97,7 +95,7 @@
     <div class="teacher-input-bar">
      <div class="label">
             <label id="date-label">Datum</label>
-            <label id="course-label-select">Välj kurs</label>
+            <label id="course-label-select">Välj Kurs</label>
             <label id="excercise-label">Inlämning/Examination</label>
             <label id="description-label">Kursmoment</label>
             <label id="upload-label">Ladda upp</label>
