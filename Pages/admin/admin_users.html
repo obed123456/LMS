@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../CSS/dashboard.css">
+    <link rel="stylesheet" href="../../CSS/student-list.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://use.fontawesome.com/e4f3ab9576.js"></script>
     <title>TimeLine | KYH</title>
@@ -57,8 +58,485 @@
           <button type="submit" name="button" onclick="">Lägg Till</button>
         </div>
       </div>
+      <!-- DropDown menu -->
+      <div class="teacher-course">
+          <div  class="heading-date">Behörighet</div>
+      </div>
+  <!--****************************Excercise 1*************************** -->
+        <div class="teacher-course-input" onclick="exersiceExpand()">
+            <div class="li-item-date">Lärare</div>
+        </div>
+  <!-- /////////////////// Student list label ///////////////////////// -->
+  <div id="expand" style="display: none; padding-bottom: 5px;">
+      <div class="main">
+        <div class="header1">
+          <div class="section-1">
+            <div class="id">#</div>
+            <div class="name">Namn</div>
+          </div>
+          <div class="section-2">
+            <div class="comment">Klass/Klasser</div>
+          </div>
+        </div>
+      </div>
+  <!-- ***************list of all students********************-->
+  <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">1</div>
+          <div class="name">Obed Samuel</div>
+      </div>
+      <div class="section-2">
+            <div class="document">FE17</div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">2</div>
+          <div class="name list-items">Rikard Karlsson</div>
+      </div>
+      <div class="section-2">
+            <div class="document list-items">FE16</div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">3</div>
+          <div class="name list-items">Anders Svensson</div>
+      </div>
+      <div class="section-2">
+          <div class="document list-items">FE16/FE17</div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">4</div>
+          <div class="name list-items">Zlatan Ibrahimovic</div>
+      </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+        <div class="id">5</div>
+        <div class="name list-items">Patrik Ekwall</div>
+      </div>
+      <div class="section-2">
+        <div class="document list-items">MB17</div>
+      </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+          <div class="id">6</div>
+          <div class="name list-items">Inam Asbtek</div>
+        </div>
+        <div class="section-2">
+           <div class="document list-items">-</div>
+        </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+          <div class="id">7</div>
+          <div class="name list-items">Mohammad Ali</div>
+        </div>
+        <div class="section-2">
+          <div class="document list-items">-</div>
+        </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">8</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">-</div>
+      </div>
+    </div>
+  </div>
+  <!-- ***************************Excercise 2***************************** -->
+          <div class="teacher-course-input" onclick="exersiceExpand2()">
+              <div class="li-item-date">Elever</div>
+          </div>
+  <!-- /////////////////// Student list label ///////////////////////// -->
+  <div id="expand2" style="display: none;">
+      <div class="main">
+        <div class="header1">
+          <div class="section-1">
+            <div class="id">#</div>
+            <div class="name">Namn</div>
+          </div>
+          <div class="section-2">
+            <div class="document">Klass</div>
+          </div>
+        </div>
+      </div>
+    <!-- ***************list of all students********************-->
+  <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">1</div>
+          <div class="name">Obed Samuel</div>
+      </div>
+      <div class="section-2">
+        <div class="grade"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">2</div>
+          <div class="name list-items">Rikard Karlsson</div>
+      </div>
+      <div class="section-2">
+        <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">3</div>
+          <div class="name list-items">Anders Svensson</div>
+      </div>
+      <div class="section-2">
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">4</div>
+          <div class="name list-items">Zlatan Ibrahimovic</div>
+      </div>
+      <div class="section-2">
+        <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+        <div class="id">5</div>
+        <div class="name list-items">Patrik Ekwall</div>
+      </div>
+      <div class="section-2">
+        <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+          <div class="id">6</div>
+          <div class="name list-items">Inam Asbtek</div>
+        </div>
+        <div class="section-2">
+           <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+        </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+          <div class="id">7</div>
+          <div class="name list-items">Mohammad Ali</div>
+        </div>
+        <div class="section-2">
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+        </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">8</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">9</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">10</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">11</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">12</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">13</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE17</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">14</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE17</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">15</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE17</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">16</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE17</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">17</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE17</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">18</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">FE17</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">19</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">19</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">19</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">19</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">19</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+    <div class="list-items-header">
+      <div class="section-1">
+          <div class="id">19</div>
+          <div class="name list-items">Aj Shahzad</div>
+        </div>
+      <div class="section-2">
+          <div class="document list-items">MB16</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn8"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+      </div>
+    </div>
+
+
+  <!-- *************************Button below the list********************* -->
+      <div class="list-items-header">
+        <div class="section-1">
+              <div class="id"></div>
+              <div class="date list-items"></div>
+            <div class="name list-items"></div>
+        </div>
+        <div class="section-2">
+            <div class="document list-items"></div>
+            <div class="comment list-items"></div>
+            <div class="grade list-items"><button onclick="save2()">Spara</button><p class="save" style="display: none;"></p></div>
+        </div>
+      </div>
+  </div>
+  <!-- ***************************Excercise 2***************************** -->
+            <div class="teacher-course-input" onclick="exersiceExpand3()">
+                <div class="li-item-date">Administratör</div>
+            </div>
+  <!-- /////////////////// Student list label ///////////////////////// -->
+
+  <div id="expand3" style="display: none;">
+    <div class="main">
+      <div class="header1">
+        <div class="section-1">
+          <div class="id">#</div>
+          <div class="name">Namn</div>
+        </div>
+      <div class="section-2">
+          <div class="document">Dokument</div>
+          <div class="comment">Kommentar</div>
+          <div class="grade">Betyg</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***************list of all students********************-->
+  <div class="list-items-header">
+        <div class="section-1">
+          <div class="id">1</div>
+          <div class="name">Obed Samuel</div>
+        </div>
+        <div class="section-2">
+
+        </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+              <div class="id">2</div>
+              <div class="date list-items">2017-01-10</div>
+            <div class="name list-items">Rikard Karlsson</div>
+        </div>
+        <div class="section-2">
+            <div class="document list-items">.pdf</div>
+            <div class="comment list-items"><img src="message.png" id="myBtn2"></div>
+            <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+        </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+              <div class="id">3</div>
+              <div class="date list-items">-</div>
+            <div class="name list-items">Anders Svensson</div>
+        </div>
+       <div class="section-2">
+            <div class="document list-items">-</div>
+            <div class="comment list-items"><img src="message.png" id="myBtn3"></div>
+            <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+       </div>
+    </div>
+    <div class="list-items-header">
+        <div class="section-1">
+            <div class="id">4</div>
+            <div class="date list-items">-</div>
+            <div class="name list-items">Zlatan Ibrahimovic</div>
+        </div>
+        <div class="section-2">
+          <div class="document list-items">-</div>
+          <div class="comment list-items"><img src="message.png" id="myBtn4"></div>
+          <div class="grade list-items"><select><option>Välj Betyg</option><option>IG</option><option>G</option><option>VG</option></select></div>
+        </div>
+    </div>
+  </div>
+      <!-- DropDown menu -->
+    </div>
+    <div class="task">
+      <h2>LÄGG TILL NYA KURSER</h2><br>
+      <div class="add-user">
+        <div class="user-label">
+          <label id="firstname-lable">Kurskod</label>
+          <label id="lastname-lable">Kursnamn</label>
+          <label id="password-lable">Välj Lösenord</label>
+          <label id="password1-lable">Bekräfta Lösenord</label>
+          <label id="clearens-lable">Lärare</label>
+        </div>
+        <div class="user-input">
+          <input type="text" name="" value="" id="firstname-input" required>
+          <input type="text" name="" value="" id="lastname-input" required>
+          <input type="password" name="" value="" id="password-input" required>
+          <input type="password" name="" value="" id="password1-lable"required>
+          <select class="user" name="" id="clearens-input">
+            <option value="">Tilldela Lärare</option>
+            <option value="">Bengt Bengtsson</option>
+            <option value="">Eva Larsson</option>
+            <option value="">Krille Cosmos</option>
+            <option value="">Obed Samuel</option>
+          </select>
+        </div><br>
+        <div class="add-user-btn">
+          <button type="submit" name="button" onclick="">Lägg Till</button>
+        </div>
+      </div>
     </div>
 
     <script src="../../JS/examination.js"></script>
+    <script src="../../JS/modal-studentlist.js"></script>
   </body>
 </html>

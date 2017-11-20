@@ -815,7 +815,6 @@ justify-content: space-around;
   font-weight: bold;
   /*width: 100%;
   display: flex;
-  justify-content: space-around;*/
 }
 .user-input, .user-label {
   width: 100%;
@@ -830,3 +829,55 @@ justify-content: space-around;
   height: 28px;
   border-radius: 5px;
 }
+
+#lastname-lable, #lastname-input {
+  width: 15%;
+  height: 28px;
+  border-radius: 5px;
+}
+#password-lable, #password-input {
+  width: 15%;
+  height: 28px;
+  border-radius: 5px;
+}
+#password1-lable, #password1-input {
+  width: 15%
+  height: 28px;
+  border-radius: 5px;
+}
+#clearens-lable, #clearens-input {
+  width: 15%
+  height: 28px;
+  border-radius: 5px;
+}
+
+.klass-label {
+	font-weight: bold;
+}
+.klass-input {
+	width: 200%;
+}
+
+.content-left {
+	display-content: flex;
+	width: 50%;
+	justify-content: space-between;
+	padding: 10px;
+}
+.main-div {
+	display: flex;
+	flex-direction: row;
+}
+.content-right {
+	display-content: flex;
+	width: 50%;
+	justify-content: space-between;
+	padding: 10px;
+}
+.utb-input {
+	width: 200%;
+}
+.utb-label {
+	font-weight: bold;
+}
+
