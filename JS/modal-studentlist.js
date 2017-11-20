@@ -1,7 +1,21 @@
 	function save(){
-       document.getElementById('save').innerHTML ="Sparat!";
-       document.getElementById('save').style.display="block";
-	}
+        var x = document.getElementsByClassName('save')[0];
+       
+               x.innerHTML = "Sparat";
+               x.style.display = "block";
+}
+    function save2(){
+        var y = document.getElementsByClassName('save')[1];
+            y.innerHTML = "Sparat";
+            y.style.display = "block";   
+
+    }
+    function save3(){
+        var z = document.getElementsByClassName('save')[2];
+          z.innerHTML = "Sparat";
+          z.style.display = "block";
+    }
+
 
 function newFunc2() {
     document.getElementById("message").innerHTML = "Sparat!";
