@@ -815,7 +815,7 @@ justify-content: space-around;
   font-weight: bold;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  margin:0 50px 0 150px;
 }
 .user-input {
   width: 100%;
@@ -851,3 +851,32 @@ justify-content: space-around;
   border-radius: 5px;
 }
 
+.klass-label {
+	font-weight: bold;
+}
+.klass-input {
+	width: 200%;
+}
+
+.content-left {
+	display-content: flex;
+	width: 50%;
+	justify-content: space-between;
+	padding: 10px;
+}
+.main-div {
+	display: flex;
+	flex-direction: row;
+}
+.content-right {
+	display-content: flex;
+	width: 50%;
+	justify-content: space-between;
+	padding: 10px;
+}
+.utb-input {
+	width: 200%;
+}
+.utb-label {
+	font-weight: bold;
+}
