@@ -44,12 +44,11 @@
 }
 
 .header1 {
-  background-color: #a2a2a2;
+  background-color: white;
   /*height: 25px;*/
   align-self: center;
   font-size: 16px;
   font-weight: bold;
-  color: white;
 }
 
 .list-items-header:hover {

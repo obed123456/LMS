@@ -1,20 +1,35 @@
-function addExcercise() {
-  var date = document.getElementById("date-input").value;
-  var excercise = document.getElementById("excercise-input").value;
-  var description = document.getElementById("description-input").value;
-  var course = document.getElementById("course-select").value;
+function addUsers() {
+  var firstName = document.getElementById("firstname-input").value;
+  var lastName = document.getElementById("lastname-input").value;
+  var email = document.getElementById("email-input").value;
+  var competence = document.getElementById("competence-input").value;
 
-  if(description === "" || excercise === "" || date === null || course === "" ) {
+  if(firstName === "" || lastName === "" || email === "" || competence === "Välj Behörighet" ) {
      document.getElementById("invalid-message").innerHTML = "Vänligen fyll i alla fält";
      document.getElementById("invalid-message").style.color  ="red";
 
   } else {
     document.getElementById("submit-message").innerHTML = "Sparat";
     document.getElementById("invalid-message").style.display  ="none";
-    document.getElementById("description-input").value ="";
-    document.getElementById("date-input").value = "";
-
+    document.getElementById("firstname-input").value = "";
+    document.getElementById("lastname-input").value = "";
+    document.getElementById("email-input").value ="";
+    document.getElementById("competence-input").value = "";
+  }
 }
+// save button for 'elever'
+function addClass() {
+  var assignClass = document.getElementsByClassName("assign-class").value;
+
+  if(assignClass === "Tilldela Klass") {
+     document.getElementById("invalid-message2").innerHTML = "Vänligen tilldela en klass innan du sparar";
+     document.getElementById("invalid-message2").style.color  ="red";
+
+  }
+  else {
+    document.getElementById("submit-message2").innerHTML = "Sparat";
+    document.getElementById("invalid-message2").style.display  ="none";
+  }
 }
 
 function exersiceExpand () {
