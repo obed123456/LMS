@@ -809,7 +809,7 @@ justify-content: space-around;
   width: 30%;
 }
 
-<<<<<<< HEAD
+
 /*------------- admin add-news (story 25)--------------------------*/
 
 
@@ -819,22 +819,47 @@ justify-content: space-around;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 .ad-news-header {
-  font-size: 18px;
-  width: 50%;
-  border: 1px solid black;
+  font-size: 20px;
+  width: 60%;
+  /*border: 1px solid black;*/
 }
-#ad-news-topic, .news-topic, .ad-news-area, #ad-news-text {
-  width: 50%;
+.news-topic, .ad-news-topic  {
+  width: 60%;
+
+
+}
+.ad-news-topic {
   height: 50px;
   font-size: 18px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 30px;
+}
+.ad-news-area {
+  text-align: center;
+  width: 100%;
 }
 
+.ad-news-text{
+  width: 60%;
+  height: 120px;
+  resize: none;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
 
-
+.ad-news-btn {
+    color: black;
+    padding-left: 10px;
+    align-self: center;
+    /*border: 1px solid black;*/
+}
 
 
 
@@ -887,14 +912,14 @@ width: 100%;
   text-align: left;
   border: 1px solid red;
 }*/
-=======
+
 /*------------------------ADMIN USER---------------*/
 
 .user-label {
   font-weight: bold;
-  /*width: 100%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;*/
+  justify-content: space-around;
 }
 .user-input, .user-label {
   width: 100%;
@@ -959,4 +984,3 @@ width: 100%;
 .utb-label {
 	font-weight: bold;
 }
->>>>>>> cd22522f12f91ee4410ec4d7252add8b506fe6b1
