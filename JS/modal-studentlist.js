@@ -1,13 +1,13 @@
 	function save(){
         var x = document.getElementsByClassName('save')[0];
-       
+
                x.innerHTML = "Sparat";
                x.style.display = "block";
 }
     function save2(){
         var y = document.getElementsByClassName('save')[1];
             y.innerHTML = "Sparat";
-            y.style.display = "block";   
+            y.style.display = "block";
 
     }
     function save3(){
@@ -21,7 +21,7 @@ function newFunc2() {
     document.getElementById("message").innerHTML = "Sparat!";
     document.getElementById("comment").value = "";
 
-    
+
 }
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -40,7 +40,7 @@ var btn8 = document.getElementById("myBtn8");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-//When the user clicks the button, open the modal 
+//When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "block";
 }
