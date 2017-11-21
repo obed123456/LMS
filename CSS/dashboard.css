@@ -811,13 +811,117 @@ justify-content: space-around;
   width: 30%;
 }
 
+
+/*------------- admin add-news (story 25)--------------------------*/
+
+
+.ad-news {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid black;*/
+}
+.ad-news-header {
+  font-size: 20px;
+  width: 60%;
+  /*border: 1px solid black;*/
+}
+.news-topic, .ad-news-topic  {
+  width: 60%;
+
+
+}
+.ad-news-topic {
+  height: 50px;
+  font-size: 18px;
+  /*border: 1px solid black;*/
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 30px;
+}
+.ad-news-area {
+  text-align: center;
+  width: 100%;
+}
+
+.ad-news-text{
+  width: 60%;
+  height: 120px;
+  resize: none;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.ad-news-btn {
+    color: black;
+    padding-left: 10px;
+    align-self: center;
+    /*border: 1px solid black;*/
+}
+
+
+
+/*.admin-addNews {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+#news-header, #news-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+ #admin-newsTopic, #news-header {
+   width: 50%;
+   height: 30px;
+   font-size: 18px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+     border: 1px solid red;
+ }
+
+ #admin-news {
+   height: 200px;
+   font-size: 14px;
+   min-width: 50%;
+   min-height: auto;
+   border-radius: 5px;
+   resize: none;
+ }*/
+/*.btn-add-news {
+text-align: center;
+width: 100%;
+  border: 1px solid black;
+}*/
+/*#btn-news {
+  text-align: center;
+    border: 1px solid black;
+}*/
+/*#news-header, #news-info {
+
+  width: 100%;
+  border: 1px solid red;
+}*/
+/*#newsHeading {
+  width: 10%;
+  text-align: left;
+  border: 1px solid red;
+}*/
+
 /*------------------------ADMIN USER---------------*/
 
 .user-label {
   font-weight: bold;
-  /*width: 100%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;*/
+  justify-content: space-around;
 }
 .user-input, .user-label {
   width: 100%;
