@@ -45,9 +45,9 @@
 	/*text-align: center;*/
 }
 ._2, ._3, ._4, input{
-	width: 10%;
+	width: 15%;
 	font-weight: bold;
-	/*border: 1px solid red;*/
+	/*border: ba1px solid red;*/
 }
 
 .text_heading{
@@ -55,11 +55,11 @@
 	text-align: left;
 }
 .nr, .slider_checkbox, .text_checkbox, .edit_button, .delete_button{
-	width: 5%;
+	width: 6%;
 	/*border: 1px solid red;*/
 }
 .question{
-	width: 75%;
+	width: 70%;
 }
 ._4{
 	border-radius: 5px;
@@ -67,3 +67,9 @@
 	height: 28px;
 
 }
+<<<<<<< HEAD
+.navbar {
+
+}
+=======
+>>>>>>> 387d48a2650cb952270209787c906aea701a9fc7
