@@ -24,12 +24,13 @@
 	/*justify-content: space-between;*/
 	width: 100%;
 	/*border: 1px solid red;*/
-	text-align: center;
+	/*text-align: center;*/
 }
 .inputs, .labels, .list, .label_list, .list_items{
 	display: flex;
 	/*text-align: center;*/
 	flex-wrap: wrap;
+  /*width: 100%;*/
 }
 .list{
 	flex-direction: column;
@@ -61,11 +62,14 @@
 	width: 70%;
 }
 ._4{
-	border-radius: 5px; 
+	border-radius: 5px;
 	padding: 2px;
 	height: 28px;
 
 }
+<<<<<<< HEAD
 .navbar {
 
 }
+=======
+>>>>>>> 387d48a2650cb952270209787c906aea701a9fc7

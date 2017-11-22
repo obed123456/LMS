@@ -44,15 +44,15 @@
 }
 
 .header1 {
-  background-color: #d3d3d3;
+  background-color: white;
   /*height: 25px;*/
   align-self: center;
   font-size: 16px;
   font-weight: bold;
 }
 
-.list-items-header:nth-child(even) {
-  background-color: #D3D3D3;
+.list-items-header:hover {
+  background-color: #d3d3d3;
 }
 
 .course {

@@ -27,15 +27,15 @@
               <li><a href="admin_kurser.html">Hantera Kurser</a></li>
               <li><a href="admin_users.html">Hantera Användare</a></li>
               <li><a href="admin_overview.html">Översikt</a></li>
-              <li><a href="admin_evaluation.html">Utvärderingar</a></li>
             </ul>
         </nav>
     </div>
+
     
     <div class="task">
       <h2>LÄGG TILL NY KURS</h2><br>
       <div class="add-user">
-        <div class="user-label">
+        <div class="kurs-label">
           <label id="firstname-lable">Kursnamn</label>
           <label id="lastname-lable">Poäng</label>
         </div>
@@ -63,6 +63,38 @@
 		<button onclick="myFunction()">Lägg till</button>
 		<p id="demo"></p>
         </div></br>
+		 <div class="teacher-course">
+        <div  class="heading-date">Termin</div>
+        <div  class="heading-select">Kurs</div>
+          <div  class="heading-subject">Poäng</div>
+            <div  class="heading-course">Lärare</div>
+      </div>
+
+      <div class="teacher-course-input" onclick="exersiceExpand()">
+          <div class="li-item-date">HT-17</div>
+            <div class="li-item-select">HTML/CSS</div>
+             <div class="li-item-subject">30</div>
+              <div class="li-item-course">Kurt Svensson</div>
+        </div>
+		<div class="teacher-course-input" onclick="exersiceExpand2()">
+            <div class="li-item-date">HT-17/VT-18</div>
+              <div class="li-item-select">JavaScript</div>
+              <div class="li-item-subject">110</div>
+                <div class="li-item-course">Kurt Svenssom</div>
+          </div>
+		  <div class="teacher-course-input" onclick="exersiceExpand3()">
+              <div class="li-item-date">VT-18</div>
+                <div class="li-item-select">Backend</div>
+                  <div class="li-item-subject">40</div>
+                    <div class="li-item-course">Olof Persson</div>
+            </div>
+			<div class="teacher-course-input" onclick="exersiceExpand()">
+          <div class="li-item-date">HT-17/VT-18</div>
+            <div class="li-item-select">Arbetsmetodik</div>
+             <div class="li-item-subject">20</div>
+              <div class="li-item-course">Tanja Eldh</div>
+        </div>
+			
       </div>
     </div>
 	<script>
@@ -71,7 +103,6 @@ function myFunction() {
 }
 </script>
 <p id="demo"></p>
-
  <!------- Kort 28, att skapa utbildning och klasser --------->
 
 <div class="task">
@@ -119,8 +150,3 @@ function myFunction3() {
 <p id="demo3"></p>
   </body>
 </html>
-
-    <script src="../../JS/examination.js"></script>
-  </body>
-</html>
-
