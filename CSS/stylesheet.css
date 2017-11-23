@@ -13,6 +13,24 @@ html, body {
 }
 
 /*Whole page container */
+.logout_btn {
+    background-color: #00314a;
+    border: none;
+    color: white;
+    padding: 14px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.logout_btn:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
 .nav-container {
 	width: 100%;
 	margin: 0;
