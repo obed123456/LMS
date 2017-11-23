@@ -1,11 +1,10 @@
-table, th, td {		
-    border: 1px solid black;		
-    border-collapse: collapse;		
-    padding: 0px;		
-}		
-th, td {		
-    text-align: center;		
-
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0px;
+}
+th, td {
+  text-align: center;
 }
 
 .switch {
@@ -15,7 +14,9 @@ th, td {
   height: 40px;
 }
 
-.switch input {display:none;}
+.switch input {
+  display:none;
+}
 
 .slider {
   position: absolute;
@@ -28,18 +29,6 @@ th, td {
   -webkit-transition: .4s;
   transition: .4s;
 }
-
-/*.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: none;
-  -webkit-transition: .4s;
-  transition: .4s;
-}*/
 
 input:checked + .slider {
   background-color: red;
@@ -55,23 +44,15 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-/*.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}*/
 .atten_btn {
-    /*border: 1px solid black;*/
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .btn_atten {
-    align-self: center;
+  align-self: center;
 }
+
 button {
   background-color: #00314a;
   border: none;
@@ -86,7 +67,8 @@ button {
   border-radius: 5px;
   margin-top: 5px;
 }
-input[type=text]{
+
+input[type=text] {
   height: 28px;
   border-radius: 5px;
 }

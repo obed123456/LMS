@@ -1,7 +1,8 @@
 *{
  	font-family: lato;
- }
- .task {
+}
+
+.task {
  line-height: 40px;
  margin-top: 20px;
  margin: 20px 20px 20px 20px;
@@ -9,51 +10,47 @@
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
  border-radius: 5px;
 }
+
 .task p {
  text-align: left;
 }
- .weeklyEvaluation{
-	/*display: fl<ex;*/
-	width: 100%;
-	/*border: 1px solid red;*/
 
+.weeklyEvaluation{
+	width: 100%;
 }
+
 .add {
 	display: flex;
 	flex-direction: column;
-	/*justify-content: space-between;*/
 	width: 100%;
-	/*border: 1px solid red;*/
-	/*text-align: center;*/
 }
+
 .inputs, .labels, .list, .label_list, .list_items{
 	display: flex;
-	/*text-align: center;*/
 	flex-wrap: wrap;
-  /*width: 100%;*/
 }
+
 .list{
 	flex-direction: column;
 }
 
 ._1{
 	width: 50%;
-	/*border: 1px solid red;*/
 	border-radius: 5px;
 	height: 28px;
 	font-weight: bold;
-	/*text-align: center;*/
 }
+
 ._2, ._3, ._4, input{
 	width: 15%;
 	font-weight: bold;
-	/*border: ba1px solid red;*/
 }
 
 .text_heading{
 	width: 100%;
 	text-align: left;
 }
+
 .nr, .slider_checkbox, .text_checkbox, .edit_button, .delete_button{
 	width: 6%;
 	/*border: 1px solid red;*/
@@ -61,10 +58,9 @@
 .question{
 	width: 70%;
 }
+
 ._4{
 	border-radius: 5px;
 	padding: 2px;
 	height: 28px;
-
 }
-
