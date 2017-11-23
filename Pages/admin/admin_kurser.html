@@ -40,21 +40,21 @@
       <label id="lastname-lable">Poäng</label>
     </div>
     <div class="user-input">
-      <input type="text" name="" value="" id="firstname-input" required>
-      <input type="text" name="" value="" id="lastname-input" required>
-      <select class="user" name="" id="time-input">
+      <input type="text" id="firstname-input" required>
+      <input type="text" id="lastname-input" required>
+      <select class="user" id="time-input">
         <option value="">Välj Termin</option>
         <option value="">Höst</option>
         <option value="">Vår</option>
       </select>
-      <select class="user" name="" id="year-input">
+      <select class="user" id="year-input">
         <option value="">Välj år</option>
         <option value="">2017</option>
         <option value="">2018</option>
         <option value="">2019</option>
         <option value="">2020</option>
       </select>
-      <select class="user" name="" id="clearens-input">
+      <select class="user" id="clearens-input">
         <option value="">Tilldela Lärare</option>
         <option value="">Olof Persson</option>
         <option value="">Kurt Svensson</option>
@@ -63,32 +63,32 @@
       <button onclick="myFunction()">Lägg till</button>
       <p id="demo"></p>
     </div>
-    </br>
+    <br>
     <div class="teacher-course">
       <div  class="heading-date">Termin</div>
       <div  class="heading-select">Kurs</div>
       <div  class="heading-subject">Poäng</div>
       <div  class="heading-course">Lärare</div>
     </div>
-    <div class="teacher-course-input" onclick="exersiceExpand()">
+    <div class="teacher-course-input">
       <div class="li-item-date">HT-17</div>
       <div class="li-item-select">HTML/CSS</div>
       <div class="li-item-subject">30</div>
       <div class="li-item-course">Kurt Svensson</div>
     </div>
-    <div class="teacher-course-input" onclick="exersiceExpand2()">
+    <div class="teacher-course-input">
       <div class="li-item-date">HT-17/VT-18</div>
       <div class="li-item-select">JavaScript</div>
       <div class="li-item-subject">110</div>
       <div class="li-item-course">Kurt Svenssom</div>
     </div>
-    <div class="teacher-course-input" onclick="exersiceExpand3()">
+    <div class="teacher-course-input">
       <div class="li-item-date">VT-18</div>
       <div class="li-item-select">Backend</div>
       <div class="li-item-subject">40</div>
       <div class="li-item-course">Olof Persson</div>
     </div>
-    <div class="teacher-course-input" onclick="exersiceExpand()">
+    <div class="teacher-course-input">
       <div class="li-item-date">HT-17/VT-18</div>
       <div class="li-item-select">Arbetsmetodik</div>
       <div class="li-item-subject">20</div>
@@ -96,20 +96,8 @@
     </div>
   </div>
 </div>
-<p id="demo"></p>
-<p id="demo3"></p>
 
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Kurs tillagd!";
-}
+<script src="../../JS/admin_courses.js"></script>
 
-function myFunction2() {
-    document.getElementById("demo2").innerHTML = "Klass Skapad!";
-}
-function myFunction3() {
-    document.getElementById("demo3").innerHTML = "Utbildning Skapad!";
-}
-</script>
 </body>
 </html>
