@@ -1,125 +1,117 @@
 <!DOCTYPE HTML>
 <html lang="sv">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pris</title>
-    <link rel="stylesheet" href="../CSS/pricing.css">
-    <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
 
-  <body>
-    <div class="nav-container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pris</title>
+  <link rel="stylesheet" href="../CSS/pricing.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-      <!-- navbar to the left -->
-
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li><a href="index.html">Hem</a></li>
-            <li><a href="pricing.html">Pris</a></li>
-            <li><a href="features.html">Funktioner</a></li>
-          </ul>
-        </nav>
-
-        <!-- logo in the middle -->
-
-        <div class="logo">
-          <img src="../Img/logo-white.png" alt="Logo" />
+<body>
+  <div class="nav-container">
+    <!-- navbar to the left -->
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="pricing.html">Pris</a></li>
+          <li><a href="features.html">Funktioner</a></li>
+        </ul>
+      </nav>
+      <!-- logo in the middle -->
+      <div class="logo">
+        <img src="../Img/logo-white.png" alt="Logo" />
+      </div>
+      <!-- login button in the middle -->
+      <div class="login">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+          <div class="modal-content animate">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+              <form name="login">
+                <label><i class="fa fa-user" style="font-size:24px"></i></label>
+                <input name="id" type="text" placeholder="Username" required>
+                <label><i class="fa fa-lock" style="font-size:24px"></i></label>
+                <input name="pass" type="password" placeholder="Password" required>
+                <button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- login button in the middle -->
+      <!-- Pricing below navbar -->
 
-        <div class="login">
-          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-          <div id="id01" class="modal">
-            <div class="modal-content animate">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="body_wrapper">
+        <div class="price-img-container">
+          <img src="../Img/image3.jpg" alt="pricing image">
+        </div>
+        <div class="price-headline">
+          <h1>Pris:<br>För din utbildnings institut</h1>
+        </div>
+        <div class="price-content-wrapper">
+          <div class="price-content">
+            <div class="price-list-wrapper-left">
+              <div class="price-list-left">
+                <div class="price-title">
+                  <h2>Test Version</h2>
+                </div>
+                <div class="price-bullet-list">
+                  <ul>
+                    <li>Upp till 5 användare</li>
+                    <li>Lägg upp och redigera schema</li>
+                    <li>Lägg till upp mot 5 kurser</li>
+                    <li>Begränsad Support</li>
+                    <li>Funkar på alla enheter</li>
+                  </ul>
+                </div>
+                <div class="price-contact-left">
+                  <a href="mailto:info@teamteddy.com">
+                    <h4>Kotakta oss</h4>
+                  </a>
+                </div>
               </div>
-              <div class="container">
-                <form name="login">
-                  <label><i class="fa fa-user" style="font-size:24px"></i></label>
-                  <input name="id" type="text" placeholder="Username" required>
-                  <label><i class="fa fa-lock" style="font-size:24px"></i></label>
-                  <input name="pass" type="password" placeholder="Password" required>
-                  <button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
-                </form>
+            </div>
+            <div class="price-list-right">
+              <div class="price-title">
+                <h2>Premium 99€/Månad</h2>
+              </div>
+              <div class="price-bullet-list">
+                <ul>
+                  <li>Obegränsat med användare</li>
+                  <li>Lägg upp och redigera schema</li>
+                  <li>Obegränsat med kurser</li>
+                  <li>Få 50gb lagring</li>
+                  <li>Full support</li>
+                  <li>Funkar på alla enheter</li>
+                </ul>
+              </div>
+              <div class="price-contact-right">
+                <a href="mailto:info@teamteddy.com">
+                  <h4>Kotakta oss</h4>
+                </a>
               </div>
             </div>
           </div>
         </div>
-
-<!-- Pricing below navbar -->
-
-<div class="body_wrapper">
-  <div class="price-img-container">
-    <img src="../Img/image3.jpg" alt="pricing image">
-  </div>
-  <div class="price-headline">
-    <h1>Pris:<br>För din utbildnings institut</h1>
-  </div>
-  <div class="price-content-wrapper">
-    <div class="price-content">
-      <div class="price-list-wrapper-left">
-        <div class="price-list-left">
-          <div class="price-title">
-            <h2>Test Version</h2>
-          </div>
-          <div class="price-bullet-list">
-            <ul>
-              <li>Upp till 5 användare</li>
-              <li>Lägg upp och redigera schema</li>
-              <li>Lägg till upp mot 5 kurser</li>
-              <li>Begränsad Support</li>
-              <li>Funkar på alla enheter</li>
-            </ul>
-          </div>
-          <div class="price-contact-left">
-            <a href="mailto:info@teamteddy.com">
-              <h4>Kotakta oss</h4>
-            </a>
+        <!-- <footer> -->
+        <div class="footer">
+          <div class="sticky-footer">
+            <p>© 2017 All Rights reserved</p>
           </div>
         </div>
-      </div>
-      <div class="price-list-right">
-        <div class="price-title">
-          <h2>Premium 99€/Månad</h2>
-        </div>
-        <div class="price-bullet-list">
-          <ul>
-            <li>Obegränsat med användare</li>
-            <li>Lägg upp och redigera schema</li>
-            <li>Obegränsat med kurser</li>
-            <li>Få 50gb lagring</li>
-            <li>Full support</li>
-            <li>Funkar på alla enheter</li>
-          </ul>
-        </div>
-        <div class="price-contact-right">
-          <a href="mailto:info@teamteddy.com">
-            <h4>Kotakta oss</h4>
-          </a>
-        </div>
+        <!-- </footer> -->
       </div>
     </div>
   </div>
-
-  <!-- <footer> -->
-
-  <div class="footer">
-    <div class="sticky-footer">
-      <p>© 2017 All Rights reserved</p>
-    </div>
-  </div>
-
-  <!-- </footer> -->
-
-</div>
-</div>
-</div>
-<script src="../JS/login.js"></script>
+  <script src="../JS/login.js"></script>
 
 </body>
+
 </html>
