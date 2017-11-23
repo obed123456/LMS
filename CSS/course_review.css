@@ -1,14 +1,14 @@
 .course-rev-wrapper{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 .course-rev-title {
   padding: 20px;
 }
 .form-name {
-    padding: 20px;
+  padding: 20px;
 }
 
 #namn {
@@ -36,6 +36,7 @@
   overflow: scroll;
   border: 1px solid red;
 }
+
 .textarea.course-form-label {
   width: 500px;
   height: 500px;
@@ -45,24 +46,22 @@
 .course-form-label textarea {
   resize: none;
 }
-div{
-    display:flex;
-    flex-direction:column;
- }
-.radio{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    width: 500px;
 
+div {
+  display:flex;
+  flex-direction:column;
 }
 
+.radio {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 500px;
+}
 
 .course-rev-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*align-items: center;*/
   margin-top: 20px;
-
 }
