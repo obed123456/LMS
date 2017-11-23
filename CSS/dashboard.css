@@ -166,8 +166,8 @@ nav a:hover::before {
 /*Layout under the navbar*/
 .main-content-dashboard {
     display: flex;
-    width: 100%
-    height: 800px;
+    width: 100%;
+    height:800px;
     /*border: 1px solid red;*/
     /*position: absolute;*/
 }
@@ -274,7 +274,7 @@ nav a:hover::before {
 }
 .form-comment textarea{
     /*border: 1px solid black;*/
-    border:1px soild black;
+    border:1px solid black;
     width: 70%;
     resize: none;
     height: 75px;
@@ -317,8 +317,6 @@ nav a:hover::before {
 }
 
 .range-slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
-    /*appearance: none;*/
     width: 300px; /* Full-width */
     height: 12px; /* Specified height */
     border-radius: 5px;
@@ -332,9 +330,7 @@ nav a:hover::before {
     opacity: 0.9; /* Fully shown on mouse-over */
 }
 
-.range-slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
+.range-slider::-webkit-slider-thumb { 
     width: 20px; /* Set a specific slider handle width */
     height: 20px; /* Slider handle height */
     border-radius: 50px;
@@ -503,15 +499,12 @@ img#modal-btn {
   margin: 25px 0;
 }
 
-@media (max-width: 650px) {
-  .range-slider-courses {
-    zoom: 0.8;
-  }
+@media (max-width: 650px) {  
+  
 }
-@media (max-width: 500px) {
-  .range-slider-courses {
-    zoom: 0.7;
-  }
+@media (max-width: 500px) { 
+  
+  
 }
 /*------------------ News feed -----------------------*/
 
@@ -919,8 +912,7 @@ justify-content: space-around;
 	width: 200%;
 }
 
-.content-left {
-	display-content: flex;
+.content-left {	
 	width: 50%;
 	justify-content: space-between;
 	padding: 10px;
@@ -930,7 +922,6 @@ justify-content: space-around;
 	flex-direction: row;
 }
 .content-right {
-	display-content: flex;
 	width: 50%;
 	justify-content: space-between;
 	padding: 10px;
