@@ -2,66 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../../CSS/dashboard.css">
     <title>TimeLine | KYH</title>
   </head>
   <body>
-<div class="header">
-  <div class="logotype">
-    <a href="teacher_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo" / ></a>
-  </div>
-  <form>
-    <div class="logout">
-      <a href="../index.html" class="logout_btn">Logga ut</a>
+    <div class="header">
+      <div class="logotype">
+        <a href="teacher_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo"></a>
+      </div>
+      <form>
+        <div class="logout">
+          <a href="../index.html" class="logout_btn">Logga ut</a>
+        </div>
+      </form>
     </div>
-  </form>
-</div>
 
-<!-- navbar will contains pages in the page -->
+        <!-- navbar will contains pages in the page -->
 
-<div class="navbar">
-  <nav>
-    <ul>
-      <li><a href="teacher_dash.html">Hem</a></li>
-      <li><a href="teacher_courses.html">Mina Kurser</a></li>
-      <li><a href="teacher_feedback.html">Utvärdering</a></li>
-      <li><a href="teacher-course-edit.html">Uppgifter</a></li>
-    </ul>
-  </nav>
-</div>
-<div class="task">
-  <h2>SKAPA NYHETSINLÄGG</h2>
-  <br>
-  <div class="ad-news">
-    <div class="ad-news-header">
-      <label>Rubrik:
-      </label>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="teacher_dash.html">Hem</a></li>
+          <li><a href="teacher_courses.html">Mina Kurser</a></li>
+          <li><a href="teacher_feedback.html">Utvärdering</a></li>
+          <li><a href="teacher-course-edit.html">Uppgifter</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="news-topic">
-      <input type="text" class="ad-news-topic">
-      </input>
-    </div>
-    <div class="ad-news-header">
-      <label>
-      Nyhetsinlägg:
-      </label>
-    </div>
-    <div class="ad-news-area">
-      <textarea class="ad-news-text"></textarea>
-    </div>
-    <div class="ad-news-btn">
-      <button type="button" onclick="newFunc2()">Skicka</button>
-      <p id="message" class="ad-news-btn"></p>
-    </div>
-  </div>
-</div>
+    <div class="task">
+      <h2>SKAPA NYHETSINLÄGG</h2><br>
+      <div class="ad-news">
+        <div class="ad-news-header">
+          <label>Rubrik:</label>
+        </div>
+        <div class="news-topic">
+          <input type="text" class="ad-news-topic">
+        </div>
+        <div class="ad-news-header">
+          <label> Nyhetsinlägg:</label>
+        </div>
+        <div class="ad-news-area">
+          <textarea class="ad-news-text"></textarea>
+        </div>
+        <div class="ad-news-btn">
+          <button type="button" onclick="newFunc2()">Skicka</button>
+          <p id="message" class="ad-news-btn"></p>
+        </div>
+      </div>
+     </div>
 
-
-<script src="../../JS/modal-studentlist.js"></script>
-
+        <script src="../../JS/modal-studentlist.js"></script>
 
   </body>
 </html>
