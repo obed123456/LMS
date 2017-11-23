@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="sv">
 
 <head>
   <meta charset="utf-8">
@@ -24,7 +24,6 @@
     <li><a href="features.html">Funktioner</a></li>
   </ul>
 </nav>
-
 <!-- logo in the middle -->
 
 <div class="logo">
@@ -36,20 +35,21 @@
 <div class="login">
   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
   <div id="id01" class="modal">
-    <form name="Login" class="modal-content animate" action="">
+    <form name="Login" class="modal-content animate">
       <div class="imgcontainer">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       </div>
-      <div class="container">
+	</form>
+    <div class="container">
     <form name="login">
-    <label><i style="font-size:15px" class="fa">&#xf007;</i></label>
+    <label><i class="fa fa-lock" style="font-size:24px"></i></label>
     <input name="id" type="text" placeholder="Username" required>
-    <label><i style="font-size:15px" class="fa">&#xf023;</i></label>
+    <label><i class="fa fa-user" style="font-size:24px"></i></label>
     <input name="pass" type="password" placeholder="Password" required>
     <button type="button" value="login" onclick="pasuser(this.form)">GO!</button>
-    </div>
+    </form>
+	</div>
   </div>
-  </form>
 </div>
 
 <!-- Pricing below navbar -->
@@ -111,8 +111,7 @@
 
   <div class="footer">
     <div class="sticky-footer">
-      <p>© 2017 All Rights reserved
-      </p>
+      <p>© 2017 All Rights reserved</p>
     </div>
   </div>
 
@@ -122,7 +121,7 @@
 
 
 <script src="../JS/login.js"></script>
-
-
+</div>
+</div>
 </body>
 </html>
