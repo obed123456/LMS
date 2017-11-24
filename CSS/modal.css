@@ -12,14 +12,15 @@
   margin-right: 20px;
   border-radius: 5px;
 }
+
 #modal-btn button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-/* Center the image and position the close button */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
+
+.imgcontainer { /* Center the image and position the close button */
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
 }
 /* The Modal (background) */
 .modal_fileUpload, .modal_comment {
@@ -36,12 +37,11 @@
     padding-top: 60px;
 }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+.modal-content { /* Modal Content/Box */
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -56,18 +56,20 @@
 }
 .
 
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
 }
-/* Add Zoom Animation */
-.animate {
-    animation: animatezoom 0.6s
+
+.animate { /* Add Zoom Animation */
+  animation: animatezoom 0.6s
 }
+
 @keyframes animatezoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
+    from {transform: scale(0)
+    }
+    to {transform: scale(1)
+    }
 }
 .upload{
   display: none;
