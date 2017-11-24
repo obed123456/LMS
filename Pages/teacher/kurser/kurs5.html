@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
   <meta charset="utf-8">
@@ -16,7 +16,7 @@
 
 <div class="header">
   <div class="logotype">
-    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo" / ></a>
+    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo"/></a>
   </div>
   <div class="logout">
     <a href="../../index.html" class="logout_btn">Logga ut</a>
@@ -50,21 +50,21 @@
       <td>Individuellt projekt</td>
       <td>VG</td>
       <td>VG</td>
-      <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
     </tr>
     <tr>
       <td>KYH052</td>
       <td>Tentamen/Hemtenta</td>
       <td>VG</td>
       <td>VG</td>
-      <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
     </tr>
     <tr>
       <td>KYH053</td>
       <td>Projekt i grupp</td>
       <td>VG</td>
       <td>VG</td>
-      <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
     </tr>
   </table>
 </div>
@@ -72,8 +72,8 @@
 <!-- ***************Modal 01 with id02..Comments from teacher********************* -->
 <!-- ***********Form starts here****************** -->
 
-<div id="id02" class="modal">
-  <form class="modal-content animate" action="">
+<div id="id02" class="modal_comment">
+  <form class="modal-content animate" action="#">
     <div class="imgcontainer">
 
       <!-- close button in the right top -->
@@ -152,6 +152,8 @@
   </div>
 </div>
 
-</body>
 
+<script src="../../../JS/modal.js"></script>
+
+</body>
 </html>

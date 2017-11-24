@@ -22,6 +22,12 @@ h2 {
   text-align: center;
 }
 
+#success_message{
+  color: black;
+}
+#alert_message {
+  color: red;
+}
 /*----------------Layout overview---------------------*/
 #rubrik {
   border-radius: 5px;
@@ -395,7 +401,6 @@ table#t01 {
 
 td:nth-child(6) {
   margin-top: 5px;
-  text-align: right;
 }
 
 img#modal-btn {

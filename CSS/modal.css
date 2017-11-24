@@ -1,4 +1,5 @@
-#modal-btn button { /* Set a style for all buttons */
+/* Set a style for all buttons */
+.modal-btn button{
   background-color: #00314a;
   border: none;
   color: white;
@@ -21,19 +22,19 @@
   margin: 24px 0 12px 0;
   position: relative;
 }
-
-.modal { /* The Modal (background) */
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
+/* The Modal (background) */
+.modal_fileUpload, .modal_comment {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
 }
 
 .modal-content { /* Modal Content/Box */
@@ -43,14 +44,17 @@
   width: 50%; /* Could be more or less, depending on screen size */
 }
 
-.close { /* The Close Button (x) */
-  position: absolute;
-  right: 10px;
-  margin-top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 10px;
+    margin-top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
 }
+.
 
 .close:hover, .close:focus {
   color: red;
@@ -66,4 +70,7 @@
     }
     to {transform: scale(1)
     }
+}
+.upload{
+  display: none;
 }
