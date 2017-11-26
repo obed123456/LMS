@@ -1,66 +1,67 @@
-*{
- 	font-family: lato;
+* {
+  font-family: lato;
 }
 
 .task {
- line-height: 40px;
- margin-top: 20px;
- margin: 20px 20px 20px 20px;
- padding: 20px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
- border-radius: 5px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .task p {
- text-align: left;
+  text-align: left;
 }
 
-.weeklyEvaluation{
-	width: 100%;
+.weeklyEvaluation {
+  width: 100%;
 }
 
 .add {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.inputs, .labels, .list, .label_list, .list_items{
-	display: flex;
-	flex-wrap: wrap;
+.inputs, .labels, .list, .label_list, .list_items {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.list{
-	flex-direction: column;
+.list {
+  flex-direction: column;
 }
 
-._1{
-	width: 50%;
-	border-radius: 5px;
-	height: 28px;
-	font-weight: bold;
+._1 {
+  width: 50%;
+  border-radius: 5px;
+  height: 28px;
+  font-weight: bold;
 }
 
-._2, ._3, ._4, input{
-	width: 15%;
-	font-weight: bold;
+._2, ._3, ._4, input {
+  width: 15%;
+  font-weight: bold;
 }
 
-.text_heading{
-	width: 100%;
-	text-align: left;
+.text_heading {
+  width: 100%;
+  text-align: left;
 }
 
-.nr, .slider_checkbox, .text_checkbox, .edit_button, .delete_button{
-	width: 6%;
-	/*border: 1px solid red;*/
-}
-.question{
-	width: 70%;
+.nr, .slider_checkbox, .text_checkbox, .edit_button, .delete_button {
+  width: 6%;
+	/*border: 1px solid red;*/;
 }
 
-._4{
-	border-radius: 5px;
-	padding: 2px;
-	height: 28px;
+.question {
+  width: 70%;
+}
+
+._4 {
+  border-radius: 5px;
+  padding: 2px;
+  height: 28px;
 }

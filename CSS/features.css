@@ -12,10 +12,12 @@ footer {
   margin: 0;
 }
 
-.article { /* Devider between articles */
+.article {
+ /* Devider between articles */
   margin-bottom: 0;
   display: flex;
-  flex-wrap: wrap; /* Wrap on small screens (flex items go under each other) */
+  flex-wrap: wrap;
+ /* Wrap on small screens (flex items go under each other) */;
 }
 
 .article:nth-child(odd) {
@@ -28,7 +30,8 @@ footer {
   border-bottom: 2px solid #d8d8d8;
 }
 
-.image-container {   /* Let the image container fill the whole width of the screen*/
+.image-container {
+   /* Let the image container fill the whole width of the screen*/
   width: 100%;
   display: flex;
   justify-content: center;
@@ -53,22 +56,27 @@ footer {
   padding: 0 20px;
 }
 
-@media (min-width: 850px) { /* Media query: scale for 850px and larger screens*/
+@media (min-width: 850px) {
+ /* Media query: scale for 850px and larger screens*/
   .article {
-    flex-wrap: nowrap; /* Make articles content (the containers) show side-by-side by preventing wrapping*/
+    flex-wrap: nowrap;
+ /* Make articles content (the containers) show side-by-side by preventing wrapping*/
     margin-bottom: 0;
   }
 
-  .article:nth-child(odd) { /* Make every other article display its children in reversed order*/
+  .article:nth-child(odd) {
+ /* Make every other article display its children in reversed order*/
     flex-direction: row-reverse;
     background-color: #f2f2f2;
   }
+
   .article:nth-child(even) {
     border-top: 2px solid #d8d8d8;
     border-bottom: 2px solid #d8d8d8;
   }
 
-  .image-container, .info-container { /* Make the containers take up half the view width each */
+  .image-container, .info-container {
+ /* Make the containers take up half the view width each */
     width: 100%;
     padding: 40px;
   }
