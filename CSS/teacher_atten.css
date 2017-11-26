@@ -3,6 +3,7 @@ table, th, td {
   border-collapse: collapse;
   padding: 0px;
 }
+
 th, td {
   text-align: center;
 }
@@ -15,7 +16,7 @@ th, td {
 }
 
 .switch input {
-  display:none;
+  display: none;
 }
 
 .slider {

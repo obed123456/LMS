@@ -4,8 +4,6 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
-	font-weight: black;
-
 }
 
 #invalid_message {
@@ -89,7 +87,6 @@ html, body {
 	padding: 10px;
 	border-radius: 5px;
 	color: black;
-	font-weight: 14px;
 }
 
 .mid-content .ind_left  li{
@@ -172,7 +169,6 @@ nav li{
 	padding-top: 25px;
 	padding-right: 10px;
 	position: relative;
-	margin: 1px solid red;
 }
 
 nav a {
@@ -417,11 +413,11 @@ span.psw {
 }
 
 .animate {
-  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
 
-@-webkit-keyframes animatezoom {
+@keyframes animatezoom {
     from {-webkit-transform: scale(0)
 		}
     to {-webkit-transform: scale(1)

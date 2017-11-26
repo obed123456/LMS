@@ -3,9 +3,11 @@
   padding: 0;
   font-family: lato;
 }
+
 a {
   text-decoration: none;
 }
+
 p {
   font-size: 16px;
   line-height: 20px;
@@ -18,13 +20,15 @@ li {
 .hidden {
   display: none;
 }
+
 h2 {
   text-align: center;
 }
 
-#success_message{
+#success_message {
   color: black;
 }
+
 #alert_message {
   color: red;
 }
@@ -32,9 +36,11 @@ h2 {
 #rubrik {
   border-radius: 5px;
 }
+
 .inv {
   display: none;
 }
+
 #target {
   height: 29px;
 }
@@ -52,7 +58,7 @@ h2 {
   text-align: center;
 }
 
-.task { 
+.task {
   line-height: 40px;
   margin-top: 20px;
   margin: 20px 20px 20px 20px;
@@ -94,7 +100,7 @@ h2 {
 /*Header with logo and logout*/
 .header {
   width: 100%;
-  height: 80px;    
+  height: 80px;
   display: flex;
   z-index: -10;
   justify-content: space-between;
@@ -102,7 +108,7 @@ h2 {
   align-items: center;
 }
 
-.logotype img {  
+.logotype img {
   flex: 1;
   margin: 0 0 5px 20px;
   position: relative;
@@ -123,6 +129,7 @@ h2 {
   margin-right: 20px;
   border-radius: 5px;
 }
+
 .logout_btn:hover {
   opacity: 0.8;
   text-decoration: none;
@@ -130,31 +137,37 @@ h2 {
 /*Relative navbar*/
 .navbar {
   height: 50px;
-  width: 100%;    
+  width: 100%;
   background-color: #f85f06;
 }
+
 nav {
   float: left;
 }
+
 nav ul {
   list-style: none;
 }
+
 nav li {
   display: inline-block;
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
 }
-nav a{
+
+nav a {
   color: #E5F9FF;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;    
+  font-size: 18px;
   padding-top: 15px;
 }
+
 nav a:hover {
   color: #E5F9FF;
 }
+
 nav a:before {
   content: '';
   display: block;
@@ -162,9 +175,10 @@ nav a:before {
   background-color: #E5F9FF;
   position: absolute;
   width: 0%;
-  top:-15px;
+  top: -15px;
   transition: all ease-in-out 250ms;
 }
+
 nav a:hover::before {
   width: 100%;
   top: -15px;
@@ -174,18 +188,18 @@ nav a:hover::before {
 .main-content-dashboard {
   display: flex;
   width: 100%;
-  height:800px;    
+  height: 800px;
 }
 
 .main-content-column-left {
   margin-top: 8px;
-  flex: 3;    
-  height: 800px;    
+  flex: 3;
+  height: 800px;
 }
 
 .main-content-column-right {
   margin-top: 8px;
-  flex: 1;   
+  flex: 1;
   width: 900px;
 }
 
@@ -193,7 +207,7 @@ nav a:hover::before {
   margin-top: 20px;
 }
 /*------------------smileys rating-----------------*/
-#smiley-rating {  
+#smiley-rating {
   margin-top: 15px;
 }
 
@@ -227,11 +241,11 @@ nav a:hover::before {
 }
 
 .smiley-rating-question p {
-  margin: 0 0 5px;    
+  margin: 0 0 5px;
   text-align: center;
 }
+
 #smiley-rating-message {
-    
   margin-top: 15px;
   text-align: center;
 }
@@ -242,32 +256,34 @@ nav a:hover::before {
   border-radius: 5px;
 }
 
-.main-form {    
-  display: flex;    
+.main-form {
+  display: flex;
   text-align: center;
   flex-direction: column;
   height: 800px;
 }
 
 .header_text_weekly_servey {
-
 }
+
 .header_text_weekly_servey h2 {
   font-size: 25px;
   text-align: center;
 }
+
 .header_text_weekly_servey p {
   font-size: 18px;
   text-align: center;
 }
-.form-label {  
+
+.form-label {
   margin-bottom: 10px;
   font-size: 25px;
   text-align: center;
 }
 
-.form-rating {    
-  margin-bottom: 10px;    
+.form-rating {
+  margin-bottom: 10px;
   font-size: 15px;
 }
 
@@ -275,26 +291,26 @@ nav a:hover::before {
   text-align: center;
 }
 
-.form-comment{
+.form-comment {
   text-align: center;
 }
-.form-comment textarea{    
-  border:1px solid black;
+
+.form-comment textarea {
+  border: 1px solid black;
   width: 70%;
   resize: none;
   height: 75px;
   border-radius: 5px;
 }
 
-.form-comment >input{
-    
+.form-comment >input {
 }
 
 .comment_input {
   width: 100%;
 }
 /*button in weekly evaluation*/
-.form_btn {    
+.form_btn {
   text-align: center;
   justify-content: center;
 }
@@ -302,8 +318,8 @@ nav a:hover::before {
 .form_btn_inside {
   margin-bottom: 10px;
   border-radius: 5px;
-  padding: 5px 5px ;
-  margin-top: 5px;  
+  padding: 5px 5px;
+  margin-top: 5px;
 }
 
 .btn_form_weekly {
@@ -315,39 +331,40 @@ nav a:hover::before {
   font-size: 14px;
   text-align: center;
 }
+
 #slidecontainer {
-  width: 100%; 
+  width: 100%;
 }
 
 .range-slider {
-  width: 300px; 
-  height: 12px; 
+  width: 300px;
+  height: 12px;
   border-radius: 5px;
-  box-shadow: inset 0 0 7px #4c4c4c; 
-  background: #d3d3d3; 
-  outline: none; 
+  box-shadow: inset 0 0 7px #4c4c4c;
+  background: #d3d3d3;
+  outline: none;
   margin: 0 8px;
 }
 
 .range-slider:hover {
-  opacity: 0.9; 
+  opacity: 0.9;
 }
 
-.range-slider::-webkit-slider-thumb { 
-  width: 20px; 
-  height: 20px; 
+.range-slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
   border-radius: 50px;
-  background: #00314a; 
-  cursor: pointer; 
+  background: #00314a;
+  cursor: pointer;
 }
 
-.slider-text-good {    
+.slider-text-good {
   display: inline-block;
   text-align: left;
   width: 80px;
 }
 
-.slider-text-bad {  
+.slider-text-bad {
   display: inline-block;
   text-align: right;
   width: 80px;
@@ -365,24 +382,26 @@ button {
   font-size: 14px;
   cursor: pointer;
   margin-right: 20px;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 button:hover {
-  opacity: 0.8;  text-decoration: none;  
+  opacity: 0.8;
+  text-decoration: none;
 }
 
-#atten_input { 
-  height:28px;
-  font-size:13pt;
+#atten_input {
+  height: 28px;
+  font-size: 13pt;
   border-radius: 5px;
 }
+
 .rating-1 {
   line-height: 200%;
 }
 
 /*------------------Course Table Info-----------------*/
-table, th, td {    
+table, th, td {
   border-collapse: collapse;
 }
 
@@ -390,6 +409,7 @@ th, td {
   padding: 5px;
   text-align: left;
 }
+
 table#t01 {
   width: 100%;
 }
@@ -482,24 +502,24 @@ img#modal-btn {
   flex: auto;
   text-align: center;
 }
+
 .range-slider-courses p {
   text-align: center;
 }
+
 #submit_message_courses {
   text-align: center;
   margin: 25px 0;
 }
 
-@media (max-width: 650px) {  
-  
+@media (max-width: 650px) {
 }
-@media (max-width: 500px) { 
-  
-  
+
+@media (max-width: 500px) {
 }
 /*------------------ News feed -----------------------*/
 .news-wrapper {
-  width: 50%;  
+  width: 50%;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
@@ -529,14 +549,13 @@ img#modal-btn {
   font-size: 22px;
   font-weight: bold;
   line-height: 200%;
-  margin: 15px 0 10px 0 ;
+  margin: 15px 0 10px 0;
   padding: 5px;
 }
 
 .news-box dd {
   margin: 5px;
   padding-top: 3px;
-
 }
 
 ._2pac {
@@ -568,7 +587,7 @@ img#modal-btn {
   font-weight: bold;
 }
 
-#teacher-date, #teacher-subject, #teacher-upload, #teacher-submit, #teacher-select  {
+#teacher-date, #teacher-subject, #teacher-upload, #teacher-submit, #teacher-select {
   width: 10%;
 }
 
@@ -576,7 +595,6 @@ img#modal-btn {
 }
 
 #teacher-subject {
-
 }
 
 #teacher-course {
@@ -585,9 +603,9 @@ img#modal-btn {
 }
 
 #teacher-upload {
-
 }
-#myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7, #myBtn8  {
+
+#myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7, #myBtn8 {
   cursor: pointer;
 }
 
@@ -603,10 +621,9 @@ img#modal-btn {
   background-color: #a2a2a2;
   cursor: pointer;
   color: white;
-
 }
 
-.heading-date, .heading-select, .heading-subject, .heading-upload, .li-item-date, .li-item-select, .li-item-subject, .li-item-upload   {
+.heading-date, .heading-select, .heading-subject, .heading-upload, .li-item-date, .li-item-select, .li-item-subject, .li-item-upload {
   width: 10%;
   height: 25px;
 }
@@ -629,9 +646,9 @@ img#modal-btn {
 }
 
 #date-input, #excercise-input, #description-input, #upload-input, #course-select, .btn-add-excercise, #date-label, #course-label-select, #excercise-label, #upload-label {
-  width: 10%;   
+  width: 10%;
   border-radius: 5px;
-  height: 25px;   
+  height: 25px;
 }
 
 #description-input, #description-label {
@@ -643,6 +660,7 @@ img#modal-btn {
   display: none;
   padding-bottom: 5px;
 }
+
 #excercise-input {
   height: 29px;
 }
@@ -653,7 +671,7 @@ img#modal-btn {
 
 .btn-add-excercise {
   text-align: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   margin-left: 85%;
   margin-top: 10px;
   padding-bottom: 20px;
@@ -676,14 +694,13 @@ img#modal-btn {
 .main-curveChart {
   display: flex;
   justify-content: space-around;
-
 }
 
 .main-curveChart li {
   list-style: none;
 }
 
-.pieComment {  
+.pieComment {
   width: 450px;
   padding-bottom: 20px;
   margin-bottom: 25px;
@@ -717,7 +734,7 @@ img#modal-btn {
 .smiley {
   display: flex;
   width: 100%;
-  align-items: center;  
+  align-items: center;
   justify-content: center;
 }
 
@@ -737,7 +754,7 @@ img#modal-btn {
 
 /*------------------Adding excercise and test for teacher-----------*/
 
- #li-exersice-corr-date, #li-exersice-student, #li-exersice-corr-subject #li-exersice-corr-course, #li-exersice-corr-upload, #li-exersice-comment, #li-exersice-grade  {
+#li-exersice-corr-date, #li-exersice-student, #li-exersice-corr-subject #li-exersice-corr-course, #li-exersice-corr-upload, #li-exersice-comment, #li-exersice-grade {
   width: 10%;
 }
 
@@ -748,87 +765,87 @@ img#modal-btn {
 
 .teacher-course-input:hover {
   background-color: #d3d3d3;
-
 }
 
 @media only screen and (max-width: 800px) {
 
-.teacher-course, .teacher-course-input {
-  align-self: center;
-  height: 35px;
-}
+  .teacher-course, .teacher-course-input {
+    align-self: center;
+    height: 35px;
+  }
 
+  .label-news {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 
-.label-news {
- font-weight: bold;
- width: 100%;
- display: flex;
- justify-content: space-around;
+  #kurs-label-select {
+    width: 10%;
+  }
 
-}
-#kurs-label-select {
- width: 10%;
-}
+  #rubrik-label {
+    width: 15%;
+  }
 
-#rubrik-label {
-  width: 15%;
-}
-#text-label {
-  width: 30%;
-}
+  #text-label {
+    width: 30%;
+  }
 
 
 /*------------- admin add-news (story 25)--------------------------*/
 
 
-.ad-news {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  align-items: center;
+  .ad-news {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ad-news-header {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .news-topic, .ad-news-topic {
+    width: 60%;
+  }
+
+  .ad-news-topic {
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+  }
+
+  .ad-news-area {
+    text-align: center;
+    width: 100%;
+  }
+
+  .ad-news-text {
+    width: 60%;
+    height: 150px;
+    resize: none;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+
+  .ad-news-btn {
+    color: black;
+    padding-left: 10px;
+    align-self: center;
+  }
+
+/*------------------------ADMIN USER---------------*/;
 }
 
-.ad-news-header {
-  font-size: 20px;
-  width: 60%;  
-}
-
-.news-topic, .ad-news-topic  {
-  width: 60%;
-}
-
-.ad-news-topic {
-  height: 30px;
-  font-size: 18px;
-  border-radius: 5px;
-  resize: none;
-  margin-bottom: 30px;
-  border: 1px solid lightgrey;
-}
-
-.ad-news-area {
-  text-align: center;
-  width: 100%;
-}
-
-.ad-news-text{
-  width: 60%;
-  height: 150px;
-  resize: none;
-  font-size: 16px;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-  margin-bottom: 30px;
-}
-
-.ad-news-btn {
-  color: black;
-  padding-left: 10px;
-  align-self: center;
-}
-
-/*------------------------ADMIN USER---------------*/
-}
 .user-label {
   font-weight: bold;
   display: flex;
@@ -877,39 +894,42 @@ img#modal-btn {
 }
 
 .klass-label {
-	font-weight: bold;
-}
-.klass-input {
-	width: 200%;
+  font-weight: bold;
 }
 
-.content-left {	
-	width: 50%;
-	justify-content: space-between;
-	padding: 10px;
+.klass-input {
+  width: 200%;
 }
+
+.content-left {
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
 .main-div {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
+
 .content-right {
-	width: 50%;
-	justify-content: space-between;
-	padding: 10px;
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .utb-input {
-	width: 200%;
+  width: 200%;
 }
 
 .utb-label {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .kurs-label {
-  font-weight : bold;
-  display : flex;
-  width : 35%;
-  justify-content : space-between;
-  }
+  font-weight: bold;
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
 
