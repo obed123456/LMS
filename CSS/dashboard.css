@@ -188,13 +188,13 @@ nav a:hover::before {
 .main-content-dashboard {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 800px;
 }
 
 .main-content-column-left {
   margin-top: 8px;
   flex: 3;
-  height: auto;
+  height: 800px;
 }
 
 .main-content-column-right {
@@ -519,7 +519,7 @@ img#modal-btn {
 }
 /*------------------ News feed -----------------------*/
 .news-wrapper {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
@@ -605,18 +605,7 @@ img#modal-btn {
 #teacher-upload {
 }
 
-<<<<<<< HEAD
-/*#teacher-comment {
-  text-align: center;
-  width: 20%;
-  height: 35px;
-
-}*/
-
-.comment {
-=======
 #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7, #myBtn8 {
->>>>>>> d7ba0e58b1c6a90050c716d2ee9e3b2630d87927
   cursor: pointer;
 }
 
@@ -938,17 +927,9 @@ img#modal-btn {
 }
 
 .kurs-label {
-<<<<<<< HEAD
-	font-weight: bold;
-	display: flex;
-	width: 35%;
-	justify-content: space-between;
-}
-=======
   font-weight: bold;
   display: flex;
   width: 35%;
   justify-content: space-between;
 }
 
->>>>>>> d7ba0e58b1c6a90050c716d2ee9e3b2630d87927
