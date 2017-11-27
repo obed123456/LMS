@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
   <meta charset="utf-8">
@@ -16,7 +16,7 @@
 
 <div class="header">
   <div class="logotype">
-    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo" / ></a>
+    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo"/></a>
   </div>
   <div class="logout">
     <a href="../../index.html" class="logout_btn">Logga ut</a>
@@ -52,7 +52,7 @@
       <td>ip.pdf</td>
       <td>
         <div id="modal-btn">
-          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
+          <button onclick="submit()">Lämna In</button>
         </div>
       </td>
       <td>VG</td>
@@ -89,17 +89,18 @@
 <!-- ***********Form starts here****************** -->
 
 <div id="id01" class="modal">
-  <form class="modal-content animate" action="">
+  <form class="modal-content animate" action="#">
     <div class="imgcontainer">
 
       <!-- close button in the right top -->
 
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> -->
     </div>
 
     <!-- Your text goes here -->
 
     <div class="task">
+      <span class="close">&times;</span>
       <h1>Inlämning</h1>
       <p>Välj ditt dokument och lämna in.</p>
       <input type="file" id="uploadBox">

@@ -621,7 +621,8 @@ img#modal-btn {
   height: 35px;
 
 }*/
-#myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7, #myBtn8  {
+
+.comment {
   cursor: pointer;
 }
 .teacher-course-input {
