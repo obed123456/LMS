@@ -13,7 +13,7 @@ html, body {
 .logout_btn {
   background-color: #00314a;
   border: none;
-	color: white;
+  color: white;
   padding: 14px 18px;
   text-align: center;
   text-decoration: none;
@@ -52,20 +52,27 @@ html, body {
 }
 .mid-content {
 	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+.ind_right{
+	text-align: left;
+	align-self: center;
+	width: 70%;
 }
 
 .main-head {
 	width: 100%;
 	margin-top: 0px;
-	height: 660px;
-	background: url('../Img/background.png');
-	background-size: cover;
+	height: 550px;
+	align-self: center;
+	background-size: ;
 	background-repeat: no-repeat;
 	display: flex;
-}
 
+}
 .mid-content .ind_left {
-	/*border: 2px solid red;*/
 	justify-content: flex-start;
 	text-align: center;
 	align-self: center;
@@ -207,10 +214,10 @@ nav a:hover::before {
 	width: 100%;
 }
 .inside_text {
-	font-size: 40px;
+	font-size: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	color: #1D7CF2;
+	color: #00314a;
 	align-self: center;
 }
 
@@ -265,6 +272,8 @@ nav a:hover::before {
 .sticky-footer {
 	flex: 1;
 	color: white;
+	text-align: center;
+
 }
 
 @media (max-width: 600px) {

@@ -97,15 +97,16 @@ html body {
   align-self: flex-end;
   margin: 20px 5px 20px 0;
   padding: 5px;
-  width: 100px;
+  width: 150px;
   height: 40px;
 }
 
 .price-contact-left h4 {
   font-size: 18px;
   color: #00314a;
-  text-align: center;
+  text-align: left;
   padding: 0px;
+
 }
 
 .price-contact-right {
@@ -113,14 +114,14 @@ html body {
   align-self: flex-end;
   margin: 20px 5px 20px 0;
   padding: 5px;
-  width: 100px;
+  width: 150px;
   height: 40px;
 }
 
 .price-contact-right h4 {
   font-size: 18px;
   color: #00314a;
-  text-align: center;
+  text-align: left;
 }
 
 .price-contact-left h4:hover {
