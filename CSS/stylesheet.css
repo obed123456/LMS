@@ -272,65 +272,66 @@ nav a:hover::before {
 }
 
 @media (max-width: 600px) {
-	.inside_text {
-	font-size: 40px;
-}
+		.inside_text {
+		font-size: 40px;
+	}
 
-.icons_3{
-	text-align: start;
-	display: block;
-	flex-wrap: wrap;
-}
+	.icons_3{
+		text-align: start;
+		display: block;
+		flex-wrap: wrap;
+	}
 
-.icons_3 p {
-	font-size: 0.9em;
-	margin-bottom: 10px;
-}
+	.icons_3 p {
+		font-size: 0.9em;
+		margin-bottom: 10px;
+	}
 
-.heading {
-	font-size: 25px;
-}
+	.heading {
+		font-size: 25px;
+	}
 
-.footer{
-	display:none;
-}
+	.footer{
+		display:none;
+	}
 
-.logo {
-	order: -1;
-}
-.logo img {
-	height: 50px;
-	width: auto;
-	margin: 5px;
-}
+	.logo {
+		order: -1;
+	}
+	.logo img {
+		height: 50px;
+		width: auto;
+		margin: 5px;
+	}
 
-img {
-	width: auto;
-	height: 80px;
-}
+	img {
+		width: auto;
+		height: 80px;
+	}
 
-.login{
-	margin-top: -10px;
-}
+	.login{
+		margin-top: -10px;
+	}
 
-.nav-container {
-	height: 80px;
+	.nav-container {
+		height: 80px;
 
-}
+	}
 
-nav  {
-	flex: 2;
-	flex-wrap: nowrap;
-}
+	nav  {
+		flex: 2;
+		flex-wrap: nowrap;
+	}
 
-nav a {
-	padding-top: 0px;
-}
+	nav a {
+		padding-top: 0px;
+	}
 
-nav li{
-	margin-left: 5px;
-	padding-top: 30px;
-	padding-right: 10px;
+	nav li{
+		margin-left: 5px;
+		padding-top: 30px;
+		padding-right: 10px;
+	}
 }
 
 input[type=text], input[type=password] {
