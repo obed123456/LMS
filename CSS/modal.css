@@ -1,5 +1,5 @@
 /* Set a style for all buttons */
-#modal-btn button {
+.modal-btn button{
   background-color: #00314a;
   border: none;
   color: white;
@@ -11,25 +11,19 @@
   cursor: pointer;
   margin-right: 20px;
   border-radius: 5px;
-    /*background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;*/
 }
+
 #modal-btn button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-/* Center the image and position the close button */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
+
+.imgcontainer { /* Center the image and position the close button */
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
 }
 /* The Modal (background) */
-.modal {
+.modal_fileUpload, .modal_comment {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -43,12 +37,11 @@
     padding-top: 60px;
 }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+.modal-content { /* Modal Content/Box */
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -59,18 +52,24 @@
     color: #000;
     font-size: 35px;
     font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: red;
     cursor: pointer;
 }
-/* Add Zoom Animation */
-.animate {
-    animation: animatezoom 0.6s
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
 }
+
+.animate { /* Add Zoom Animation */
+  animation: animatezoom 0.6s
+}
+
 @keyframes animatezoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
+    from {transform: scale(0)
+    }
+    to {transform: scale(1)
+    }
+}
+.upload{
+  display: none;
 }

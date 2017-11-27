@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
   <meta charset="utf-8">
@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../../CSS/dashboard.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../../../CSS/modal.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
 <div class="header">
   <div class="logotype">
-    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo" / ></a>
+    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo"/></a>
   </div>
   <div class="logout">
     <a href="../../index.html" class="logout_btn">Logga ut</a>
@@ -49,24 +50,50 @@
       <td>Individuellt projekt</td>
       <td>VG</td>
       <td>VG</td>
-      <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
     </tr>
     <tr>
       <td>KYH032</td>
       <td>Tentamen/Hemtenta</td>
       <td>VG</td>
       <td>VG</td>
-      <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
     </tr>
     <tr>
       <td>KYH033</td>
       <td>Projekt i grupp</td>
       <td>VG</td>
       <td>VG</td>
-      <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
     </tr>
   </table>
 </div>
+
+<!-- ***************Modal 01 with id02..Comments from teacher********************* -->
+<!-- ***********Form starts here****************** -->
+
+<div id="id02" class="modal_comment">
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer">
+
+      <!-- close button in the right top -->
+
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <!-- Your text goes here -->
+
+    <div class="task">
+      <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
+      <p>Du har fått betyget <strong>VG</strong> på kursen.</p>
+    </div>
+
+    <!-- End of your text -->
+
+  </form>
+</div>
+
+
 <div class="course">
   <div class="task">
     <h1>DYNAMISK WEBBUTVECKLING</h1>
@@ -124,6 +151,7 @@
   </div>
 </div>
 
-</body>
+<script src="../../../JS/modal.js"></script>
 
+</body>
 </html>

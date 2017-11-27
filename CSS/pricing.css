@@ -6,16 +6,16 @@ html body {
 }
 
 .body_wrapper {
-display: flex;
-flex-direction: column;
-min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .price-img-container {
   display: flex;
   margin: 0px;
-  /*border: 1px solid red;*/
 }
+
 .price-img-container img {
   width: 100%;
   height: 100%;
@@ -23,10 +23,10 @@ min-height: 100vh;
 }
 
 .price-headline h1 {
-    font-size: 38px;
-    font-family: Verdana, sans-serif;
-    color: #919191;
-    margin: 30px;
+  font-size: 38px;
+  font-family: Verdana, sans-serif;
+  color: #919191;
+  margin: 30px;
 }
 
 .price-content-wrapper {
@@ -41,7 +41,6 @@ min-height: 100vh;
   flex-wrap: wrap;
   padding: 20px;
   background-color: #FEF5E9;
-  /*border: 1px solid red;*/
 }
 
 .price-content ul li {
@@ -66,7 +65,6 @@ min-height: 100vh;
   padding: 20px;
   background-color: #feedd7;
   border-radius: 5px;
-  /*border: 1px solid red;*/
 }
 
 .price-list-right {
@@ -79,7 +77,6 @@ min-height: 100vh;
   padding: 20px;
   border-radius: 5px;
   background-color: #feedd7;
-  /*border: 1px solid red;*/
 }
 
 .price-title {
@@ -88,17 +85,11 @@ min-height: 100vh;
   margin-bottom: 40px;
   padding: 5px;
   border-radius: 5px;
-  /*border: 1px solid red;*/
 }
-
 
 .price-title h2 {
   color: #FFFFFF;
   font-family: sans-serif;
-}
-
-.price-bullet-list {
-  /*border: 1px solid red;*/
 }
 
 .price-contact-left {
@@ -108,15 +99,13 @@ min-height: 100vh;
   padding: 5px;
   width: 100px;
   height: 40px;
-  /*background-color: #00314a;*/
-  /*border: 1px solid red;*/
 }
+
 .price-contact-left h4 {
-    font-size: 18px;
-    color: #00314a;
-    text-align: center;
-    /*border: 1px solid red;*/
-    padding: 0px;
+  font-size: 18px;
+  color: #00314a;
+  text-align: center;
+  padding: 0px;
 }
 
 .price-contact-right {
@@ -126,15 +115,12 @@ min-height: 100vh;
   padding: 5px;
   width: 100px;
   height: 40px;
-  /*background-color: #00314a;*/
-  /*border: 1px solid red;*/
 }
 
 .price-contact-right h4 {
   font-size: 18px;
   color: #00314a;
   text-align: center;
-  /*border: 1px solid red;*/
 }
 
 .price-contact-left h4:hover {
@@ -149,11 +135,10 @@ min-height: 100vh;
   margin-top: 40px;
   height: 50px;
   width: 100%;
-  /*background-color: #00314a;*/
-  /*border: 1px red solid;*/
   display: flex;
   flex-wrap: wrap;
 }
+
 .footer p {
   color: #FFFFFF;
 }
@@ -163,17 +148,13 @@ min-height: 100vh;
   background-color: #00314a;
 }
 
-
-
 @media (max-width: 900px) {
-
   .price-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
     background-color: #FEF5E9;
-    /*border: 1px solid red;*/
   }
 
   .price-list-left {
@@ -183,8 +164,6 @@ min-height: 100vh;
     padding: 20px;
     background-color: #feedd7;
     border-radius: 5px;
-
-
   }
 
   .price-list-right {
@@ -194,41 +173,10 @@ min-height: 100vh;
     padding: 20px;
     border-radius: 5px;
     background-color: #feedd7;
-
   }
-
 }
 
-@media (max-width: 750px){
-
-
-  /*.price_main {
-
-    flex-direction: column;
-    justify-content: center;
-  }
-  .price {
-    width: 50vw;
-    height:
-  }
-  .offer_right {
-    width: 500px;
-    height: auto;
-    padding-bottom: 20px;
-  }*/
-  /*.offer_left {
-    width: 500px;
-    height: auto;
-    padding-bottom: 20px;
-
-  }*/
-
-  /*.price h1 {
-
-    font-size: 50px;
-  }*/
-
-
+@media (max-width: 750px) {
   .price-list-left {
     width: 500px;
     height: 500px;
@@ -236,7 +184,6 @@ min-height: 100vh;
     padding: 20px;
     background-color: #feedd7;
     border-radius: 5px;
-    /*border: 1px solid red;*/
   }
 
   .price-list-right {
@@ -246,6 +193,5 @@ min-height: 100vh;
     padding: 20px;
     border-radius: 5px;
     background-color: #feedd7;
-    /*border: 1px solid red;*/
   }
 }
