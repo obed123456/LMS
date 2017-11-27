@@ -94,7 +94,7 @@
 </div>
 
 <!-- *******************Modal 02 finish here**************** -->
-
+<div class="sidebyside">
 <div class="course">
   <div class="task">
     <h1>ARBETSMETODIK</h1>
@@ -152,7 +152,92 @@
   </div>
 </div>
 
+<div id="course-evaluation">
+  <div class="task">
+    <h2>UTVÄRDERING AVSLUTAD KURS</h2>
+    <br>
+    <div class="rating-1">
+      <div class="form-label">
+        <label>Vad har varit bra med kursen?</label><br>
+      </div>
+    </div>
+    <div class="form-comment">
+      <textarea placeholder="Skriv här"></textarea>
+    </div>
+    <br>
+    <div class="rating-1">
+      <div class="form-label">
+        <label>Vad har varit mindre bra med kursen?</label><br>
+      </div>
+    </div>
+    <div class="form-comment">
+      <textarea placeholder="Skriv här"></textarea>
+    </div>
+    <br>
+    <div class="rating-1">
+      <div class="form-label">
+        <label>Har du förslag på förbättringar?</label><br>
+      </div>
+    </div>
+    <div class="form-comment">
+      <textarea placeholder="Skriv här"></textarea>
+    </div>
+    <br>
+    <form>
+      <div class="rating-1">
+        <div class="form-label">
+          <label>Vad tycker du om kursen som helhet?</label>
+        </div>
+      </div>
+      <div class="range-slider-courses">
+        <label class="slider-text-bad">Dåligt</label>
+        <input type="range" min="1" max="5" value="3" class="range-slider" id="myRange1">
+        <label class="slider-text-good">Mycket bra</label>
+        <p><span id="demo1"></span></p>
+      </div>
+    </form>
+    <form>
+      <div class="rating-1">
+        <div class="form-label">
+          <label>Vad tyckte du om upplägget?</label>
+        </div>
+      </div>
+      <div class="range-slider-courses">
+        <label class="slider-text-bad">Dåligt</label>
+        <input type="range" min="1" max="5" value="3" class="range-slider" id="myRange2">
+        <label class="slider-text-good">Mycket bra</label>
+        <p><span id="demo2"></span></p>
+      </div>
+    </form>
+    <form>
+      <div class="rating-1">
+        <div class="form-label">
+          <label>Hur har kursen motsvarat dina förväntningar?</label>
+        </div>
+      </div>
+      <div class="range-slider-courses">
+        <label class="slider-text-bad">Dåligt</label>
+        <input type="range" min="1" max="5" value="3" class="range-slider" id="myRange3">
+        <label class="slider-text-good">Mycket bra</label>
+        <p><span id="demo3"></span></p>
+      </div>
+    </form>
+    <!-- Submit button -->
+    <div class="form_btn">
+      <div class="btn_form_weekly">
+        <button class="form_btn_inside" type="Submit" value="login" onclick="feedbackCourses()">Skicka</button>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+<div id="submit_message_courses">
+  <p></p>
+</div>
 
+<script src="../../../JS/feedback.js"></script>
+<script src="../../../JS/range-slider-courses.js"></script>
 <script src="../../../JS/modal.js"></script>
 
 </body>
