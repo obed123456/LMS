@@ -188,13 +188,13 @@ nav a:hover::before {
 .main-content-dashboard {
   display: flex;
   width: 100%;
-  height: 800px;
+  height: auto;
 }
 
 .main-content-column-left {
   margin-top: 8px;
   flex: 3;
-  height: 800px;
+  height: auto;
 }
 
 .main-content-column-right {
@@ -519,7 +519,7 @@ img#modal-btn {
 }
 /*------------------ News feed -----------------------*/
 .news-wrapper {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
