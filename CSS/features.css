@@ -46,13 +46,16 @@ footer {
 
 .info-container {
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .info-container h3 {
   text-align: center;
   color: white;
   font-weight: 24px;
-  background-color:grey;
+  background-color: grey;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .info-container ul {
