@@ -193,15 +193,31 @@ nav a:hover::before {
 }
 
 .main-content-column-left {
-  margin-top: 8px;
   flex: 3;
   height: 800px;
 }
 
 .main-content-column-right {
-  margin-top: 8px;
   flex: 1;
   width: 900px;
+
+}
+
+@media (max-width: 750px) {
+  .main-content-dashboard{
+  flex-direction: column;
+  }
+ .main-content-column-right{
+  order: 1;
+  width: 100%;
+ }
+ .main-content-column-left{
+  order: 2;
+  width: 100%;
+ }
+ #login{
+  text-align: center;
+ }
 }
 
 .main-content-column-right .container {
@@ -431,74 +447,6 @@ img#modal-btn {
 }
 
 /*------------------Course Evaluation-----------------*/
-/*.course-rev-wrapper{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-.course-rev-title {
-  padding: 20px;
-}
-.form-name {
-    padding: 20px;
-}
-
-#namn {
-  padding: 5px;
-  font-size: 16px;
-  width: 500px
-}
-
-.placeholder-fix:focus::-webkit-input-placeholder {
-  color:transparent;
-}
-
-.placeholder-fix:focus::-moz-placeholder  {
-  color:transparent;
-}
-
-.placeholder-fix:-moz-placeholder {
-  color:transparent;
-}
-
-.form-label {
-  margin: 20px;
-  width: 500px;
-  resize: none;
-  /*overflow: scroll;
-}
-
-.form-label textarea {
-  resize: none;
-}
-.textarea.form-label {
-  width: 500px;
-  height: 500px;
-  overflow: auto;
-}
-
-.display:flex; {
-  flex-direction:column;
- }
-.radio{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    width: 500px;
-
-}
-
-
-.course-rev-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /*align-items: center;
-  margin-top: 20px;
-}*/
-
-/*------------------Course Evaluation-----------------*/
 .range-slider-courses {
   margin: 15px;
   display: block;
@@ -515,11 +463,7 @@ img#modal-btn {
   margin: 25px 0;
 }
 
-@media (max-width: 650px) {
-}
 
-@media (max-width: 500px) {
-}
 /*------------------ News feed -----------------------*/
 .news-wrapper {
   width: 100%;

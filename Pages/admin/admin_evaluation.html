@@ -35,33 +35,36 @@
     <!-- evaluation starts here -->
 
     <section>
-      <div class="main-section">
         <div class="task">
           <div class="weeklyEvaluation">
             <div class="add">
               <div class="text_heading">
                 <h2>REDIGERA VECKOUTVÄRDERING</h2><br>
               </div>
-              <div class="labels">
-                <label class="_1">Lägg till fråga</label>
-                <label class="_2">Sliders</label>
-                <label class="_3">Textruta</label>
+              <div class="sec_flex">
+                <div class="labels">
+                  <label class="_1">Lägg till fråga</label>
+                  <label class="_2">Sliders/Textruta</label>
+                </div>
+                <div class="inputs">
+                  <input type="text" name="text" class="_1" maxlength="100">
+                    <select name="silder-text" class="_2">
+                      <option value="#">Välj här</option>
+                      <option value="course-js">Sliders</option>
+                      <option value="course-html">Textruta</option>
+                    </select>
+                  <button class="_4" onClick="weekly_eva()">Spara</button>
+                  <p class="success"></p>
+                  <p class="error"></p>
+                </div>
               </div>
-              <div class="inputs">
-                <input type="text" name="text" class="_1" maxlength="100">
-                <input type="checkbox" name="checkbox" class="_2">
-                <input type="checkbox" name="checkbox" class="_3">
-                <button class="_4" onClick="weekly_eva()">Spara</button>
-                <p id="message"></p>
-                <p id="right_message"></p>
-              </div>
-            </div>
             <div class="list">
               <div class="label_list">
                 <label class="nr">#</label>
                 <label class="question">Utvärderingsfrågor</label>
                 <label class="slider_checkbox">Sliders</label>
                 <label class="text_checkbox">Textruta</label>
+                <label class="edit_button">Redigera</label>
                 <label class="delete_button">Radera</label>
               </div>
               <div class="list_items">
@@ -91,34 +94,38 @@
               <div class="list_items">
                 <label class="nr">4</label>
                 <label class="question">Vad tycker du har varit bra?</label>
-                <label class="slider_checkbox"><i class="fa fa-check" aria-hidden="true"></i></label>
                 <label class="text_checkbox"><i class="fa fa-times" aria-hidden="true"></i></label>
+                <label class="slider_checkbox"><i class="fa fa-check" aria-hidden="true"></i></label>
                 <label class="edit_button"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></label>
                 <label class="delete_button"><i class="fa fa-trash" aria-hidden="true"></i></label>
               </div>
             </div>
           </div>
         </div>
+      </div>
         <div class="task">
           <div class="courseEvaluation">
             <div  class="add">
               <div class="text_heading">
                 <h2>REDIGERA KURSUTVÄRDERING</h2>
               </div>
-              <br>
-              <div class="labels">
-                <label class="_1">Lägg till fråga</label>
-                <label class="_2">Sliders</label>
-                <label class="_3">Textruta</label>
+              <div class="sec_flex">
+                <div class="labels">
+                  <label class="_1">Lägg till fråga</label>
+                  <label class="_2">Sliders/Textruta</label>
+                </div>
+                <div class="inputs">
+                  <input type="text" name="text" class="_1" maxlength="100">
+                    <select name="silder-text" class="_2">
+                      <option value="#">Välj här</option>
+                      <option value="course-js">Sliders</option>
+                      <option value="course-html">Textruta</option>
+                    </select>
+                  <button class="_4" onClick="course_eva()">Spara</button>
+                  <p class="success"></p>
+                  <p class="error"></p>
+                </div>
               </div>
-              <div class="inputs">
-                <input type="text" name="text" class="_1">
-                <input type="checkbox" name="checkbox" class="_2">
-                <input type="checkbox" name="checkbox" class="_3">
-                <button class="_4">Spara</button>
-              </div>
-              <br>
-            </div>
             <div class="list">
               <div class="label_list">
                 <label class="nr">#</label>
@@ -155,8 +162,8 @@
               <div class="list_items">
                 <label class="nr">4</label>
                 <label class="question">Har du förslag på förbättringar?</label>
-                <label class="slider_checkbox"><i class="fa fa-check" aria-hidden="true"></i></label>
                 <label class="text_checkbox"><i class="fa fa-times" aria-hidden="true"></i></label>
+                <label class="slider_checkbox"><i class="fa fa-check" aria-hidden="true"></i></label>
                 <label class="edit_button"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></label>
                 <label class="delete_button"><i class="fa fa-trash" aria-hidden="true"></i></label>
               </div>
