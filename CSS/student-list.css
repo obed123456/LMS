@@ -114,14 +114,7 @@
 
 /*------------------ADD COURSE NEWS-------------*/
 
-.label-news {
-  font-weight: bold;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.input-news {
+.label-news, .input-news {
   font-weight: bold;
   width: 100%;
   display: flex;
@@ -132,19 +125,13 @@
   margin-left: 85%;
 }
 
-#kurs-label-select, #kurs-select {
-  width: 15%;
-  height: 28px;
-  border-radius: 5px;
-}
-
-#rubrik-label, #rubrik-input {
+#kurs-label-select, #kurs-select, #rubrik-label, #rubrik-input {
   width: 20%;
   height: 28px;
   border-radius: 5px;
 }
 
-#text-lable, #text-input {
+#text-label, #text-input {
   width: 30%;
   height: 28px;
   border-radius: 5px;

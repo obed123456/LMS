@@ -50,6 +50,25 @@
   width: 100%;
   text-align: left;
 }
+._2{
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 5px;
+}
+._4{
+  margin-left: 5px;
+}
+._1{
+  width: 60%;
+}
+.sec_flex{
+  display: flex; 
+  justify-content: space-between;
+  flex-direction: column;
+}
+.fa-pencil-square-o, .fa-trash{
+    cursor: pointer;
+}
 
 .nr, .slider_checkbox, .text_checkbox, .edit_button, .delete_button {
   width: 6%;
