@@ -519,7 +519,7 @@ img#modal-btn {
 }
 /*------------------ News feed -----------------------*/
 .news-wrapper {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
@@ -932,4 +932,3 @@ img#modal-btn {
   width: 35%;
   justify-content: space-between;
 }
-
