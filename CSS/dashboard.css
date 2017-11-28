@@ -337,6 +337,7 @@ nav a:hover::before {
 }
 
 .range-slider {
+  -webkit-appearance: none;
   width: 300px;
   height: 12px;
   border-radius: 5px;
@@ -351,6 +352,7 @@ nav a:hover::before {
 }
 
 .range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
   width: 20px;
   height: 20px;
   border-radius: 50px;
@@ -843,7 +845,7 @@ img#modal-btn {
     align-self: center;
   }
 
-/*------------------------ADMIN USER---------------*/;
+/*------------------------ADMIN USER---------------*/
 }
 
 .user-label {

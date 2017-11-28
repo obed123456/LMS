@@ -1,6 +1,7 @@
 body {
   margin: 0;
   width: 100%;
+  font-family: lato, san-serif;
 }
 
 header {
@@ -49,10 +50,14 @@ footer {
 
 .info-container h3 {
   text-align: center;
+  color: white;
+  font-weight: 24px;
+  background-color:grey;
 }
 
-.info-container p {
-  text-align: justify;
+.info-container ul {
+  text-align: left;
+  font-size: 20px;
   padding: 0 20px;
 }
 
