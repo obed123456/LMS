@@ -26,13 +26,13 @@ th, td {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: lime;
+  background-color: #0fbc0f;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: red;
+  background-color: #d52c2c;
 }
 
 input:focus + .slider {
