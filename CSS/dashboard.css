@@ -218,6 +218,10 @@ nav a:hover::before {
  #login{
   text-align: center;
  }
+ nav a {
+  font-size: 14px;
+  padding-top: 15px;
+}
 }
 
 .main-content-column-right .container {
@@ -467,8 +471,7 @@ img#modal-btn {
 /*------------------ News feed -----------------------*/
 .news-wrapper {
   width: 100%;
-  display: flex;
-  flex-direction: column;
+
   background-color: #FFFFFF;
 }
 
@@ -720,7 +723,7 @@ img#modal-btn {
     align-self: center;
     height: 35px;
   }
-
+}
   .label-news {
     font-weight: bold;
     width: 100%;
@@ -791,7 +794,7 @@ img#modal-btn {
   }
 
 /*------------------------ADMIN USER---------------*/
-}
+
 
 .user-label {
   font-weight: bold;
