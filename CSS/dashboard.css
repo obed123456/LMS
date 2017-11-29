@@ -218,6 +218,10 @@ nav a:hover::before {
  #login{
   text-align: center;
  }
+ nav a {
+  font-size: 14px;
+  padding-top: 15px;
+}
 }
 
 .main-content-column-right .container {
