@@ -222,6 +222,9 @@ nav a:hover::before {
   font-size: 12px;
   padding-top: 15px;
 }
+nav li {
+  padding-left: 10px;
+}
 }
 
 .main-content-column-right .container {
