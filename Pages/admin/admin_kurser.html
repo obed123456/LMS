@@ -9,118 +9,95 @@
     <title>TimeLine | KYH</title>
   </head>
   <body>
-    <div class="header">
-      <div class="logotype">
-        <a href="admin_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo"/></a>
-      </div>
-      <div class="logout">
-        <a href="../index.html" class="logout_btn">Logga ut</a>
-      </div>
-    </div>
 
-    <!-- navbar will contains pages in the page -->
+<div class="header">
+  <div class="logotype">
+    <a href="admin_dash.html"><img src="../../Img/KYH-logo.png" alt="Logo"/></a>
+  </div>
+  <div class="logout">
+    <a href="../index.html" class="logout_btn">Logga ut</a>
+  </div>
+</div>
 
-    <div class="navbar">
-        <nav>
-            <ul>
-              <li><a href="admin_dash.html">Hem</a></li>
-              <li><a href="admin_kurser.html">Hantera Kurser</a></li>
-              <li><a href="admin_users.html">Hantera Användare</a></li>
-              <li><a href="admin_overview.html">Översikt</a></li>
-              <li><a href="admin_evaluation.html">Utvärderingar</a></li>
-            </ul>
-        </nav>
-    </div>
-    
-    <div class="task">
-      <h2>LÄGG TILL NY KURS</h2><br>
-      <div class="add-user">
-        <div class="user-label">
-          <label id="firstname-lable">Kursnamn</label>
-          <label id="lastname-lable">Poäng</label>
-        </div>
-        <div class="user-input">
-          <input type="text" name="" value="" id="firstname-input" required>
-          <input type="text" name="" value="" id="lastname-input" required>
-		  <select class="user" name="" id="time-input">
-		     <option value="">Välj Termin</option>
-			<option value="">Höst</option>
-            <option value="">Vår</option>
-          </select>
-		  <select class="user" name="" id="year-input">
-            <option value="">Välj år</option>
-			<option value="">2017</option>
-            <option value="">2018</option>
-            <option value="">2019</option>
-			<option value="">2020</option>
-          </select>
-          <select class="user" name="" id="clearens-input">
-            <option value="">Tilldela Lärare</option>
-            <option value="">Olof Persson</option>
-            <option value="">Kurt Svensson</option>
-            <option value="">Tanja Eldh</option>
-          </select>
-		<button onclick="myFunction()">Lägg till</button>
-		<p id="demo"></p>
-        </div></br>
-      </div>
-    </div>
-	<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Kurs tillagd!";
-}
-</script>
-<p id="demo"></p>
+<!-- navbar will contains pages in the page -->
 
- <!------- Kort 28, att skapa utbildning och klasser --------->
-
+<div class="navbar">
+  <nav>
+    <ul>
+      <li><a href="admin_dash.html">Hem</a></li>
+      <li><a href="admin_kurser.html">Hantera Kurser</a></li>
+      <li><a href="admin_users.html">Hantera Användare</a></li>
+      <li><a href="admin_evaluation.html">Utvärderingar</a></li>
+    </ul>
+  </nav>
+</div>
 <div class="task">
-	<div class="main-div">
-	    <div class="content-left">
-			<h2 style="text-align: left;">Skapa Klass</h2><br>
-			<div class="create">
-			<div class="klass-label">
-			<label id="firstname-lable">Skapa Klass<lable>
-			</div>
-			<div class="klass-input">
-			<input type="text" name="" value="" id="firstname-input" required>
-			<button onclick="myFunction2()">Skapa</button>
-				<p id="demo2"></p>
-				</div></br>
-    
-            </div>
-		
-        </div>
-		<div class="content-right">
-		<h2 style="text-align: left;">Skapa Utbildning</h2><br>
-			<div class="utb-label">
-			<label id="firstname-lable">Skapa Utbildning<lable>
-			</div>
-			<div class="utb-input">
-			<input type="text" name="" value="" id="firstname-input" required>
+  <h2>LÄGG TILL NY KURS</h2>
+  <br>
+  <div class="add-user">
+    <div class="kurs-label">
+      <label id="firstname-lable">Kursnamn</label>
+      <label id="lastname-lable">Poäng</label>
+    </div>
+    <div class="user-input">
+      <input type="text" id="firstname-input" required>
+      <input type="text" id="lastname-input" required>
+      <select class="user" id="time-input">
+        <option value="">Välj Termin</option>
+        <option value="">Höst</option>
+        <option value="">Vår</option>
+      </select>
+      <select class="user" id="year-input">
+        <option value="">Välj år</option>
+        <option value="">2017</option>
+        <option value="">2018</option>
+        <option value="">2019</option>
+        <option value="">2020</option>
+      </select>
+      <select class="user" id="clearens-input">
+        <option value="">Tilldela Lärare</option>
+        <option value="">Olof Persson</option>
+        <option value="">Kurt Svensson</option>
+        <option value="">Tanja Eldh</option>
+      </select>
+      <button onclick="myFunction()">Lägg till</button>
+      <p id="demo"></p>
+    </div>
+    <br>
+    <div class="teacher-course">
+      <div  class="heading-date">Termin</div>
+      <div  class="heading-select">Kurs</div>
+      <div  class="heading-subject">Poäng</div>
+      <div  class="heading-course">Lärare</div>
+    </div>
+    <div class="teacher-course-input">
+      <div class="li-item-date">HT-17</div>
+      <div class="li-item-select">HTML/CSS</div>
+      <div class="li-item-subject">30</div>
+      <div class="li-item-course">Kurt Svensson</div>
+    </div>
+    <div class="teacher-course-input">
+      <div class="li-item-date">HT-17/VT-18</div>
+      <div class="li-item-select">JavaScript</div>
+      <div class="li-item-subject">110</div>
+      <div class="li-item-course">Kurt Svenssom</div>
+    </div>
+    <div class="teacher-course-input">
+      <div class="li-item-date">VT-18</div>
+      <div class="li-item-select">Backend</div>
+      <div class="li-item-subject">40</div>
+      <div class="li-item-course">Olof Persson</div>
+    </div>
+    <div class="teacher-course-input">
+      <div class="li-item-date">HT-17/VT-18</div>
+      <div class="li-item-select">Arbetsmetodik</div>
+      <div class="li-item-subject">20</div>
+      <div class="li-item-course">Tanja Eldh</div>
+    </div>
+  </div>
+</div>
 
-		<button onclick="myFunction3()">Skapa</button>
-				<p id="demo3"></p>
-		</div>
-	</div>
-	</div>
-</div>	
-	<script>
-function myFunction2() {
-    document.getElementById("demo2").innerHTML = "Klass Skapad!";
-}
-</script>
-<p id="demo2"></p>
-<script>
-function myFunction3() {
-    document.getElementById("demo3").innerHTML = "Utbildning Skapad!";
-}
-</script>
-<p id="demo3"></p>
-  </body>
+<script src="../../JS/admin_courses.js"></script>
+
+</body>
 </html>
-
-    <script src="../../JS/examination.js"></script>
-  </body>
-</html>
-

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=sv>
 
 <head>
   <meta charset="utf-8">
@@ -11,188 +11,191 @@
 </head>
 
 <body>
+
   <!-- Transparent header contains logotyp of school and logout button -->
 
-  <div class="header">
-
-    <div class="logotype">
-      <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo" / ></a>
-    </div>
-
-    <div class="logout">
-      <a href="../../index.html" class="logout_btn">Logga ut</a>
-    </div>
-
-
+<div class="header">
+  <div class="logotype">
+    <a href="../teacher_dash.html"><img src="../../../Img/KYH-logo.png" alt="Logo"/></a>
   </div>
-
-  <!-- navbar will contains pages in the page -->
-
-  <div class="navbar">
-
-    <nav>
-      <ul>
-        <li><a href="../teacher_dash.html">Hem</a></li>
-        <li><a href="../teacher_courses.html">Mina Kurser</a></li>
-        <li><a href="../teacher_feedback.html">Utvärdering</a></li>
-        <li><a href="../teacher-course-edit.html">Uppgifter</a></li>
-      </ul>
-    </nav>
-
+  <div class="logout">
+    <a href="../../index.html" class="logout_btn">Logga ut</a>
   </div>
+</div>
 
-  <div class="task">
-    <table id="t01">
-      <caption>Pågående Kurs</caption>
-      <tr class="tabletop">
-        <th>Slutdatum</th>
-        <th>Kursnamn</th>
-        <th>Dokument</th>
-        <th>Inlämning</th>
-        <th>Betyg</th>
-        <th>Kommentar</th>
-      </tr>
-      <tr>
-        <td>2017-12-12</td>
-        <td>Individuellt projekt</td>
-        <td>ip.pdf</td>
-        <td><div id="modal-btn">
-          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
-        </div></td>
-        <td>VG</td>
-        <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
-      </tr>
-      <tr>
-        <td>2017-12-12</td>
-        <td>Tentamen/Hemtenta</td>
-        <td>tentamen.pdf</td>
-        <td>
-          <div id="modal-btn">
-            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
-          </div></td>
-        <td>-</td>
-        <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
-      </tr>
-      <tr>
-        <td>2017-12-12</td>
-        <td>Projekt i grupp</td>
-        <td>project.pdf</td>
-        <td><div id="modal-btn">
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="modal-btn">Lämna In</button>
-</div></td>
-        <th>-</th>
-        <td><img src="../../../Img/message.png" alt="comment" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" id="modal-btn"></td>
-      </tr>
-    </table>
-  </div>
+<!-- navbar will contains pages in the page -->
 
+<div class="navbar">
+  <nav>
+    <ul>
+      <li><a href="../teacher_dash.html">Hem</a></li>
+      <li><a href="../teacher_courses.html">Mina Kurser</a></li>
+      <li><a href="../teacher_feedback.html">Utvärdering</a></li>
+      <li><a href="../teacher-course-edit.html">Uppgifter</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="task">
+  <table id="t01">
+    <caption>Pågående Kurs</caption>
+    <tr class="tabletop">
+      <th>Slutdatum</th>
+      <th>Kursnamn</th>
+      <th>Dokument</th>
+      <th>Inlämning</th>
+      <th>Betyg</th>
+      <th>Kommentar</th>
+    </tr>
+    <tr>
+      <td>2017-12-12</td>
+      <td>Individuellt projekt</td>
+      <td>ip.pdf</td>
+      <td>
+        <div class="modal-btn">
+          <button class="upload">Lämna In</button>
+        </div>
+      </td>
+      <td>VG</td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"/></td>
+    </tr>
+    <tr>
+      <td>2017-12-12</td>
+      <td>Tentamen/Hemtenta</td>
+      <td>tentamen.pdf</td>
+      <td>
+        <div class="modal-btn">
+          <button class="upload">Lämna In</button>
+        </div>
+      </td>
+      <td>-</td>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
+    </tr>
+    <tr>
+      <td>2017-12-12</td>
+      <td>Projekt i grupp</td>
+      <td>project.pdf</td>
+      <td>
+        <div class="modal-btn">
+          <button class="upload">Lämna In</button>
+        </div>
+      </td>
+      <th>-</th>
+      <td><img src="../../../Img/message.png" alt="comment" class="comment"></td>
+    </tr>
+  </table>
+</div>
 
 <!-- ***************Modal 01 with id01..upload document********************* -->
-
-
 <!-- ***********Form starts here****************** -->
-<div id="id01" class="modal">
-  <form class="modal-content animate" action="">
+
+<div id="id01" class="modal_fileUpload">
+  <form class="modal-content animate" action="#">
     <div class="imgcontainer">
-     <!-- close button in the right top -->
+
+      <!-- close button in the right top -->
+
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
 
     <!-- Your text goes here -->
+
     <div class="task">
       <h1>Inlämning</h1>
       <p>Välj ditt dokument och lämna in.</p>
-        <input type="file" id="uploadBox">
-            <button onclick="buttonSubmitClicked(event)">Lämna In</button><br>
-            <p id="success-message"></p>
+      <input type="file" id="uploadBox">
+      <button onclick="buttonSubmitClicked(event)">Lämna In</button><br>
+      <p id="alert_message"></p>
+      <p id="success_message"></p>
     </div>
 
     <!-- End of your text -->
+
   </form>
- </div>
+</div>
 
 <!-- *******************Modal 01 finish here**************** -->
-
-
 <!-- ***************Modal 01 with id02..Comments from teacher********************* -->
-
 <!-- ***********Form starts here****************** -->
-<div id="id02" class="modal">
-  <form class="modal-content animate" action="">
-    <div class="imgcontainer">
-     <!-- close button in the right top -->
-        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-    <!-- Your text goes here -->
-         <div class="task">
-           <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
-           <p>Du har fått betyget <strong>VG</strong> på kursen.</p>
-         </div>
 
+<div id="id02" class="modal_comment">
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer">
+
+      <!-- close button in the right top -->
+
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <!-- Your text goes here -->
+
+    <div class="task">
+      <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
+      <p>Du har fått betyget <strong>VG</strong> på kursen.</p>
+    </div>
 
     <!-- End of your text -->
+
   </form>
 </div>
 
 <!-- *******************Modal 02 finish here**************** -->
 
-
-
-  <div class="course">
-    <div class="task">
-      <h1>JAVASCRIPT</h1>
-      <p>Utbildningsnummer: 201514480-2 och 201514500-2</p>
-      <p>Fastställd av ledningsgruppen: 2017-08-08</p>
-      <h2>Kurspoäng</h2>
-      <p><strong>110 YHP</strong></p>
-      <h2>Innehåll</h2>
-      <p>Kursen ger de studerande avancerade kunskaper och färdigheter i att programmera och strukturera Javascript-projekt.
-      </p>
-      <p>De studerande får kunskaper om att det finns olika Javascript-versioner och lär sig jämföra dessa samt får förståelse för deras olika kompabilitet med olika webbläsare och plattformar. De studerande ges goda kunskaper gällande att använda olika
-        Javascript-bibliotek t.ex. JQuery.</p>
-      <p>De studerande ges goda kunskaper i hur ramverk fungerar samt kunna välja lämpliga tekniker utifrån projektspecifikationer.
-      </p>
-      <p>Kursen innehåller programmering i Javascript, däribland objektorienterade implementationer i Javascript m.m. Kursen tar även upp hur man använder ramverk i Javascript samt hur man tar hjälp av verktyg som är relevanta för Javascript-fokuserad utveckling.</p>
-      <h2>Kursens läranderesultat (mål)</h2>
-      <p>Efter avslutad kurs ska den studerande ha:</p>
-      <p>Kunskaper om:</p>
-      <ol>
-        <li>Javascript, grundläggande syntax</li>
-        <li>Javascriptsversioner och dess kompabilitet</li>
-        <li>Hur Javascript körs i webbläsaren</li>
-        <li>Javascript-bibliotek</li>
-        <li>Javascript-ramverk</li>
-        <li>DOM</li>
-        <li>AJAX</li>
-        <li>HTTP 1.1 / 2.0</li>
-        <li>Websockets och polling</li>
-      </ol>
-      <p>Färdigheter i att:</p>
-      <ol>
-        <li>Lösa programmeringsuppgifter med Javascript</li>
-        <li>Använda Javascript för att skriva browser-tillämpningar</li>
-        <li>Använda Javascript-bibliotek och Javascript-ramverk</li>
-      </ol>
-      <p>Kompetenser för att:</p>
-      <ol>
-        <li>Tillämpa JavaScript som ett programmeringsspråk för att lösa olika typer av tillämpningar inom webbutveckling.</li>
-        <li>Utveckla en webbapplikation baserad på ett Javascript-ramverk</li>
-      </ol>
-      <h2>Betygsättning</h2>
-      <p><strong>Examinationsform</strong></p>
-      <p>Individuellt projekt</p>
-      <p>Tentamen/Hemtenta</p>
-      <p>Projekt i grupp</p>
-      <p><strong>Betygsgrader</strong></p>
-      <p>IG, G och VG</p>
-      <p><strong>Icke godkänt (IG)</strong></p>
-      <p>Den studerande har fullföljt kursen men inte nått alla mål för kursen</p>
-      <p><strong>Kriterier för betyget Godkänt (G)</strong></p>
-      <p>Den studerande har nått samtliga mål med kursen</p>
-      <p><strong>Kriterier för betyget Väl Godkänt (VG)</strong></p>
-      <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
-    </div>
+<div class="course">
+  <div class="task">
+    <h1>JAVASCRIPT</h1>
+    <p>Utbildningsnummer: 201514480-2 och 201514500-2</p>
+    <p>Fastställd av ledningsgruppen: 2017-08-08</p>
+    <h2>Kurspoäng</h2>
+    <p><strong>110 YHP</strong></p>
+    <h2>Innehåll</h2>
+    <p>Kursen ger de studerande avancerade kunskaper och färdigheter i att programmera och strukturera Javascript-projekt.
+    </p>
+    <p>De studerande får kunskaper om att det finns olika Javascript-versioner och lär sig jämföra dessa samt får förståelse för deras olika kompabilitet med olika webbläsare och plattformar. De studerande ges goda kunskaper gällande att använda olika
+      Javascript-bibliotek t.ex. JQuery.
+    </p>
+    <p>De studerande ges goda kunskaper i hur ramverk fungerar samt kunna välja lämpliga tekniker utifrån projektspecifikationer.
+    </p>
+    <p>Kursen innehåller programmering i Javascript, däribland objektorienterade implementationer i Javascript m.m. Kursen tar även upp hur man använder ramverk i Javascript samt hur man tar hjälp av verktyg som är relevanta för Javascript-fokuserad utveckling.</p>
+    <h2>Kursens läranderesultat (mål)</h2>
+    <p>Efter avslutad kurs ska den studerande ha:</p>
+    <p>Kunskaper om:</p>
+    <ol>
+      <li>Javascript, grundläggande syntax</li>
+      <li>Javascriptsversioner och dess kompabilitet</li>
+      <li>Hur Javascript körs i webbläsaren</li>
+      <li>Javascript-bibliotek</li>
+      <li>Javascript-ramverk</li>
+      <li>DOM</li>
+      <li>AJAX</li>
+      <li>HTTP 1.1 / 2.0</li>
+      <li>Websockets och polling</li>
+    </ol>
+    <p>Färdigheter i att:</p>
+    <ol>
+      <li>Lösa programmeringsuppgifter med Javascript</li>
+      <li>Använda Javascript för att skriva browser-tillämpningar</li>
+      <li>Använda Javascript-bibliotek och Javascript-ramverk</li>
+    </ol>
+    <p>Kompetenser för att:</p>
+    <ol>
+      <li>Tillämpa JavaScript som ett programmeringsspråk för att lösa olika typer av tillämpningar inom webbutveckling.</li>
+      <li>Utveckla en webbapplikation baserad på ett Javascript-ramverk</li>
+    </ol>
+    <h2>Betygsättning</h2>
+    <p><strong>Examinationsform</strong></p>
+    <p>Individuellt projekt</p>
+    <p>Tentamen/Hemtenta</p>
+    <p>Projekt i grupp</p>
+    <p><strong>Betygsgrader</strong></p>
+    <p>IG, G och VG</p>
+    <p><strong>Icke godkänt (IG)</strong></p>
+    <p>Den studerande har fullföljt kursen men inte nått alla mål för kursen</p>
+    <p><strong>Kriterier för betyget Godkänt (G)</strong></p>
+    <p>Den studerande har nått samtliga mål med kursen</p>
+    <p><strong>Kriterier för betyget Väl Godkänt (VG)</strong></p>
+    <p>Den studerande har nått samtliga mål med kursen och kan självständigt redogöra utförligt för kunskapsmålen och med mycket gott handlag självständigt uppnå de färdigheter och kompetenser som kursens mål sätter upp.</p>
   </div>
+</div>
 
 
 <script src="../../../JS/modal.js"></script>
