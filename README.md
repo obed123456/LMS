@@ -1,7 +1,7 @@
 
 # TimeLine
 
-  TimeLine is LMS (Learning Management System) platform created as a school project.  
+  TimeLine is LMS (Learning Management System) platform created as a school project (KYH).  
 
 
 ## Installation
