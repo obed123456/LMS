@@ -30,7 +30,7 @@ footer {
   border-top: 2px solid #d8d8d8;
   border-bottom: 2px solid #d8d8d8;
 }
-
+.main
 .image-container {
    /* Let the image container fill the whole width of the screen*/
   width: 100%;
@@ -46,13 +46,16 @@ footer {
 
 .info-container {
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .info-container h3 {
   text-align: center;
   color: white;
   font-weight: 24px;
-  background-color:grey;
+  background-color: grey;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .info-container ul {
