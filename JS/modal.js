@@ -32,13 +32,13 @@ var btn = document.querySelectorAll('.upload');
 var comments = document.querySelectorAll('.comment');
 
 for (var i = 0; i < btn.length; i++) {
-    btn[i].addEventListener('click', function(event) {
-        upload.style.display ="block";        
+    btn[i].addEventListener('click', function() {
+        upload.style.display ="block";//upload is modal nr: 1        
     });
 }
 
 for (var i = 0; i < comments.length; i++) {
-    comments[i].addEventListener('click', function(event) {
+    comments[i].addEventListener('click', function() {
         comment.style.display ="block";        
     });
 }
