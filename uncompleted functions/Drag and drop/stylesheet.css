@@ -1,0 +1,37 @@
+p{
+	border: 1px red solid;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.box, .divContainer,  {
+	border: 1px red solid;
+	min-width: 50px; 
+	min-height: 50px;
+	max-height: auto;
+	max-width: auto;
+
+}
+.studentNames, .newdiv, .blah{
+min-height: 50px;
+width: 100px;
+height: auto;
+margin: 10px;
+padding: 10px;
+border: 1px solid black;
+	}
+
+li {
+	list-style: none;
+	border: 1px solid red;
+	margin-bottom: 5px;
+	text-align: center;
+	border-radius: 15px;
+}
+.main-page {
+	display: flex;
+}
+.drop_window:hover {
+	background: #F5FFF5;
+}
