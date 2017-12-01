@@ -1,0 +1,85 @@
+<!-- Issues:  -->
+<!-- Need to find a way so array inside the id board and class blah creates with the list -->
+<!-- Need to remove list from the left as soon as array list is created as i mentioned above -->
+<!-- input need to remove in front of shuffle and divide group -->
+<!-- try to find a way to prevent to name doesnt drop inside other names****************************done************** -->
+<!-- create a layout and design for this page -->
+<!-- i prefer to make this seperate page from other page -->
+<!-- need to give proper name to all the divs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New groups</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+	<div class="main-page"> <!-- make this flex -->
+		<div class="left-sec-list">
+			<!-- Här läggs lista på elever -->
+			<div class="main-list">
+				<ul class="studentNames" class="drop_window" ondrop="drop(event)" ondragover="allowDrop(event)"></ul>
+				<button id="myBtn" onClick="shuffle()">Shuffle</button>
+			</div>
+		</div>
+
+		<div class="right-sec-groups">
+			<!-- button to create boxes -->
+			<input type="number" name="number" id="input1">
+	        <button onclick="add()">Skapa Grupp</button>
+	        
+	        <!-- Through this function you can divide students in groups -->
+	        <input type="number" name="number" id="input" min="2" max="20">
+	        <button onclick="getNumber();">Shuffle and Divide</button>
+
+	        <!-- step 1. when you click on skapa group:
+	        	Below will all the box will be generated with class blah -->
+	        <!-- step 2. when you click on shuffle and divide then array list shuffle and creates. -->
+	        <!-- Its a multi-arrays-max number is 20.  -->
+	        <div id="board" class="box"></div>
+			
+		</div>
+
+	</div>
+<hr>
+
+
+<!-- /*************Dont remove these  codes************************/ -->
+
+	<!-- <input type="number" name="number" id="input" min="2" max="20">
+	<button onclick="getNumber();">Click Me</button> -->
+    <!-- <div class="board"></div> -->
+    <!-- <div id="board" class="box"></div> -->
+
+<!--     <div class="divs" ondrop="drop(event)" ondragover="allowDrop(event)">
+    	
+    </div> -->
+    <!-- <button  onclick="shuffleNew()">Shuffle</button> -->
+    
+	<!-- studentlist  -->
+	
+	<!-- Här läggs in multidimentional array -->
+	<!-- <div id="board" class="box"></div> -->
+<!-- 	<div class="flex">
+    <div id="div11" class="box" ondrop="drop(event)"></div>
+    <div id="div12" class="box"></div>
+    <div id="div13" class="box"></div>
+    </div> -->
+
+<!-- Här läggs lista på elever -->
+<!-- <div class="main-list">
+	<ul class="studentNames" ondrop="drop(event)" ondragover="allowDrop(event)"></ul>
+</div> -->
+
+<!-- <div class="studentNames" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+<!-- <div class="divs" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+<!-- <div class="board"></div> -->
+<!-- <p id="div1"></p> -->
+
+<!-- *********************'Dont remove codes at above******************** -->
+
+<script src="group.js"></script>
+</body>
+</html>
